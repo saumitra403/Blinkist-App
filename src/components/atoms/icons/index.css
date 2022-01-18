@@ -1,0 +1,11 @@
+.MoreHoriz {
+  position: absolute;
+  left: 12.5%;
+  right: 12.5%;
+  top: 41.67%;
+  bottom: 41.67%;
+
+  /* Grey/500 */
+
+  background: #042330;
+}
