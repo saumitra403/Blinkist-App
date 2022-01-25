@@ -21,6 +21,9 @@ const buttonTheme = createTheme({
       h5: {
         fontWeight: 'bold',
         fontSize: '33px',
+      },
+      button: {
+        textTransform: "none"
       }
     }
 });

@@ -44,9 +44,9 @@ const useStyle = makeStyles({
     bottom: "20.82%",
     fontFamily: "Cera Pro !important",
     fontStyle: "normal",
-    fontWeight: "normal",
+    fontWeight: "normal !important",
     fontSize: "16px !important",
-    lineHeight: "20.11px",
+    lineHeight: "20.11px !important",
     color: "#6D787E",
   },
   TimeIcon: {
@@ -217,10 +217,10 @@ const Card = (props: CardProps) => {
           width="287px"
         ></Img>
       </Box>
-      <Typography className={classes.HumanToWork}>
+      <Typography className={classes.HumanToWork} variant="subtitle1">
         {bookname}
       </Typography>
-      <Typography className={classes.Author}>{author}</Typography>
+      <Typography className={classes.Author} variant="body1">{author}</Typography>
       <Box className={classes.Group6}>
         <Box className={classes.imageContainer}>
           <Box className={classes.TimeIconContainer}>
@@ -232,9 +232,9 @@ const Card = (props: CardProps) => {
           </Box>
         </Box>
       </Box>
-      <Typography className={classes.MinuteRead}>13-minute read</Typography>
+      <Typography className={classes.MinuteRead} variant="caption">13-minute read</Typography>
       <Box className={classes.frame7}>
-        <Typography className={classes.reads}>1.9k reads</Typography>
+        <Typography className={classes.reads} variant="caption">1.9k reads</Typography>
         <Box className={classes.UserContainer}>
           <Box className={classes.uservector}>
             <Icon

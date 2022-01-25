@@ -1,4 +1,3 @@
-import React from "react";
 import { ThemeProvider } from "@emotion/react";
 import baseTheme from '../../../Theme/baseTheme';
 import { Typography } from "@mui/material";
