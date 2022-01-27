@@ -1,4 +1,4 @@
-import Icon from "./index";
+import Icon from "."
 import { ComponentStory, ComponentMeta } from "@storybook/react";
 import { MoreHoriz,PersonSharp } from "@mui/icons-material";
 // import Icons from ".";

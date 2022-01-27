@@ -1,4 +1,4 @@
-import Img from './index'
+import Img from "."
 import { ComponentStory } from '@storybook/react';
 
 export default {
@@ -10,7 +10,7 @@ const Template: ComponentStory<typeof Img> = (args) => <Img {...args}/>;
 
 export const cardImage = Template.bind({})
 cardImage.args = {
-    src: "Assets/Capture.jpg",
+    src: "Assets/Blinklist 1.jpg",
     height: "292px",
     width: "294.1px"
 }

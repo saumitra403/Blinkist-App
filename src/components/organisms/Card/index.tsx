@@ -1,7 +1,7 @@
 import { Box } from "@mui/material";
 import { makeStyles } from "@mui/styles";
-import Img from "../../atoms/images";
-import Icon from "../../atoms/icons";
+import Img from "../../atoms/Images";
+import Icon from "../../atoms/Icons";
 import Typography from "../../atoms/Typography";
 import AccessTimeIcon from "@mui/icons-material/AccessTimeOutlined";
 import PersonIcon from "@mui/icons-material/PersonOutline";

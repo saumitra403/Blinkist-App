@@ -1,7 +1,9 @@
+type LogoProps = {
+    className? : string
+}
 
-
-const Logo = () => {
-    return (<img src="Assets/Logo.jpg"></img>)
+const Logo = (props: LogoProps) => {
+    return (<img src="Assets/Blinklist 1.jpg" className={props.className}></img>)
 }
 
 export default Logo;

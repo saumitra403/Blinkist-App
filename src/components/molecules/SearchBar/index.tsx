@@ -1,7 +1,7 @@
 import { Box } from "@mui/material"
 import { makeStyles } from "@mui/styles";
 import SearchIcon from '@mui/icons-material/Search';
-import Icon from "../../atoms/icons";
+import Icon from "../../atoms/Icons";
 import Typography from "../../atoms/Typography";
 const useStyle = makeStyles({
     searchbox: {

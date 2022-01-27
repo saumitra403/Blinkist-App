@@ -11,7 +11,7 @@ const Template: ComponentStory<typeof Card> = (args) => <Card {...args}/>;
 export const card = Template.bind({});
 
 card.args = {
-  imgsrc: "Assets/Capture.jpg",
+  imgsrc: "Assets/1.jpg",
   bookname: "Bring Your Human To Work",
   author: "Erica Keswin" 
 }

@@ -1,9 +1,7 @@
-import { Box } from "@mui/material";
 import { makeStyles } from "@mui/styles";
 import { ThemeProvider } from "@emotion/react";
 import baseTheme from "../../../Theme/baseTheme";
 import Typography from "../../atoms/Typography";
-import Icon from "../../atoms/icons";
 import AddIcon from "@mui/icons-material/Add";
 import Button from '@mui/material/Button';
 type ButtonProps = {
@@ -24,8 +22,8 @@ const AddButton = (props: ButtonProps) => {
   const classes = useStyle();
   let button = <></>;
   
-  resting ? button = <Button variant="text" startIcon={<AddIcon></AddIcon>} className={classes.buttonStyle} style={{color: "#0365F2 "}}><Typography className={classes.addToLibrary}>Add To Library</Typography></Button> : 
-  button = <Button variant="contained" startIcon={<AddIcon></AddIcon>} className={classes.buttonStyle}><Typography className={classes.addToLibrary}>Add To Library</Typography></Button>
+  resting ? button = <Button variant="text" startIcon={<AddIcon></AddIcon>} className={classes.buttonStyle} style={{color: "#0365F2 "}} sx={{textTransform: 'none'}}><Typography className={classes.addToLibrary}>Add To Library</Typography></Button> : 
+  button = <Button variant="contained" startIcon={<AddIcon></AddIcon>} className={classes.buttonStyle} sx={{textTransform: 'none'}}><Typography className={classes.addToLibrary}>Add To Library</Typography></Button>
   
   return <ThemeProvider theme={baseTheme}>{button}</ThemeProvider>
 };

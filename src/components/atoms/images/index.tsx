@@ -3,8 +3,8 @@ import React from "react";
 type imgProps = {
     className?: string,
     src: string,
-    width: string,
-    height: string
+    width?: string,
+    height?: string
 }
 
 const Img = (props: imgProps) => {
