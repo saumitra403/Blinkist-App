@@ -5,4 +5,4 @@ export default {
     component: AvatarComponent
 }
 
-export const Template: ComponentStory<typeof AvatarComponent> = () => <AvatarComponent/>;
+export const Template: ComponentStory<typeof AvatarComponent> = (args) => <AvatarComponent {...args}/>;

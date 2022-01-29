@@ -1,15 +1,14 @@
-import { AccordionSummary, Box } from "@material-ui/core";
+import { Box } from "@material-ui/core";
 import AppBar from "@mui/material/AppBar";
 import mainTheme from "../../../Theme/mainTheme";
 import { ThemeProvider } from "emotion-theming";
 import Logo from "../../atoms/Logo";
 import { makeStyles } from "@mui/styles";
 import Img from "../../atoms/Images";
-import Accordion from "@mui/material/Accordion";
 import { ExpandMore } from "@mui/icons-material";
 import Typography from "../../atoms/Typography";
-import { height } from "@mui/material/node_modules/@mui/system";
 import AvatarComponent from "../../atoms/Avatar";
+import Icon from "../../atoms/Icons";
 const useStyle = makeStyles({
   logo: {
     position: "absolute",
@@ -43,19 +42,29 @@ const useStyle = makeStyles({
     display: "flex",
     flexDirection: "row",
     alignItems: "flex-start",
-    padding: "0px !important"
-  },
-  text: {
-    position: "static",
-    width: "57px",
-    height: "20px",
-    left: "0px",
-    top: "0px",
+    padding: "0px !important",
   },
   moreicon: {
     width: "20px !important",
     height: "20px !important",
   },
+  avatar: {
+    position: "static",
+    right: "35.48%",
+    top: "0%",
+    bottom: "0%",
+  },
+  box: {
+    display: "flex",
+    flexDirection: "row",
+    alignItems: "center",
+    padding: "0px",
+    position: "absolute",
+    left: "78.33%",
+    right: "17.36%",
+    top: "26.74%",
+    bottom: "26.74%"
+  }
 });
 const Header = () => {
   const classes = useStyle();
@@ -80,15 +89,18 @@ const Header = () => {
         ></Img>
 
         <Box className={classes.explore}>
-          <Typography className={classes.text}>Explore</Typography>
-          <Box height="20px" width="20px">
-          <ExpandMore className={classes.moreicon}></ExpandMore>
-          </Box>
+          <Typography variant="body1">Explore</Typography>
+          <ExpandMore></ExpandMore>
         </Box>
 
         <Typography className={classes.mylibrary} variant="body1">
           My Library
         </Typography>
+
+        <Box className={classes.box}>
+          <AvatarComponent sx={{position: 'static', backgroundColor: "#69A6E3"}}></AvatarComponent>
+          <ExpandMore className={classes.moreicon}></ExpandMore>
+        </Box>
       </AppBar>
     </ThemeProvider>
   );

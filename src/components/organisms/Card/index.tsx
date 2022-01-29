@@ -6,6 +6,7 @@ import Typography from "../../atoms/Typography";
 import AccessTimeIcon from "@mui/icons-material/AccessTimeOutlined";
 import PersonIcon from "@mui/icons-material/PersonOutline";
 import { MoreHoriz } from "@mui/icons-material";
+import ProgressBar from "../../atoms/ProgressBar";
 
 const useStyle = makeStyles({
   Rectangle3: {
@@ -157,21 +158,21 @@ const useStyle = makeStyles({
     left: "12.5%",
     right: "12.5%",
     top: "41.67%",
-    bottom: "41.67%"
+    bottom: "41.67%",
   },
   more: {
     position: "absolute",
     left: "85.92%",
     right: "5.63%",
     top: "89.06%",
-    bottom: "5.79%"
+    bottom: "5.79%",
   },
   morecontainer: {
     position: "absolute",
     left: "0%",
     right: "0%",
     top: "0%",
-    bottom: "0%"
+    bottom: "0%",
   },
   rectangle7: {
     width: "88px",
@@ -183,44 +184,36 @@ const useStyle = makeStyles({
     bottom: "0%",
     background: "#E1ECFC",
     borderRadius: "0px 0px 0px 8px",
-    zIndex: "1"
+    zIndex: "1",
   },
   rectangle6: {
-    width: "283px",
-    height: "15px",
     position: "absolute",
     left: "0%",
     right: "0.35%",
     top: "96.78%",
     bottom: "0%",
-    background: "#F1F6F4",
-    border: "1px solid #E1ECFC",
-    boxSizing: "border-box",
-    borderRadius: "0px 0px 8px 8px"
-  }
+  },
 });
 
 type CardProps = {
-  imgsrc: string,
-  bookname: string,
-  author: string,
-}
+  imgsrc: string;
+  bookname: string;
+  author: string;
+};
 const Card = (props: CardProps) => {
   const classes = useStyle();
-  const {imgsrc, bookname, author } = props;
+  const { imgsrc, bookname, author } = props;
   return (
     <Box className={classes.Rectangle3}>
       <Box>
-        <Img
-          src={imgsrc}
-          height="282px"
-          width="287px"
-        ></Img>
+        <Img src={imgsrc} height="282px" width="287px"></Img>
       </Box>
       <Typography className={classes.HumanToWork} variant="subtitle1">
         {bookname}
       </Typography>
-      <Typography className={classes.Author} variant="body1">{author}</Typography>
+      <Typography className={classes.Author} variant="body1">
+        {author}
+      </Typography>
       <Box className={classes.Group6}>
         <Box className={classes.imageContainer}>
           <Box className={classes.TimeIconContainer}>
@@ -232,9 +225,13 @@ const Card = (props: CardProps) => {
           </Box>
         </Box>
       </Box>
-      <Typography className={classes.MinuteRead} variant="caption">13-minute read</Typography>
+      <Typography className={classes.MinuteRead} variant="caption">
+        13-minute read
+      </Typography>
       <Box className={classes.frame7}>
-        <Typography className={classes.reads} variant="caption">1.9k reads</Typography>
+        <Typography className={classes.reads} variant="caption">
+          1.9k reads
+        </Typography>
         <Box className={classes.UserContainer}>
           <Box className={classes.uservector}>
             <Icon
@@ -250,9 +247,9 @@ const Card = (props: CardProps) => {
           ></Icon>
         </Box>
       </Box>
-      <Box className={classes.rectangle7}>
+      <Box className={classes.rectangle6}>
+        <ProgressBar value={25} className={classes.rectangle6}></ProgressBar>
       </Box>
-      <Box className={classes.rectangle6}></Box>
     </Box>
   );
 };
