@@ -8,7 +8,6 @@ import Img from "../../atoms/Images";
 import { ExpandMore } from "@mui/icons-material";
 import Typography from "../../atoms/Typography";
 import AvatarComponent from "../../atoms/Avatar";
-import Icon from "../../atoms/Icons";
 const useStyle = makeStyles({
   logo: {
     position: "absolute",

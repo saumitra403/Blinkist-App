@@ -23,8 +23,24 @@ const buttonTheme = createTheme({
       fontSize: "33px",
     },
     body1: {
-      fontWeight: "500",
+      fontWeight: "700",
       color: "#03314B",
+    },
+    body2: {
+      fontSize: "16px",
+      lineHeight: "24px",
+      color: "#6D787E"
+    },
+    subtitle1: {
+      color: "#0365F2",
+      fontSize: "24px",
+      lineHeight: "32px",
+      fontWeight: "500",
+    },
+    caption: {
+      color: "#6D787E",
+      lineHeight: "22px",
+      fontSize: "14px",
     },
     button: {
       textTransform: "none",
