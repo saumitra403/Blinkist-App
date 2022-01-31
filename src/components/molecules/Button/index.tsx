@@ -6,6 +6,7 @@ import AddIcon from "@mui/icons-material/Add";
 import Button from '@mui/material/Button';
 type ButtonProps = {
   resting: boolean;
+  className? :string
 };
 
 const useStyle = makeStyles({
@@ -22,8 +23,8 @@ const AddButton = (props: ButtonProps) => {
   const classes = useStyle();
   let button = <></>;
   
-  resting ? button = <Button variant="text" startIcon={<AddIcon></AddIcon>} className={classes.buttonStyle} style={{color: "#0365F2 "}} sx={{textTransform: 'none'}}><Typography className={classes.addToLibrary}>Add To Library</Typography></Button> : 
-  button = <Button variant="contained" startIcon={<AddIcon></AddIcon>} className={classes.buttonStyle} sx={{textTransform: 'none'}}><Typography className={classes.addToLibrary}>Add To Library</Typography></Button>
+  resting ? button = <Button variant="text" startIcon={<AddIcon></AddIcon>} className={classes.buttonStyle} style={{color: "#0365F2 "}} sx={{textTransform: 'none'}}>Add To Library</Button> : 
+  button = <Button variant="contained" startIcon={<AddIcon></AddIcon>} className={classes.buttonStyle} sx={{textTransform: 'none'}}>Add To Library</Button>
   
   return <ThemeProvider theme={baseTheme}>{button}</ThemeProvider>
 };

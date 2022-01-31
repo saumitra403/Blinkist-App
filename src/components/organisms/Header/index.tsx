@@ -75,8 +75,8 @@ const Header = () => {
           width: "1440px",
           height: "86px",
           position: "absolute",
-          left: "20px",
-          top: "126px",
+          left: "0%",
+          top: "0%",
         }}
       >
         <Logo className={classes.logo}></Logo>

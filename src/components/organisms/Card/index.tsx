@@ -7,6 +7,7 @@ import AccessTimeIcon from "@mui/icons-material/AccessTimeOutlined";
 import PersonIcon from "@mui/icons-material/PersonOutline";
 import { MoreHoriz } from "@mui/icons-material";
 import ProgressBar from "../../atoms/ProgressBar";
+import AddButton from "../../molecules/Button";
 
 const useStyle = makeStyles({
   Rectangle3: {
@@ -193,22 +194,43 @@ const useStyle = makeStyles({
     top: "96.78%",
     bottom: "0%",
   },
+  button: {
+    display: 'flex',
+    flexDirection: 'row',
+    justifyContent: 'center',
+    alignItems: 'center',
+    padding: '14px 24px',
+    position: 'absolute',
+    height: '52px',
+    width: '284px',
+    left: '0px',
+    top: '414px',
+    border: '1px solid #E1ECFC',
+    boxSizing: 'border-box',
+    borderRadius: '0px 0px 8px 8px'
+  }
 });
 
 type CardProps = {
   imgsrc: string;
   bookname: string;
   author: string;
+  status?: string;
 };
 const Card = (props: CardProps) => {
   const classes = useStyle();
-  const { imgsrc, bookname, author } = props;
+  const { imgsrc, bookname, author,status='Null' } = props;
+  let button;
+  if(status=='Null') 
+    button = <Box className={classes.button}><AddButton resting={true}></AddButton></Box>
+  else if(status=='Reading')
+    button = <ProgressBar value={25} className={classes.rectangle6}></ProgressBar>  
   return (
     <Box className={classes.Rectangle3}>
       <Box>
         <Img src={imgsrc} height="282px" width="287px"></Img>
       </Box>
-      <Typography className={classes.HumanToWork} variant="subtitle1">
+      <Typography className={classes.HumanToWork}>
         {bookname}
       </Typography>
       <Typography className={classes.Author} variant="body1">
@@ -247,9 +269,7 @@ const Card = (props: CardProps) => {
           ></Icon>
         </Box>
       </Box>
-      <Box className={classes.rectangle6}>
-        <ProgressBar value={25} className={classes.rectangle6}></ProgressBar>
-      </Box>
+      {button}
     </Box>
   );
 };

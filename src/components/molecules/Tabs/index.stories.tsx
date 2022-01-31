@@ -6,5 +6,5 @@ export default {
     component: TabComponent
 }   
 
-export const Tab: ComponentStory<typeof TabComponent> = () => <TabComponent />;
+export const Tab: ComponentStory<typeof TabComponent> = (...args) => <TabComponent value={1}/>;
 

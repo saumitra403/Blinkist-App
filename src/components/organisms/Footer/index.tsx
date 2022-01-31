@@ -9,7 +9,9 @@ const useStyle = makeStyles({
     flexDirection: "column",
     justifyContent: "center",
     alignItems: "flex-start",
-    position: "relative",
+    position: "absolute",
+    top: "1888px",
+    left: "0px",
     width: "1440px",
     height: "370px",
     backgroundColor: "#F1F6F4",
@@ -82,8 +84,8 @@ const useStyle = makeStyles({
   },
   text: {
       height: "24px",
-      margin: "16px 0px"
-  }
+      margin: "8px 0px !important"
+  },
 });
 const Footer = () => {
   const classes = useStyle();
@@ -95,14 +97,14 @@ const Footer = () => {
       <Box className={classes.frame21}>
         <Box className={classes.navitems}>
           <Box className={classes.editorial}>
-            <Typography variant="body1">Editorial</Typography>
+            <Typography variant="body1" sx={{fontWeight: 700}}>Editorial</Typography>
             <Typography variant="body2" className={classes.text}>Book lists</Typography>
             <Typography variant="body2" className={classes.text}>What is Nonfiction?</Typography>
             <Typography variant="body2" className={classes.text}>What to read next?</Typography>
             <Typography variant="body2" className={classes.text}>Benefits of reading</Typography>
           </Box>
           <Box className={classes.usefullinks}>
-            <Typography variant="body1">Useful Links</Typography>
+            <Typography variant="body1" sx={{fontWeight: 700}}>Useful Links</Typography>
             <Typography variant="body2" className={classes.text}>Pricing</Typography>
             <Typography variant="body2" className={classes.text}>Blinkist Business</Typography>
             <Typography variant="body2" className={classes.text}>Gift Cards</Typography>
@@ -110,7 +112,7 @@ const Footer = () => {
             <Typography variant="body2" className={classes.text}>Contact & help</Typography>
           </Box>
           <Box className={classes.company}>
-            <Typography variant="body1">Company</Typography>
+            <Typography variant="body1" sx={{fontWeight: 700}}>Company</Typography>
             <Typography variant="body2" className={classes.text}>About</Typography>
             <Typography variant="body2" className={classes.text}>Careers</Typography>
             <Typography variant="body2" className={classes.text}>Partners</Typography>

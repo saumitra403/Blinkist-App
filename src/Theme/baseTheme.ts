@@ -17,13 +17,14 @@ const buttonTheme = createTheme({
     fontFamily: "Cera Pro",
     h1: {
       fontWeight: "bold",
+      fontSize: "36px",
+      lineHeight: "45.25px"
     },
     h5: {
       fontWeight: "bold",
       fontSize: "33px",
     },
     body1: {
-      fontWeight: "700",
       color: "#03314B",
     },
     body2: {
