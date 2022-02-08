@@ -18,7 +18,12 @@ const buttonTheme = createTheme({
     h1: {
       fontWeight: "bold",
       fontSize: "36px",
-      lineHeight: "45.25px"
+      lineHeight: "45.25px",
+    },
+    h3: {
+      fontWeight: 700,
+      fontSize: "24px",
+      lineHeight: "30.17px"
     },
     h5: {
       fontWeight: "bold",
@@ -30,7 +35,7 @@ const buttonTheme = createTheme({
     body2: {
       fontSize: "16px",
       lineHeight: "24px",
-      color: "#6D787E"
+      color: "#6D787E",
     },
     subtitle1: {
       color: "#0365F2",
@@ -46,6 +51,11 @@ const buttonTheme = createTheme({
     button: {
       textTransform: "none",
     },
+    subtitle2: {
+      fontSize: "20px",
+      lineHeight: "25px",
+      color: "#03314B"
+    }
   },
 });
 

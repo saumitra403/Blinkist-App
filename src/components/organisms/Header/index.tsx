@@ -8,6 +8,8 @@ import Img from "../../atoms/Images";
 import { ExpandMore } from "@mui/icons-material";
 import Typography from "../../atoms/Typography";
 import AvatarComponent from "../../atoms/Avatar";
+import { Link } from "react-router-dom";
+import { useAuth0 } from "@auth0/auth0-react";
 const useStyle = makeStyles({
   logo: {
     position: "absolute",
@@ -29,7 +31,8 @@ const useStyle = makeStyles({
     right: "53.33%",
     top: "38.37%",
     bottom: "38.37%",
-    fontSize: "16px",
+    fontSize: "16px !important",
+    width: "fit-content",
   },
   explore: {
     position: "absolute",
@@ -42,6 +45,7 @@ const useStyle = makeStyles({
     flexDirection: "row",
     alignItems: "flex-start",
     padding: "0px !important",
+    fontSize: "16px !important",
   },
   moreicon: {
     width: "20px !important",
@@ -62,8 +66,8 @@ const useStyle = makeStyles({
     left: "78.33%",
     right: "17.36%",
     top: "26.74%",
-    bottom: "26.74%"
-  }
+    bottom: "26.74%",
+  },
 });
 const Header = () => {
   const classes = useStyle();
@@ -72,16 +76,19 @@ const Header = () => {
       <AppBar
         color="primary"
         sx={{
-          width: "1440px",
+          width: "100%",
           height: "86px",
           position: "absolute",
           left: "0%",
           top: "0%",
+          boxShadow: "none",
         }}
       >
-        <Logo className={classes.logo}></Logo>
+        <Link to="/">
+          <Logo className={classes.logo}></Logo>
+        </Link>
         <Img
-          src="Assets/Vector.png"
+          src="/Assets/Vector.png"
           height="24px"
           width="24px"
           className={classes.search}
@@ -92,12 +99,16 @@ const Header = () => {
           <ExpandMore></ExpandMore>
         </Box>
 
-        <Typography className={classes.mylibrary} variant="body1">
-          My Library
-        </Typography>
+        <Link to="/library">
+          <Typography className={classes.mylibrary} variant="body1">
+            My Library
+          </Typography>
+        </Link>
 
         <Box className={classes.box}>
-          <AvatarComponent sx={{position: 'static', backgroundColor: "#69A6E3"}}></AvatarComponent>
+          <AvatarComponent
+            sx={{ position: "static", backgroundColor: "#69A6E3" }}
+          ></AvatarComponent>
           <ExpandMore className={classes.moreicon}></ExpandMore>
         </Box>
       </AppBar>

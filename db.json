@@ -1,88 +1,103 @@
 {
   "books": [
     {
+      "id": 0,
       "bookname": "Being Boss",
-      "src": "Assets/10.png",
+      "src": "/Assets/10.png",
       "author": "Kathleen Shannon and Emily",
-      "status": "Null",
-      "category": "Trending"
+      "status": "Reading",
+      "category": "Trending",
+      "progress": 0
     },
     {
+      "id": 1,
       "bookname": "Beyond Entrepreneurship",
-      "src": "Assets/2.png",
+      "src": "/Assets/2.png",
       "author": "Jim Collins & Bill Lazier",
-      "status": "Null",
-      "category": "Trending"
+      "status": "Reading",
+      "category": "Trending",
+      "progress": 0
     },
     {
+      "id": 2,
       "bookname": "Employee to Entrepreneur",
-      "src": "Assets/11.png",
+      "src": "/Assets/11.png",
       "author": "Steve Glaveski",
-      "status": "Null",
-      "category": "Trending"
+      "status": "Finished",
+      "category": "Trending",
+      "progress": 100
     },
     {
+      "id": 3,
       "bookname": "The Fate of Food",
-      "src": "Assets/4.png",
+      "src": "/Assets/4.png",
       "author": "Amanda Little",
-      "status": "Null",
-      "category": "Trending"
+      "status": "Reading",
+      "category": "Trending",
+      "progress": 0
     },
     {
+      "id": 4,
       "bookname": "Lives of the Stoics",
-      "src": "Assets/5.png",
+      "src": "/Assets/5.png",
       "author": "Ryan Holiday, Stephen Hansel",
-      "status": "Null",
-      "category": "Trending"
+      "status": "Reading",
+      "category": "Trending",
+      "progress": 0
     },
     {
+      "id": 5,
       "bookname": "Loving Your Business",
-      "src": "Assets/6.png",
+      "src": "/Assets/6.png",
       "author": "Debbie King",
-      "status": "Null",
-      "category": "Trending"
+      "status": "Reading",
+      "category": "Trending",
+      "progress": 0
     },
     {
+      "id": 6,
       "bookname": "The Lonely Century",
-      "src": "Assets/7.png",
+      "src": "/Assets/7.png",
       "author": "Noreena Hertz",
-      "status": "Null",
-      "category": "JustAdded"
+      "status": "Reading",
+      "category": "JustAdded",
+      "progress": 0
     },
     {
+      "id": 7,
       "bookname": "Eat Better, Feel Better",
-      "src": "Assets/8.png",
+      "src": "/Assets/8.png",
       "author": "Giada De Laurentiis",
       "status": "Null",
-      "category": "JustAdded"
+      "category": "JustAdded",
+      "progress": 0
     },
     {
+      "id": 8,
       "bookname": "Dropshipping",
-      "src": "Assets/9.png",
+      "src": "/Assets/9.png",
       "author": "Giada De Laurentiis",
       "status": "Null",
-      "category": "JustAdded"
+      "category": "JustAdded",
+      "progress": 0
     },
     {
+      "id": 9,
       "bookname": "Bring Your Human to Work",
-      "src": "Assets/1.png",
+      "src": "/Assets/1.jpg",
       "author": "Erica Keswin",
-      "status": "Null",
-      "category": "Featured"
+      "status": "Reading",
+      "category": "Featured",
+      "progress": 0
     },
     {
-      "bookname": "Beyond Entrepreneurship 2.0",
-      "src": "Assets/2.png",
-      "author": "Jim Collins & Bill Lazier",
-      "status": "Null",
-      "category": "Featured"
-    },
-    {
+      "id": 10,
       "bookname": "Doesn’t Hurt to Ask",
-      "src": "Assets/3.png",
+      "src": "/Assets/3.png",
       "author": "Trey Gowdy",
-      "status": "Null",
-      "category": "Featured"
+      "status": "Reading",
+      "category": "Featured",
+      "progress": 0
     }
   ]
 }

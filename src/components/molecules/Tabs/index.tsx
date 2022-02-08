@@ -8,16 +8,19 @@ import { useState } from "react";
 
 const useStyle = makeStyles({
   tabs: {
-    position: "absolute",
-    width: "912px",
-    height: "39px",
-    left: "264px",
-    top: "250px"
+    width: "fit-content",
+    height: "fit-content"
   }
 });
-const TabComponent = ({ value, ...props }: any) => {
+
+const TabComponent = ({tabData,...props }: any) => {
   const classes = useStyle();
-  
+  const [value, setValue] = useState(tabData && tabData[0].value);
+
+  const handleChange = (event: React.SyntheticEvent,value: any) => {
+    setValue(value);
+    props.stateHandler(value);
+  }
   return (
     <Box sx={{ borderBottom: 1, borderColor: "divider" }} className={classes.tabs}>
       <ThemeProvider theme={tabsTheme}>
@@ -26,9 +29,11 @@ const TabComponent = ({ value, ...props }: any) => {
           value={value}
           textColor="secondary"
           sx={{borderBottom: "none"}}
+          onChange={handleChange}
         >
-          <Tab label="Currently Reading" value={0} />
-          <Tab label="Finished" value={1} />
+          {tabData.map((curr: any) => {
+            return <Tab label={curr.label} value={curr.value} key={curr.value}></Tab>
+          })}
         </Tabs>
       </ThemeProvider>
     </Box>

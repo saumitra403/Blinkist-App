@@ -1,20 +1,22 @@
-import { BottomNavigation } from "@material-ui/core";
 import { makeStyles } from "@material-ui/styles";
 import Logo from "../../atoms/Logo";
 import Typography from "../../atoms/Typography";
 import { Box } from "@mui/material";
+type FooterProps = {
+  className?: string
+}
 const useStyle = makeStyles({
   footer: {
     display: "flex",
     flexDirection: "column",
     justifyContent: "center",
-    alignItems: "flex-start",
-    position: "absolute",
-    top: "1888px",
-    left: "0px",
-    width: "1440px",
+    alignItems: "center",
     height: "370px",
     backgroundColor: "#F1F6F4",
+    width: "100%",
+    position: 'sticky',
+    top: "100vh",
+    marginTop: "76px",
   },
   navitems: {
     display: "flex",
@@ -34,7 +36,6 @@ const useStyle = makeStyles({
   },
   frame21: {
     position: "absolute",
-    left: "244px",
     top: "38px",
     width: "952px",
     height: "224px",
@@ -87,7 +88,7 @@ const useStyle = makeStyles({
       margin: "8px 0px !important"
   },
 });
-const Footer = () => {
+const Footer = (props: FooterProps) => {
   const classes = useStyle();
   return (
     <Box className={classes.footer}>

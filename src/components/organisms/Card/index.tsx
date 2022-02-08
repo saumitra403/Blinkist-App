@@ -8,23 +8,21 @@ import PersonIcon from "@mui/icons-material/PersonOutline";
 import { MoreHoriz } from "@mui/icons-material";
 import ProgressBar from "../../atoms/ProgressBar";
 import AddButton from "../../molecules/Button";
-
+import { Link } from "react-router-dom";
 const useStyle = makeStyles({
   Rectangle3: {
     width: "284px",
     height: "466px",
     borderRadius: "8px",
-    position: "absolute",
-    left: "0%",
-    right: "0%",
-    bottom: "0%",
+    position: "relative",
     background: "#FFFFFF",
     border: "1px solid #E1ECFC",
     boxSizing: "border-box",
+    marginBottom: "25px",
   },
   HumanToWork: {
-    color: "#03314B",
-    width: "225px",
+    color: "#03314B !important",
+    width: "fit-content",
     position: "absolute",
     left: "5.63%",
     right: "15.14%",
@@ -37,7 +35,7 @@ const useStyle = makeStyles({
     lineHeight: "22.63px !important",
   },
   Author: {
-    width: "95px",
+    width: "fit-content",
     height: "20px",
     position: "absolute",
     left: "5.63%",
@@ -49,7 +47,7 @@ const useStyle = makeStyles({
     fontWeight: "normal !important",
     fontSize: "16px !important",
     lineHeight: "20.11px !important",
-    color: "#6D787E",
+    color: "#6D787E !important",
   },
   TimeIcon: {
     width: "16.67px !important",
@@ -195,44 +193,75 @@ const useStyle = makeStyles({
     bottom: "0%",
   },
   button: {
-    display: 'flex',
-    flexDirection: 'row',
-    justifyContent: 'center',
-    alignItems: 'center',
-    padding: '14px 24px',
-    position: 'absolute',
-    height: '52px',
-    width: '284px',
-    left: '0px',
-    top: '414px',
-    border: '1px solid #E1ECFC',
-    boxSizing: 'border-box',
-    borderRadius: '0px 0px 8px 8px'
-  }
+    display: "flex",
+    flexDirection: "row",
+    justifyContent: "center",
+    alignItems: "center",
+    position: "absolute",
+    height: "52px",
+    width: "284px",
+    left: "0px",
+    top: "414px",
+    border: "1px solid #E1ECFC",
+    boxSizing: "border-box",
+    borderRadius: "0px 0px 8px 8px",
+  },
 });
 
-type CardProps = {
-  imgsrc: string;
-  bookname: string;
-  author: string;
-  status?: string;
-};
-const Card = (props: CardProps) => {
+const Card = (props: any) => {
   const classes = useStyle();
-  const { imgsrc, bookname, author,status='Null' } = props;
+  const { imgsrc, bookname, author, status, id, handleClick } = props;
   let button;
-  if(status=='Null') 
-    button = <Box className={classes.button}><AddButton resting={true}></AddButton></Box>
-  else if(status=='Reading')
-    button = <ProgressBar value={25} className={classes.rectangle6}></ProgressBar>  
+  if (status == "Null")
+    button = (
+      <Box
+        className={classes.button}
+        onClick={(e: any) => {
+          console.log(e);
+          handleClick(id);
+        }}
+      >
+        <AddButton content="Add To Library"></AddButton>
+      </Box>
+    );
+  else if (status == "Reading")
+    button = (
+      <div>
+        <Box className={classes.more}>
+          <Box className={classes.morecontainer}>
+            <Icon
+              Icons={<MoreHoriz className={classes.morehoriz}></MoreHoriz>}
+            ></Icon>
+          </Box>
+        </Box>
+        <ProgressBar
+          value={25}
+          className={classes.rectangle6}
+          sx={{ position: "absolute" }}
+        ></ProgressBar>
+      </div>
+    );
+  else if (status == "Finished") {
+    button = (
+      <Box
+        className={classes.button}
+        onClick={(e: any) => {
+          console.log(e);
+          handleClick(id);
+        }}
+      >
+        <AddButton content="Read Again"></AddButton>
+      </Box>
+    );
+  }
   return (
     <Box className={classes.Rectangle3}>
       <Box>
-        <Img src={imgsrc} height="282px" width="287px"></Img>
+        <Link to={`/book-info/${id}`}>
+          <Img src={imgsrc} height="282px" width="287px"></Img>
+        </Link>
       </Box>
-      <Typography className={classes.HumanToWork}>
-        {bookname}
-      </Typography>
+      <Typography className={classes.HumanToWork}>{bookname}</Typography>
       <Typography className={classes.Author} variant="body1">
         {author}
       </Typography>
@@ -260,13 +289,6 @@ const Card = (props: CardProps) => {
               Icons={<PersonIcon className={classes.usericon}></PersonIcon>}
             ></Icon>
           </Box>
-        </Box>
-      </Box>
-      <Box className={classes.more}>
-        <Box className={classes.morecontainer}>
-          <Icon
-            Icons={<MoreHoriz className={classes.morehoriz}></MoreHoriz>}
-          ></Icon>
         </Box>
       </Box>
       {button}

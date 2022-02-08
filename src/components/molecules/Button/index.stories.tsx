@@ -1,23 +1,10 @@
-import Button from "."
+import AddButton from "."
 import { ComponentStory } from "@storybook/react";
 
 export default {
     title: 'molecules/Button',
-    component: Button
+    component: AddButton
 }   
 
-const Template: ComponentStory<typeof Button> = (args) => <Button {...args}/>;
-
-
-export const Resting = Template.bind({})
-
-Resting.args = {
-    resting: true
-}
-
-export const Hover = Template.bind({})
-
-Hover.args = {
-    resting: false
-}
+export const Button: ComponentStory<typeof AddButton> = () => <AddButton/>;
 

@@ -3,9 +3,9 @@ import { makeStyles } from "@mui/styles";
 
 const useStyle = makeStyles({
     banner: {
-        position: "absolute",
-        left: "264px",
-        top: "118px"
+        width: "912px",
+        height: "264px",
+        marginTop: "118px"
     }
 })
 
