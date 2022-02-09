@@ -1,6 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testExecutions version="1">
+  <file path="C:\React Practice\blinkist-app\src\components\atoms\Logo\index.test.tsx">
+    <testCase name="renders learn react link" duration="45"/>
+  </file>
+  <file path="C:\React Practice\blinkist-app\src\components\molecules\Banner\index.test.tsx">
+    <testCase name="renders learn react link" duration="59"/>
+  </file>
   <file path="C:\React Practice\blinkist-app\src\components\atoms\Images\index.test.tsx">
-    <testCase name="renders learn react link" duration="29"/>
+    <testCase name="renders learn react link" duration="8"/>
+  </file>
+  <file path="C:\React Practice\blinkist-app\src\components\atoms\Avatar\index.test.tsx">
+    <testCase name="renders learn react link" duration="38"/>
+  </file>
+  <file path="C:\React Practice\blinkist-app\src\components\organisms\Footer\index.test.tsx">
+    <testCase name="renders learn react link" duration="64"/>
+  </file>
+  <file path="C:\React Practice\blinkist-app\src\components\atoms\ProgressBar\index.test.tsx">
+    <testCase name="renders learn react link" duration="123"/>
+    <testCase name="should render progress bar with given value" duration="18"/>
+  </file>
+  <file path="C:\React Practice\blinkist-app\src\components\organisms\Header\index.test.tsx">
+    <testCase name="renders learn react link" duration="62"/>
   </file>
 </testExecutions>
