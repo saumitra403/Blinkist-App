@@ -1,31 +1,148 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testExecutions version="1">
-  <file path="C:\React Practice\blinkist-app\src\components\molecules\Banner\index.test.tsx">
-    <testCase name="renders learn react link" duration="68"/>
-  </file>
   <file path="C:\React Practice\blinkist-app\src\components\atoms\Avatar\index.test.tsx">
-    <testCase name="renders learn react link" duration="67"/>
+    <testCase name="renders learn react link" duration="36"/>
   </file>
-  <file path="C:\React Practice\blinkist-app\src\components\atoms\Logo\index.test.tsx">
-    <testCase name="renders learn react link" duration="11"/>
+  <file path="C:\React Practice\blinkist-app\src\components\molecules\Banner\index.test.tsx">
+    <testCase name="renders learn react link" duration="25"/>
   </file>
   <file path="C:\React Practice\blinkist-app\src\components\atoms\Images\index.test.tsx">
-    <testCase name="renders learn react link" duration="9"/>
+    <testCase name="renders learn react link" duration="8"/>
+  </file>
+  <file path="C:\React Practice\blinkist-app\src\components\atoms\Logo\index.test.tsx">
+    <testCase name="renders learn react link" duration="7"/>
   </file>
   <file path="C:\React Practice\blinkist-app\src\components\organisms\Footer\index.test.tsx">
-    <testCase name="renders learn react link" duration="85"/>
+    <testCase name="renders learn react link" duration="86"/>
   </file>
   <file path="C:\React Practice\blinkist-app\src\components\atoms\ProgressBar\index.test.tsx">
-    <testCase name="renders learn react link" duration="156"/>
-    <testCase name="should render progress bar with given value" duration="22"/>
+    <testCase name="renders learn react link" duration="149"/>
+    <testCase name="should render progress bar with given value" duration="20"/>
   </file>
-  <file path="C:\React Practice\blinkist-app\src\components\organisms\Header\index.test.tsx">
-    <testCase name="renders learn react link" duration="71"/>
+  <file path="C:\React Practice\blinkist-app\src\components\Pages\BookInfo\index.test.tsx">
+    <testCase name="renders learn react link" duration="112">
+      <failure message="TypeError: Cannot read property &apos;bookname&apos; of undefined"><![CDATA[TypeError: Cannot read property 'bookname' of undefined
+    at BookInfo (C:\React Practice\blinkist-app\src\components\Pages\BookInfo\index.tsx:74:21)
+    at renderWithHooks (C:\React Practice\blinkist-app\node_modules\react-dom\cjs\react-dom.development.js:14985:18)
+    at mountIndeterminateComponent (C:\React Practice\blinkist-app\node_modules\react-dom\cjs\react-dom.development.js:17811:13)
+    at beginWork (C:\React Practice\blinkist-app\node_modules\react-dom\cjs\react-dom.development.js:19049:16)
+    at HTMLUnknownElement.callCallback (C:\React Practice\blinkist-app\node_modules\react-dom\cjs\react-dom.development.js:3945:14)
+    at HTMLUnknownElement.callTheUserObjectsOperation (C:\React Practice\blinkist-app\node_modules\jsdom\lib\jsdom\living\generated\EventListener.js:26:30)
+    at innerInvokeEventListeners (C:\React Practice\blinkist-app\node_modules\jsdom\lib\jsdom\living\events\EventTarget-impl.js:338:25)
+    at invokeEventListeners (C:\React Practice\blinkist-app\node_modules\jsdom\lib\jsdom\living\events\EventTarget-impl.js:274:3)
+    at HTMLUnknownElementImpl._dispatch (C:\React Practice\blinkist-app\node_modules\jsdom\lib\jsdom\living\events\EventTarget-impl.js:221:9)
+    at HTMLUnknownElementImpl.dispatchEvent (C:\React Practice\blinkist-app\node_modules\jsdom\lib\jsdom\living\events\EventTarget-impl.js:94:17)
+    at HTMLUnknownElement.dispatchEvent (C:\React Practice\blinkist-app\node_modules\jsdom\lib\jsdom\living\generated\EventTarget.js:231:34)
+    at Object.invokeGuardedCallbackDev (C:\React Practice\blinkist-app\node_modules\react-dom\cjs\react-dom.development.js:3994:16)
+    at invokeGuardedCallback (C:\React Practice\blinkist-app\node_modules\react-dom\cjs\react-dom.development.js:4056:31)
+    at beginWork$1 (C:\React Practice\blinkist-app\node_modules\react-dom\cjs\react-dom.development.js:23964:7)
+    at performUnitOfWork (C:\React Practice\blinkist-app\node_modules\react-dom\cjs\react-dom.development.js:22779:12)
+    at workLoopSync (C:\React Practice\blinkist-app\node_modules\react-dom\cjs\react-dom.development.js:22707:5)
+    at renderRootSync (C:\React Practice\blinkist-app\node_modules\react-dom\cjs\react-dom.development.js:22670:7)
+    at performSyncWorkOnRoot (C:\React Practice\blinkist-app\node_modules\react-dom\cjs\react-dom.development.js:22293:18)
+    at scheduleUpdateOnFiber (C:\React Practice\blinkist-app\node_modules\react-dom\cjs\react-dom.development.js:21881:7)
+    at updateContainer (C:\React Practice\blinkist-app\node_modules\react-dom\cjs\react-dom.development.js:25482:3)
+    at C:\React Practice\blinkist-app\node_modules\react-dom\cjs\react-dom.development.js:26021:7
+    at unbatchedUpdates (C:\React Practice\blinkist-app\node_modules\react-dom\cjs\react-dom.development.js:22431:12)
+    at legacyRenderSubtreeIntoContainer (C:\React Practice\blinkist-app\node_modules\react-dom\cjs\react-dom.development.js:26020:5)
+    at Object.render (C:\React Practice\blinkist-app\node_modules\react-dom\cjs\react-dom.development.js:26103:10)
+    at C:\React Practice\blinkist-app\node_modules\@testing-library\react\dist\pure.js:101:25
+    at batchedUpdates$1 (C:\React Practice\blinkist-app\node_modules\react-dom\cjs\react-dom.development.js:22380:12)
+    at act (C:\React Practice\blinkist-app\node_modules\react-dom\cjs\react-dom-test-utils.development.js:1042:14)
+    at render (C:\React Practice\blinkist-app\node_modules\@testing-library\react\dist\pure.js:97:26)
+    at Object.<anonymous> (C:\React Practice\blinkist-app\src\components\Pages\BookInfo\index.test.tsx:8:5)
+    at Promise.then.completed (C:\React Practice\blinkist-app\node_modules\jest-circus\build\utils.js:391:28)
+    at new Promise (<anonymous>)
+    at callAsyncCircusFn (C:\React Practice\blinkist-app\node_modules\jest-circus\build\utils.js:316:10)
+    at _callCircusTest (C:\React Practice\blinkist-app\node_modules\jest-circus\build\run.js:218:40)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+    at _runTest (C:\React Practice\blinkist-app\node_modules\jest-circus\build\run.js:155:3)
+    at _runTestsForDescribeBlock (C:\React Practice\blinkist-app\node_modules\jest-circus\build\run.js:66:9)
+    at run (C:\React Practice\blinkist-app\node_modules\jest-circus\build\run.js:25:3)
+    at runAndTransformResultsToJestFormat (C:\React Practice\blinkist-app\node_modules\jest-circus\build\legacy-code-todo-rewrite\jestAdapterInit.js:170:21)
+    at jestAdapter (C:\React Practice\blinkist-app\node_modules\jest-circus\build\legacy-code-todo-rewrite\jestAdapter.js:82:19)
+    at runTestInternal (C:\React Practice\blinkist-app\node_modules\jest-runner\build\runTest.js:389:16)
+    at runTest (C:\React Practice\blinkist-app\node_modules\jest-runner\build\runTest.js:475:34)
+    at Object.worker (C:\React Practice\blinkist-app\node_modules\jest-runner\build\testWorker.js:133:12)]]></failure>
+    </testCase>
   </file>
   <file path="C:\React Practice\blinkist-app\src\components\organisms\Card\index.test.tsx">
-    <testCase name="renders learn react link" duration="79">
-      <failure message="ReferenceError: boo is not defined"><![CDATA[ReferenceError: boo is not defined
-    at Object.<anonymous> (C:\React Practice\blinkist-app\src\components\organisms\Card\index.test.tsx:18:40)
+    <testCase name="renders learn react link" duration="98"/>
+  </file>
+  <file path="C:\React Practice\blinkist-app\src\components\organisms\Header\index.test.tsx">
+    <testCase name="renders learn react link" duration="65"/>
+  </file>
+  <file path="C:\React Practice\blinkist-app\src\components\Pages\Enterpreneurship\index.test.tsx">
+    <testCase name="renders learn react link" duration="95">
+      <failure message="TestingLibraryElementError: Unable to find an element with the text: Get The Key Ideas From. This could be because the text is broken up by multiple elements. In this case, you can provide a function for your text matcher to make your matcher more flexible."><![CDATA[TestingLibraryElementError: Unable to find an element with the text: Get The Key Ideas From. This could be because the text is broken up by multiple elements. In this case, you can provide a function for your text matcher to make your matcher more flexible.
+
+Ignored nodes: comments, <script />, <style />
+<body>
+  <div>
+    <div
+      class="MuiBox-root css-b93e9j"
+    >
+      <img
+        class="makeStyles-banner-1"
+        data-testid="banner"
+        src="Assets/banner 1.png"
+      />
+      <div
+        class="MuiBox-root css-1dgdop0"
+      >
+        <div
+          class="MuiFormControl-root MuiTextField-root css-xcg836-MuiFormControl-root-MuiTextField-root"
+        >
+          <div
+            class="MuiInput-root MuiInput-underline MuiInputBase-root MuiInputBase-colorPrimary MuiInputBase-formControl MuiInputBase-adornedStart css-1480iag-MuiInputBase-root-MuiInput-root"
+          >
+            <div
+              class="MuiInputAdornment-root MuiInputAdornment-positionStart MuiInputAdornment-standard MuiInputAdornment-sizeMedium css-ittuaa-MuiInputAdornment-root"
+            >
+              <span
+                class="notranslate"
+              >
+                ​
+              </span>
+              <svg
+                aria-hidden="true"
+                class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-i4bv87-MuiSvgIcon-root"
+                data-testid="SearchIcon"
+                focusable="false"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="M15.5 14h-.79l-.28-.27C15.41 12.59 16 11.11 16 9.5 16 5.91 13.09 3 9.5 3S3 5.91 3 9.5 5.91 16 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"
+                />
+              </svg>
+            </div>
+            <input
+              aria-invalid="false"
+              class="MuiInput-input MuiInputBase-input MuiInputBase-inputAdornedStart css-1x51dt5-MuiInputBase-input-MuiInput-input"
+              id="mui-1"
+              placeholder="Search by title or author"
+              type="text"
+              value=""
+            />
+          </div>
+        </div>
+        <h3
+          class="MuiTypography-root MuiTypography-h3 css-1p4b3ef-MuiTypography-root"
+        >
+          Trending Blinks
+        </h3>
+        <div
+          class="MuiBox-root css-1fpq2bm"
+        />
+      </div>
+    </div>
+  </div>
+</body>
+    at Object.getElementError (C:\React Practice\blinkist-app\node_modules\@testing-library\dom\dist\config.js:38:19)
+    at C:\React Practice\blinkist-app\node_modules\@testing-library\dom\dist\query-helpers.js:90:38
+    at C:\React Practice\blinkist-app\node_modules\@testing-library\dom\dist\query-helpers.js:62:17
+    at getByText (C:\React Practice\blinkist-app\node_modules\@testing-library\dom\dist\query-helpers.js:111:19)
+    at Object.<anonymous> (C:\React Practice\blinkist-app\src\components\Pages\Enterpreneurship\index.test.tsx:13:32)
     at Promise.then.completed (C:\React Practice\blinkist-app\node_modules\jest-circus\build\utils.js:391:28)
     at new Promise (<anonymous>)
     at callAsyncCircusFn (C:\React Practice\blinkist-app\node_modules\jest-circus\build\utils.js:316:10)
