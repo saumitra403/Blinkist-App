@@ -1,25 +1,44 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testExecutions version="1">
-  <file path="C:\React Practice\blinkist-app\src\components\atoms\Logo\index.test.tsx">
-    <testCase name="renders learn react link" duration="45"/>
-  </file>
   <file path="C:\React Practice\blinkist-app\src\components\molecules\Banner\index.test.tsx">
-    <testCase name="renders learn react link" duration="59"/>
-  </file>
-  <file path="C:\React Practice\blinkist-app\src\components\atoms\Images\index.test.tsx">
-    <testCase name="renders learn react link" duration="8"/>
+    <testCase name="renders learn react link" duration="68"/>
   </file>
   <file path="C:\React Practice\blinkist-app\src\components\atoms\Avatar\index.test.tsx">
-    <testCase name="renders learn react link" duration="38"/>
+    <testCase name="renders learn react link" duration="67"/>
+  </file>
+  <file path="C:\React Practice\blinkist-app\src\components\atoms\Logo\index.test.tsx">
+    <testCase name="renders learn react link" duration="11"/>
+  </file>
+  <file path="C:\React Practice\blinkist-app\src\components\atoms\Images\index.test.tsx">
+    <testCase name="renders learn react link" duration="9"/>
   </file>
   <file path="C:\React Practice\blinkist-app\src\components\organisms\Footer\index.test.tsx">
-    <testCase name="renders learn react link" duration="64"/>
+    <testCase name="renders learn react link" duration="85"/>
   </file>
   <file path="C:\React Practice\blinkist-app\src\components\atoms\ProgressBar\index.test.tsx">
-    <testCase name="renders learn react link" duration="123"/>
-    <testCase name="should render progress bar with given value" duration="18"/>
+    <testCase name="renders learn react link" duration="156"/>
+    <testCase name="should render progress bar with given value" duration="22"/>
   </file>
   <file path="C:\React Practice\blinkist-app\src\components\organisms\Header\index.test.tsx">
-    <testCase name="renders learn react link" duration="62"/>
+    <testCase name="renders learn react link" duration="71"/>
+  </file>
+  <file path="C:\React Practice\blinkist-app\src\components\organisms\Card\index.test.tsx">
+    <testCase name="renders learn react link" duration="79">
+      <failure message="ReferenceError: boo is not defined"><![CDATA[ReferenceError: boo is not defined
+    at Object.<anonymous> (C:\React Practice\blinkist-app\src\components\organisms\Card\index.test.tsx:18:40)
+    at Promise.then.completed (C:\React Practice\blinkist-app\node_modules\jest-circus\build\utils.js:391:28)
+    at new Promise (<anonymous>)
+    at callAsyncCircusFn (C:\React Practice\blinkist-app\node_modules\jest-circus\build\utils.js:316:10)
+    at _callCircusTest (C:\React Practice\blinkist-app\node_modules\jest-circus\build\run.js:218:40)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+    at _runTest (C:\React Practice\blinkist-app\node_modules\jest-circus\build\run.js:155:3)
+    at _runTestsForDescribeBlock (C:\React Practice\blinkist-app\node_modules\jest-circus\build\run.js:66:9)
+    at run (C:\React Practice\blinkist-app\node_modules\jest-circus\build\run.js:25:3)
+    at runAndTransformResultsToJestFormat (C:\React Practice\blinkist-app\node_modules\jest-circus\build\legacy-code-todo-rewrite\jestAdapterInit.js:170:21)
+    at jestAdapter (C:\React Practice\blinkist-app\node_modules\jest-circus\build\legacy-code-todo-rewrite\jestAdapter.js:82:19)
+    at runTestInternal (C:\React Practice\blinkist-app\node_modules\jest-runner\build\runTest.js:389:16)
+    at runTest (C:\React Practice\blinkist-app\node_modules\jest-runner\build\runTest.js:475:34)
+    at Object.worker (C:\React Practice\blinkist-app\node_modules\jest-runner\build\testWorker.js:133:12)]]></failure>
+    </testCase>
   </file>
 </testExecutions>
