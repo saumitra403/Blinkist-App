@@ -30,6 +30,7 @@ const TabComponent = ({tabData,...props }: any) => {
           textColor="secondary"
           sx={{borderBottom: "none"}}
           onChange={handleChange}
+          data-testid="tabs"
         >
           {tabData.map((curr: any) => {
             return <Tab label={curr.label} value={curr.value} key={curr.value}></Tab>

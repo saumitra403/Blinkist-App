@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1644416426685" clover="3.2.0">
-  <project timestamp="1644416426685" name="All files">
-    <metrics statements="128" coveredstatements="63" conditionals="23" coveredconditionals="6" methods="36" coveredmethods="13" elements="187" coveredelements="82" complexity="0" loc="128" ncloc="128" packages="19" files="21" classes="21"/>
+<coverage generated="1644420342298" clover="3.2.0">
+  <project timestamp="1644420342298" name="All files">
+    <metrics statements="128" coveredstatements="65" conditionals="23" coveredconditionals="8" methods="36" coveredmethods="14" elements="187" coveredelements="87" complexity="0" loc="128" ncloc="128" packages="19" files="21" classes="21"/>
     <package name="src">
       <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
       <file name="react-app-env.d.ts" path="C:\React Practice\blinkist-app\src\react-app-env.d.ts">
@@ -20,7 +20,7 @@
       </file>
       <file name="tabTheme.ts" path="C:\React Practice\blinkist-app\src\Theme\tabTheme.ts">
         <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-        <line num="3" count="2" type="stmt"/>
+        <line num="3" count="3" type="stmt"/>
       </file>
     </package>
     <package name="src.components.Pages.BookInfo">
@@ -195,13 +195,13 @@
       </file>
     </package>
     <package name="src.components.molecules.Tabs">
-      <metrics statements="9" coveredstatements="2" conditionals="2" coveredconditionals="0" methods="3" coveredmethods="0"/>
+      <metrics statements="9" coveredstatements="4" conditionals="2" coveredconditionals="2" methods="3" coveredmethods="1"/>
       <file name="index.tsx" path="C:\React Practice\blinkist-app\src\components\molecules\Tabs\index.tsx">
-        <metrics statements="9" coveredstatements="2" conditionals="2" coveredconditionals="0" methods="3" coveredmethods="0"/>
-        <line num="9" count="2" type="stmt"/>
-        <line num="16" count="2" type="stmt"/>
-        <line num="17" count="0" type="stmt"/>
-        <line num="18" count="0" type="cond" truecount="0" falsecount="2"/>
+        <metrics statements="9" coveredstatements="4" conditionals="2" coveredconditionals="2" methods="3" coveredmethods="1"/>
+        <line num="9" count="3" type="stmt"/>
+        <line num="16" count="3" type="stmt"/>
+        <line num="17" count="2" type="stmt"/>
+        <line num="18" count="2" type="cond" truecount="2" falsecount="0"/>
         <line num="20" count="0" type="stmt"/>
         <line num="21" count="0" type="stmt"/>
         <line num="22" count="0" type="stmt"/>
