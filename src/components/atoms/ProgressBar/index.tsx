@@ -23,6 +23,7 @@ const ProgressBar = ({ value, ...args }: any) => {
         backgroundColor: "#DFE8F6",
         position: "absolute"
       }}
+      data-testid='progress-bar'
     ></LinearProgress>
   );
 };

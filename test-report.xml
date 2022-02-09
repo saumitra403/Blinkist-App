@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testExecutions version="1">
+  <file path="C:\React Practice\blinkist-app\src\components\atoms\Images\index.test.tsx">
+    <testCase name="renders learn react link" duration="29"/>
+  </file>
+</testExecutions>

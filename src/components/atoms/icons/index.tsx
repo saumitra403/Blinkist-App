@@ -6,7 +6,7 @@ type IconType = {
 
 const Icon = (props: IconType) => {
   return (
-    <div>
+    <div data-testid="box">
       <>{props.Icons}</>
     </div>
   );

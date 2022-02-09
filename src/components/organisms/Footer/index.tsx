@@ -91,7 +91,7 @@ const useStyle = makeStyles({
 const Footer = (props: FooterProps) => {
   const classes = useStyle();
   return (
-    <Box className={classes.footer}>
+    <Box className={classes.footer} data-testid="footer">
       <Typography variant="caption" className={classes.sitemap}>
         © Blinkist 2021 Sitemap | Imprint | Terms of Service | Privacy Policies
       </Typography>

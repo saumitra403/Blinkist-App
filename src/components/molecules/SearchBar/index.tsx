@@ -1,4 +1,3 @@
-import { Box } from "@mui/material";
 import { makeStyles } from "@mui/styles";
 import { TextField } from "@mui/material";
 import { Search } from "@mui/icons-material";

@@ -9,7 +9,7 @@ type imgProps = {
 
 const Img = (props: imgProps) => {
     const {className = '', ...rest} = props;
-    return <img src={props.src} height={props.height} width={props.width} alt="not found" className={className}></img>
+    return <img src={props.src} height={props.height} width={props.width} alt="not found" className={className} data-testid="img"></img>
 }
 
 export default Img;

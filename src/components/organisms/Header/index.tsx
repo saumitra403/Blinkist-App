@@ -9,7 +9,6 @@ import { ExpandMore } from "@mui/icons-material";
 import Typography from "../../atoms/Typography";
 import AvatarComponent from "../../atoms/Avatar";
 import { Link } from "react-router-dom";
-import { useAuth0 } from "@auth0/auth0-react";
 const useStyle = makeStyles({
   logo: {
     position: "absolute",
@@ -83,6 +82,7 @@ const Header = () => {
           top: "0%",
           boxShadow: "none",
         }}
+        data-testid="header"
       >
         <Link to="/">
           <Logo className={classes.logo}></Logo>

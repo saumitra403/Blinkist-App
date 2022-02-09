@@ -12,7 +12,7 @@ const useStyle = makeStyles({
 
 const Banner = () => {
     const classes = useStyle();
-    return (<img src="Assets/banner 1.png" className={classes.banner}></img>)
+    return (<img src="Assets/banner 1.png" className={classes.banner} data-testid="banner"></img>)
 }
 
 export default Banner;

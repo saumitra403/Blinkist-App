@@ -1,7 +1,6 @@
 import { makeStyles } from "@mui/styles";
 import { ThemeProvider } from "@emotion/react";
 import baseTheme from "../../../Theme/baseTheme";
-import Typography from "../../atoms/Typography";
 import AddIcon from "@mui/icons-material/Add";
 import Button from "@mui/material/Button";
 type ButtonProps = {
