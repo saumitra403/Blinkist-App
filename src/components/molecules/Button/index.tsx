@@ -31,7 +31,7 @@ const AddButton = (props: any) => {
         startIcon={<AddIcon></AddIcon>}
         className={classes.buttonStyle}
         sx={{ textTransform: "none" }}
-        
+        data-testid="box"
       >
        {props.content} 
       </Button>

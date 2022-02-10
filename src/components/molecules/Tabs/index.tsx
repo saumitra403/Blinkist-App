@@ -9,31 +9,41 @@ import { useState } from "react";
 const useStyle = makeStyles({
   tabs: {
     width: "fit-content",
-    height: "fit-content"
-  }
+    height: "fit-content",
+  },
 });
 
-const TabComponent = ({tabData,...props }: any) => {
+const TabComponent = ({ tabData, ...props }: any) => {
   const classes = useStyle();
   const [value, setValue] = useState(tabData && tabData[0].value);
 
-  const handleChange = (event: React.SyntheticEvent,value: any) => {
+  const handleChange = (event: React.SyntheticEvent, value: any) => {
     setValue(value);
     props.stateHandler(value);
-  }
+  };
   return (
-    <Box sx={{ borderBottom: 1, borderColor: "divider" }} className={classes.tabs}>
+    <Box
+      sx={{ borderBottom: 1, borderColor: "divider" }}
+      className={classes.tabs}
+    >
       <ThemeProvider theme={tabsTheme}>
         <Tabs
           indicatorColor="secondary"
           value={value}
           textColor="secondary"
-          sx={{borderBottom: "none"}}
+          sx={{ borderBottom: "none" }}
           onChange={handleChange}
           data-testid="tabs"
         >
           {tabData.map((curr: any) => {
-            return <Tab label={curr.label} value={curr.value} key={curr.value}></Tab>
+            return (
+              <Tab
+                label={curr.label}
+                value={curr.value}
+                key={curr.value}
+                data-testid={`tab-${curr.value}`}
+              ></Tab>
+            );
           })}
         </Tabs>
       </ThemeProvider>

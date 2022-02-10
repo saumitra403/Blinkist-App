@@ -66,7 +66,7 @@ const LandingPage = ({ books, setBooks }: any) => {
                 id={currData.id}
                 handleClick={handleClick}
                 key={currData.id}
-                data-testid="card"
+                data-testid="bookcard"
               ></Card>
             );
           })}

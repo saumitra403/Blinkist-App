@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1644476553403" clover="3.2.0">
-  <project timestamp="1644476553403" name="All files">
-    <metrics statements="130" coveredstatements="86" conditionals="25" coveredconditionals="12" methods="36" coveredmethods="20" elements="191" coveredelements="118" complexity="0" loc="130" ncloc="130" packages="19" files="21" classes="21"/>
+<coverage generated="1644479530967" clover="3.2.0">
+  <project timestamp="1644479530968" name="All files">
+    <metrics statements="132" coveredstatements="96" conditionals="25" coveredconditionals="18" methods="36" coveredmethods="25" elements="193" coveredelements="139" complexity="0" loc="132" ncloc="132" packages="21" files="23" classes="23"/>
     <package name="src">
       <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
       <file name="react-app-env.d.ts" path="C:\React Practice\blinkist-app\src\react-app-env.d.ts">
@@ -12,7 +12,7 @@
       <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
       <file name="baseTheme.ts" path="C:\React Practice\blinkist-app\src\Theme\baseTheme.ts">
         <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-        <line num="3" count="8" type="stmt"/>
+        <line num="3" count="9" type="stmt"/>
       </file>
       <file name="mainTheme.ts" path="C:\React Practice\blinkist-app\src\Theme\mainTheme.ts">
         <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
@@ -70,16 +70,23 @@
         <line num="60" count="11" type="stmt"/>
       </file>
     </package>
+    <package name="src.components.Pages.Enterpreneurship.__snapshots__">
+      <metrics statements="1" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      <file name="index.test.tsx.snap" path="C:\React Practice\blinkist-app\src\components\Pages\Enterpreneurship\__snapshots__\index.test.tsx.snap">
+        <metrics statements="1" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="0" type="stmt"/>
+      </file>
+    </package>
     <package name="src.components.Pages.MyLibrary">
-      <metrics statements="22" coveredstatements="6" conditionals="6" coveredconditionals="1" methods="7" coveredmethods="1"/>
+      <metrics statements="22" coveredstatements="13" conditionals="6" coveredconditionals="6" methods="7" coveredmethods="4"/>
       <file name="index.tsx" path="C:\React Practice\blinkist-app\src\components\Pages\MyLibrary\index.tsx">
-        <metrics statements="22" coveredstatements="6" conditionals="6" coveredconditionals="1" methods="7" coveredmethods="1"/>
+        <metrics statements="22" coveredstatements="13" conditionals="6" coveredconditionals="6" methods="7" coveredmethods="4"/>
         <line num="6" count="2" type="stmt"/>
-        <line num="7" count="2" type="stmt"/>
-        <line num="17" count="2" type="stmt"/>
-        <line num="19" count="2" type="stmt"/>
-        <line num="20" count="0" type="stmt"/>
-        <line num="23" count="2" type="stmt"/>
+        <line num="7" count="3" type="stmt"/>
+        <line num="17" count="3" type="stmt"/>
+        <line num="19" count="3" type="stmt"/>
+        <line num="20" count="1" type="stmt"/>
+        <line num="23" count="3" type="stmt"/>
         <line num="25" count="0" type="stmt"/>
         <line num="26" count="0" type="stmt"/>
         <line num="27" count="0" type="stmt"/>
@@ -89,13 +96,20 @@
         <line num="32" count="0" type="stmt"/>
         <line num="33" count="0" type="stmt"/>
         <line num="35" count="0" type="stmt"/>
-        <line num="43" count="2" type="stmt"/>
-        <line num="69" count="0" type="stmt"/>
-        <line num="70" count="0" type="cond" truecount="0" falsecount="2"/>
-        <line num="71" count="0" type="stmt"/>
-        <line num="85" count="0" type="stmt"/>
-        <line num="86" count="0" type="cond" truecount="0" falsecount="2"/>
-        <line num="87" count="0" type="stmt"/>
+        <line num="43" count="3" type="stmt"/>
+        <line num="69" count="22" type="stmt"/>
+        <line num="70" count="22" type="cond" truecount="2" falsecount="0"/>
+        <line num="71" count="16" type="stmt"/>
+        <line num="85" count="11" type="stmt"/>
+        <line num="86" count="11" type="cond" truecount="2" falsecount="0"/>
+        <line num="87" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.components.Pages.MyLibrary.__snapshots__">
+      <metrics statements="1" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      <file name="index.test.tsx.snap" path="C:\React Practice\blinkist-app\src\components\Pages\MyLibrary\__snapshots__\index.test.tsx.snap">
+        <metrics statements="1" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="0" type="stmt"/>
       </file>
     </package>
     <package name="src.components.Templates">
@@ -128,7 +142,7 @@
       <file name="index.tsx" path="C:\React Practice\blinkist-app\src\components\atoms\Icons\index.tsx">
         <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
         <line num="7" count="6" type="stmt"/>
-        <line num="8" count="34" type="stmt"/>
+        <line num="8" count="84" type="stmt"/>
       </file>
     </package>
     <package name="src.components.atoms.Images">
@@ -136,8 +150,8 @@
       <file name="index.tsx" path="C:\React Practice\blinkist-app\src\components\atoms\Images\index.tsx">
         <metrics statements="3" coveredstatements="3" conditionals="1" coveredconditionals="1" methods="1" coveredmethods="1"/>
         <line num="10" count="7" type="stmt"/>
-        <line num="11" count="14" type="cond" truecount="1" falsecount="0"/>
-        <line num="12" count="14" type="stmt"/>
+        <line num="11" count="31" type="cond" truecount="1" falsecount="0"/>
+        <line num="12" count="31" type="stmt"/>
       </file>
     </package>
     <package name="src.components.atoms.Logo">
@@ -154,8 +168,8 @@
         <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
         <line num="4" count="5" type="stmt"/>
         <line num="12" count="5" type="stmt"/>
-        <line num="13" count="11" type="stmt"/>
-        <line num="14" count="11" type="stmt"/>
+        <line num="13" count="27" type="stmt"/>
+        <line num="14" count="27" type="stmt"/>
       </file>
     </package>
     <package name="src.components.atoms.Typography">
@@ -163,7 +177,7 @@
       <file name="index.tsx" path="C:\React Practice\blinkist-app\src\components\atoms\Typography\index.tsx">
         <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
         <line num="5" count="8" type="stmt"/>
-        <line num="6" count="70" type="stmt"/>
+        <line num="6" count="141" type="stmt"/>
       </file>
     </package>
     <package name="src.components.molecules.Banner">
@@ -180,10 +194,10 @@
       <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
       <file name="index.tsx" path="C:\React Practice\blinkist-app\src\components\molecules\Button\index.tsx">
         <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
-        <line num="11" count="4" type="stmt"/>
-        <line num="24" count="4" type="stmt"/>
-        <line num="25" count="3" type="stmt"/>
-        <line num="27" count="3" type="stmt"/>
+        <line num="11" count="5" type="stmt"/>
+        <line num="24" count="5" type="stmt"/>
+        <line num="25" count="5" type="stmt"/>
+        <line num="27" count="5" type="stmt"/>
       </file>
     </package>
     <package name="src.components.molecules.SearchBar">
@@ -197,18 +211,18 @@
       </file>
     </package>
     <package name="src.components.molecules.Tabs">
-      <metrics statements="9" coveredstatements="6" conditionals="2" coveredconditionals="1" methods="3" coveredmethods="1"/>
+      <metrics statements="9" coveredstatements="9" conditionals="2" coveredconditionals="2" methods="3" coveredmethods="3"/>
       <file name="index.tsx" path="C:\React Practice\blinkist-app\src\components\molecules\Tabs\index.tsx">
-        <metrics statements="9" coveredstatements="6" conditionals="2" coveredconditionals="1" methods="3" coveredmethods="1"/>
+        <metrics statements="9" coveredstatements="9" conditionals="2" coveredconditionals="2" methods="3" coveredmethods="3"/>
         <line num="9" count="4" type="stmt"/>
         <line num="16" count="4" type="stmt"/>
-        <line num="17" count="2" type="stmt"/>
-        <line num="18" count="2" type="cond" truecount="1" falsecount="1"/>
-        <line num="20" count="2" type="stmt"/>
-        <line num="21" count="0" type="stmt"/>
-        <line num="22" count="0" type="stmt"/>
-        <line num="24" count="2" type="stmt"/>
-        <line num="36" count="0" type="stmt"/>
+        <line num="17" count="6" type="stmt"/>
+        <line num="18" count="6" type="cond" truecount="2" falsecount="0"/>
+        <line num="20" count="6" type="stmt"/>
+        <line num="21" count="2" type="stmt"/>
+        <line num="22" count="2" type="stmt"/>
+        <line num="24" count="6" type="stmt"/>
+        <line num="39" count="12" type="stmt"/>
       </file>
     </package>
     <package name="src.components.organisms.Card">
@@ -217,19 +231,19 @@
         <metrics statements="15" coveredstatements="11" conditionals="6" coveredconditionals="5" methods="3" coveredmethods="1"/>
         <line num="12" count="4" type="stmt"/>
         <line num="211" count="4" type="stmt"/>
-        <line num="212" count="12" type="stmt"/>
-        <line num="213" count="12" type="stmt"/>
-        <line num="215" count="12" type="cond" truecount="2" falsecount="0"/>
+        <line num="212" count="29" type="stmt"/>
+        <line num="213" count="29" type="stmt"/>
+        <line num="215" count="29" type="cond" truecount="2" falsecount="0"/>
         <line num="216" count="2" type="stmt"/>
         <line num="220" count="0" type="stmt"/>
         <line num="221" count="0" type="stmt"/>
-        <line num="227" count="10" type="cond" truecount="2" falsecount="0"/>
-        <line num="228" count="9" type="stmt"/>
-        <line num="244" count="1" type="cond" truecount="1" falsecount="1"/>
-        <line num="245" count="1" type="stmt"/>
+        <line num="227" count="27" type="cond" truecount="2" falsecount="0"/>
+        <line num="228" count="25" type="stmt"/>
+        <line num="244" count="2" type="cond" truecount="1" falsecount="1"/>
+        <line num="245" count="2" type="stmt"/>
         <line num="249" count="0" type="stmt"/>
         <line num="250" count="0" type="stmt"/>
-        <line num="257" count="12" type="stmt"/>
+        <line num="257" count="29" type="stmt"/>
       </file>
     </package>
     <package name="src.components.organisms.Footer">
