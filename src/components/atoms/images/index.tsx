@@ -8,7 +8,7 @@ type imgProps = {
 }
 
 const Img = (props: imgProps) => {
-    const {className = '', ...rest} = props;
+    const {className = ''} = props;
     return <img src={props.src} height={props.height} width={props.width} alt="not found" className={className} data-testid="img"></img>
 }
 

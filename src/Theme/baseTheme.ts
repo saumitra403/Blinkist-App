@@ -1,6 +1,6 @@
 import { createTheme } from "@mui/material/styles";
 
-const buttonTheme = createTheme({
+const baseTheme = createTheme({
   palette: {
     success: {
       main: "#11cb5f",
@@ -59,4 +59,4 @@ const buttonTheme = createTheme({
   },
 });
 
-export default buttonTheme;
+export default baseTheme;

@@ -1,6 +1,6 @@
 import { createTheme } from '@mui/material/styles';
 
-const tabsTheme = createTheme({
+const tabTheme = createTheme({
     palette: {
       secondary: { 
         main: '#2CE080'
@@ -8,4 +8,4 @@ const tabsTheme = createTheme({
     }
 });
 
-export default tabsTheme;
+export default tabTheme;

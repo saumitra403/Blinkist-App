@@ -28,7 +28,6 @@ const LandingPage = ({ books, setBooks }: any) => {
     });
   };
 
-  const classes = useStyle();
   return (
     <Box
       sx={{

@@ -17,9 +17,9 @@ const TabComponent = ({ tabData, ...props }: any) => {
   const classes = useStyle();
   const [value, setValue] = useState(tabData && tabData[0].value);
 
-  const handleChange = (event: React.SyntheticEvent, value: any) => {
-    setValue(value);
-    props.stateHandler(value);
+  const handleChange = (event: React.SyntheticEvent, val: any) => {
+    setValue(val);
+    props.stateHandler(val);
   };
   return (
     <Box

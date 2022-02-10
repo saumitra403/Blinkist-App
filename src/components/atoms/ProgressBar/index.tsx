@@ -10,7 +10,6 @@ const useStyle = makeStyles({
 });
 
 const ProgressBar = ({ value, ...args }: any) => {
-  const classes = useStyle();
   return (
     <LinearProgress
       value={value}

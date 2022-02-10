@@ -27,13 +27,13 @@ const BookInfo = ({ books, setBooks, id }: any) => {
   const handleClick = (val: any) => {
     setValue(0);
   };
-  let { bookId } = useParams();
+  let { bookId = 0 } = useParams();
   if (id) {
     bookId = id;
   }
   //console.log(books,bookId,books[bookId!]);
-  let currData = books[bookId!];
-  const handleClickFinished = async (id: any) => {
+  let currData = books[bookId];
+  const handleClickFinished = async () => {
     //put request
     let index = bookId;
     currData.status = "Finished";
