@@ -10,3 +10,9 @@ test("renders learn react link", () => {
   const linkElement = screen.getByTestId("box");
   expect(linkElement).toBeInTheDocument();
 })
+
+test("should render input", async () => {
+  const tree = render(<Logo></Logo>);
+  await new Promise((r) => setTimeout(r, 2000));
+  expect(tree).toMatchSnapshot();
+});

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1644487476523" clover="3.2.0">
-  <project timestamp="1644487476523" name="All files">
+<coverage generated="1644488052551" clover="3.2.0">
+  <project timestamp="1644488052552" name="All files">
     <metrics statements="132" coveredstatements="108" conditionals="25" coveredconditionals="22" methods="36" coveredmethods="28" elements="193" coveredelements="158" complexity="0" loc="132" ncloc="132" packages="21" files="23" classes="23"/>
     <package name="src">
       <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
@@ -159,7 +159,7 @@
       <file name="index.tsx" path="C:\React Practice\blinkist-app\src\components\atoms\Logo\index.tsx">
         <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
         <line num="5" count="4" type="stmt"/>
-        <line num="6" count="3" type="stmt"/>
+        <line num="6" count="4" type="stmt"/>
       </file>
     </package>
     <package name="src.components.atoms.ProgressBar">
