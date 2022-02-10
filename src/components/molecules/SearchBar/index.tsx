@@ -24,6 +24,7 @@ const SearchBar = () => {
         ),
       }}
       sx={{width: "658px",height: "46px", marginBottom: "135px"}}
+      data-testid="box"
     ></TextField>
   );
 };

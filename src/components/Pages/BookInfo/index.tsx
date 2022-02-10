@@ -31,6 +31,7 @@ const BookInfo = ({ books, setBooks, id }: any) => {
   if (id) {
     bookId = id;
   }
+  //console.log(books,bookId,books[bookId!]);
   let currData = books[bookId!];
   const handleClickFinished = async (id: any) => {
     //put request
