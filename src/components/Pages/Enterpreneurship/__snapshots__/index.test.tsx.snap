@@ -438,7 +438,7 @@ Object {
               </div>
               <div
                 class="makeStyles-button-21 MuiBox-root css-0"
-                data-testid="clickbtn"
+                data-testid="card-library-handler"
               >
                 <button
                   class="MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium MuiButtonBase-root makeStyles-buttonStyle-23 css-aysoqb-MuiButtonBase-root-MuiButton-root"
@@ -705,7 +705,7 @@ Object {
               </div>
               <div
                 class="makeStyles-button-21 MuiBox-root css-0"
-                data-testid="clickbtn"
+                data-testid="card-library-handler"
               >
                 <button
                   class="MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium MuiButtonBase-root makeStyles-buttonStyle-23 css-aysoqb-MuiButtonBase-root-MuiButton-root"
@@ -1504,7 +1504,7 @@ Object {
               </div>
               <div
                 class="makeStyles-button-21 MuiBox-root css-0"
-                data-testid="clickbtn"
+                data-testid="card-library-handler"
               >
                 <button
                   class="MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium MuiButtonBase-root makeStyles-buttonStyle-23 css-aysoqb-MuiButtonBase-root-MuiButton-root"
@@ -1973,7 +1973,7 @@ Object {
             </div>
             <div
               class="makeStyles-button-21 MuiBox-root css-0"
-              data-testid="clickbtn"
+              data-testid="card-library-handler"
             >
               <button
                 class="MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium MuiButtonBase-root makeStyles-buttonStyle-23 css-aysoqb-MuiButtonBase-root-MuiButton-root"
@@ -2240,7 +2240,7 @@ Object {
             </div>
             <div
               class="makeStyles-button-21 MuiBox-root css-0"
-              data-testid="clickbtn"
+              data-testid="card-library-handler"
             >
               <button
                 class="MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium MuiButtonBase-root makeStyles-buttonStyle-23 css-aysoqb-MuiButtonBase-root-MuiButton-root"
@@ -3039,7 +3039,7 @@ Object {
             </div>
             <div
               class="makeStyles-button-21 MuiBox-root css-0"
-              data-testid="clickbtn"
+              data-testid="card-library-handler"
             >
               <button
                 class="MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium MuiButtonBase-root makeStyles-buttonStyle-23 css-aysoqb-MuiButtonBase-root-MuiButton-root"

@@ -1,30 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testExecutions version="1">
   <file path="C:\React Practice\blinkist-app\src\components\Pages\BookInfo\index.test.tsx">
-    <testCase name="Home should render input" duration="2379"/>
-    <testCase name="Home should render selected tab 0" duration="2135"/>
-    <testCase name="Home should render tab 1" duration="2110"/>
-    <testCase name="Home should render tab 2" duration="2105"/>
-    <testCase name="Home Finished Reading Button Should not Be Displayed" duration="2074"/>
-    <testCase name="Home Finished Reading Button Should not Be Displayed" duration="2069"/>
-    <testCase name="Home Button is Clickable and state must be changed" duration="2089">
+    <testCase name="Home should render input" duration="2365"/>
+    <testCase name="Home should render selected tab 0" duration="2145"/>
+    <testCase name="Home should render tab 1" duration="2128"/>
+    <testCase name="Home should render tab 2" duration="2141"/>
+    <testCase name="Home Finished Reading Button Should not Be Displayed" duration="2131"/>
+    <testCase name="Home Finished Reading Button Should not Be Displayed" duration="2122"/>
+    <testCase name="Home Button is Clickable and state must be changed" duration="2112">
       <failure message="Error: expect(element).not.toBeInTheDocument()"><![CDATA[Error: expect(element).not.toBeInTheDocument()
 
 expected document not to contain element, found <button class="MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium MuiButtonBase-root  css-5te66f-MuiButtonBase-root-MuiButton-root" tabindex="0" type="button">Finished Reading<span class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root" /></button> instead
     at Object.<anonymous> (C:\React Practice\blinkist-app\src\components\Pages\BookInfo\index.test.tsx:74:31)]]></failure>
     </testCase>
   </file>
-  <file path="C:\React Practice\blinkist-app\src\components\organisms\Card\index.test.tsx">
-    <testCase name="renders learn react link" duration="98"/>
-    <testCase name="Render Add To Library on null status" duration="66"/>
-    <testCase name="Render Progress Bar on Reading Status" duration="31"/>
-  </file>
   <file path="C:\React Practice\blinkist-app\src\components\organisms\Header\index.test.tsx">
-    <testCase name="renders learn react link" duration="97"/>
+    <testCase name="renders learn react link" duration="113"/>
+  </file>
+  <file path="C:\React Practice\blinkist-app\src\components\organisms\Card\index.test.tsx">
+    <testCase name="renders learn react link" duration="126"/>
+    <testCase name="Render Add To Library on null status" duration="76"/>
+    <testCase name="Render Progress Bar on Reading Status" duration="40"/>
   </file>
   <file path="C:\React Practice\blinkist-app\src\components\Pages\MyLibrary\index.test.tsx">
-    <testCase name="Home should render same no of finished books" duration="549"/>
-    <testCase name="Home should render same no of currently books" duration="1308">
+    <testCase name="Home should render same no of finished books" duration="587"/>
+    <testCase name="Home should render same no of currently books" duration="1333">
       <failure message="Error: Unable to find role=&quot;progressbar&quot;"><![CDATA[Error: Unable to find role="progressbar"
 
 Ignored nodes: comments, <script />, <style />
@@ -191,15 +191,12 @@ Ignored nodes: comments, <script />, <style />
     at Object.worker (C:\React Practice\blinkist-app\node_modules\jest-runner\build\testWorker.js:133:12)]]></failure>
     </testCase>
   </file>
-  <file path="C:\React Practice\blinkist-app\src\components\Pages\Enterpreneurship\index.test.tsx">
-    <testCase name="Home should render input" duration="2700"/>
-  </file>
   <file path="C:\React Practice\blinkist-app\src\components\atoms\ProgressBar\index.test.tsx">
-    <testCase name="renders learn react link" duration="98"/>
-    <testCase name="should render progress bar with given value" duration="16"/>
+    <testCase name="renders learn react link" duration="119"/>
+    <testCase name="should render progress bar with given value" duration="30"/>
   </file>
   <file path="C:\React Practice\blinkist-app\src\components\Templates\index.test.tsx">
-    <testCase name="renders learn react link" duration="2073">
+    <testCase name="renders learn react link" duration="2145">
       <failure message="Error: You cannot render a &lt;Router&gt; inside another &lt;Router&gt;. You should never have more than one in your app."><![CDATA[Error: You cannot render a <Router> inside another <Router>. You should never have more than one in your app.
     at invariant (C:\React Practice\packages\react-router\index.tsx:19:20)
     at Router (C:\React Practice\packages\react-router\index.tsx:263:3)
@@ -240,38 +237,42 @@ Ignored nodes: comments, <script />, <style />
     at getByTestId (C:\React Practice\blinkist-app\node_modules\@testing-library\dom\dist\query-helpers.js:111:19)
     at Object.<anonymous> (C:\React Practice\blinkist-app\src\components\Templates\index.test.tsx:11:30)]]></failure>
     </testCase>
-    <testCase name="renders learn react link" duration="11"/>
-  </file>
-  <file path="C:\React Practice\blinkist-app\src\components\organisms\Footer\index.test.tsx">
-    <testCase name="renders learn react link" duration="39"/>
+    <testCase name="renders learn react link" duration="13"/>
   </file>
   <file path="C:\React Practice\blinkist-app\src\components\atoms\Logo\index.test.tsx">
-    <testCase name="renders learn react link" duration="10"/>
-    <testCase name="should render input" duration="2024"/>
+    <testCase name="renders learn react link" duration="15"/>
+    <testCase name="should render input" duration="2017"/>
+  </file>
+  <file path="C:\React Practice\blinkist-app\src\components\organisms\Footer\index.test.tsx">
+    <testCase name="renders learn react link" duration="69"/>
+  </file>
+  <file path="C:\React Practice\blinkist-app\src\components\Pages\Enterpreneurship\index.test.tsx">
+    <testCase name="Home should render input" duration="2677"/>
+    <testCase name="Home test Cards" duration="2352"/>
   </file>
   <file path="C:\React Practice\blinkist-app\src\components\atoms\Typography\index.test.tsx">
-    <testCase name="renders learn react link" duration="10"/>
-  </file>
-  <file path="C:\React Practice\blinkist-app\src\components\molecules\Button\index.test.tsx">
-    <testCase name="renders learn react link" duration="117"/>
-  </file>
-  <file path="C:\React Practice\blinkist-app\src\components\atoms\Avatar\index.test.tsx">
-    <testCase name="renders learn react link" duration="23"/>
-  </file>
-  <file path="C:\React Practice\blinkist-app\src\components\molecules\Tabs\index.test.tsx">
-    <testCase name="should render 2 tabw for 2 length data" duration="88"/>
-    <testCase name="should have green indicator color for currently reading tab by default" duration="67"/>
-  </file>
-  <file path="C:\React Practice\blinkist-app\src\components\molecules\Banner\index.test.tsx">
-    <testCase name="renders learn react link" duration="14"/>
+    <testCase name="renders learn react link" duration="26"/>
   </file>
   <file path="C:\React Practice\blinkist-app\src\components\atoms\Images\index.test.tsx">
-    <testCase name="renders learn react link" duration="6"/>
+    <testCase name="renders learn react link" duration="18"/>
+  </file>
+  <file path="C:\React Practice\blinkist-app\src\components\molecules\Button\index.test.tsx">
+    <testCase name="renders learn react link" duration="46"/>
+  </file>
+  <file path="C:\React Practice\blinkist-app\src\components\molecules\Tabs\index.test.tsx">
+    <testCase name="should render 2 tabw for 2 length data" duration="89"/>
+    <testCase name="should have green indicator color for currently reading tab by default" duration="59"/>
+  </file>
+  <file path="C:\React Practice\blinkist-app\src\components\atoms\Avatar\index.test.tsx">
+    <testCase name="renders learn react link" duration="11"/>
+  </file>
+  <file path="C:\React Practice\blinkist-app\src\components\molecules\Banner\index.test.tsx">
+    <testCase name="renders learn react link" duration="10"/>
   </file>
   <file path="C:\React Practice\blinkist-app\src\components\atoms\Icons\index.test.tsx">
-    <testCase name="renders learn react link" duration="7"/>
+    <testCase name="renders learn react link" duration="13"/>
   </file>
   <file path="C:\React Practice\blinkist-app\src\components\molecules\SearchBar\index.test.tsx">
-    <testCase name="renders learn react link" duration="42"/>
+    <testCase name="renders learn react link" duration="61"/>
   </file>
 </testExecutions>
