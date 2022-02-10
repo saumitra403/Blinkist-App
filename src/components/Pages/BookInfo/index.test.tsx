@@ -71,7 +71,7 @@ describe("Home", () => {
     await new Promise((r) => setTimeout(r, 2000));
     const buttonElement = screen.getByText("Finished Reading");
     fireEvent.click(buttonElement);
-    expect(buttonElement).toHaveStyle('display: none');
+    expect(buttonElement).not.toBeInTheDocument();
   })
 
 });

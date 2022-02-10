@@ -120,7 +120,7 @@ const BookInfo = ({ books, setBooks, id }: any) => {
           >
             Read Now
           </Button>
-          {currData.status === "Reading" ? (
+          {currData.status === "Reading" && (
             <Button
               variant="contained"
               sx={{
@@ -133,8 +133,6 @@ const BookInfo = ({ books, setBooks, id }: any) => {
             >
               Finished Reading
             </Button>
-          ) : (
-            <Box sx={{ display: "none" }}></Box>
           )}
           <Button
             variant="text"
