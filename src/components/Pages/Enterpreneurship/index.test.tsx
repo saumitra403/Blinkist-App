@@ -22,4 +22,10 @@ describe("Home", () => {
     await new Promise((r) => setTimeout(r, 2000));
     expect(tree).toMatchSnapshot();
   });
+  // test("test Cards", async () => {
+  //   const tree = render(router(books, setBooks));
+  //   await new Promise((r) => setTimeout(r, 2000));
+  //   const cards = await tree.findAllByTestId(/bookcard-/);
+  //   expect(cards).toBeInTheDocument();
+  // })
 });

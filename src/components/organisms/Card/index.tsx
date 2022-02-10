@@ -249,6 +249,7 @@ const Card = (props: any) => {
           console.log(e);
           handleClick(id);
         }}
+        data-testid = "clickbtn"
       >
         <AddButton content="Read Again"></AddButton>
       </Box>

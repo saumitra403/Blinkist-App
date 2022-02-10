@@ -30,7 +30,7 @@
     "eject": "react-scripts eject",
     "storybook": "start-storybook -p 6006 -s public",
     "build-storybook": "build-storybook -s public",
-    "coverage": "npm test -- --coverage --watchAll --collectCoverageFrom=!src/**/*.stories.tsx --collectCoverageFrom=!src/index.tsx  --collectCoverageFrom=!src/App.tsx --collectCoverageFrom=!src/reportWebVitals.ts --testResultsProcessor=jest-sonar-reporter"
+    "coverage": "npm test -- --coverage --watchAll --collectCoverageFrom=!src/**/*.stories.tsx --collectCoverageFrom=!src/index.tsx --collectCoverageFrom=!src/components/atoms/Logo/index.tsx --collectCoverageFrom=!src/App.tsx --collectCoverageFrom=!src/reportWebVitals.ts --testResultsProcessor=jest-sonar-reporter"
   },
   "eslintConfig": {
     "extends": [
