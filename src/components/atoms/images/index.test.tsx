@@ -4,7 +4,7 @@ import { BrowserRouter} from "react-router-dom";
 test("renders learn react link", () => {
   render(
     <BrowserRouter>
-      <Img src="/Assets/1.jpg"></Img>
+      <Img src="/Assets/1.jpg" height="10px" width="20px" ></Img>
     </BrowserRouter>
   );
   const linkElement = screen.getByTestId("img");

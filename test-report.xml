@@ -1,54 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testExecutions version="1">
-  <file path="C:\React Practice\blinkist-app\src\components\atoms\Icons\index.test.tsx">
-    <testCase name="renders learn react link" duration="89"/>
-  </file>
-  <file path="C:\React Practice\blinkist-app\src\components\organisms\Card\index.test.tsx">
-    <testCase name="renders learn react link" duration="229"/>
-    <testCase name="Render Add To Library on null status" duration="208"/>
-    <testCase name="Render Progress Bar on Reading Status" duration="67"/>
+  <file path="C:\React Practice\blinkist-app\src\components\Pages\BookInfo\index.test.tsx">
+    <testCase name="Home should render input" duration="2327"/>
+    <testCase name="Home should render selected tab 0" duration="2115"/>
+    <testCase name="Home should render tab 1" duration="2128"/>
+    <testCase name="Home should render tab 2" duration="2141"/>
+    <testCase name="Home Finished Reading Button Should not Be Displayed" duration="2092"/>
+    <testCase name="Home Finished Reading Button Should not Be Displayed" duration="2084"/>
+    <testCase name="Home Button is Clickable and state must be changed" duration="2077">
+      <failure message="Error: expect(element).not.toBeInTheDocument()"><![CDATA[Error: expect(element).not.toBeInTheDocument()
+
+expected document not to contain element, found <button class="MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium MuiButtonBase-root  css-5te66f-MuiButtonBase-root-MuiButton-root" tabindex="0" type="button">Finished Reading<span class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root" /></button> instead
+    at Object.<anonymous> (C:\React Practice\blinkist-app\src\components\Pages\BookInfo\index.test.tsx:74:31)]]></failure>
+    </testCase>
   </file>
   <file path="C:\React Practice\blinkist-app\src\components\molecules\SearchBar\index.test.tsx">
-    <testCase name="renders learn react link" duration="260"/>
-  </file>
-  <file path="C:\React Practice\blinkist-app\src\components\molecules\Tabs\index.test.tsx">
-    <testCase name="should render 2 tabw for 2 length data" duration="93"/>
-    <testCase name="should have green indicator color for currently reading tab by default" duration="85"/>
-  </file>
-  <file path="C:\React Practice\blinkist-app\src\components\atoms\Typography\index.test.tsx">
-    <testCase name="renders learn react link" duration="14"/>
-  </file>
-  <file path="C:\React Practice\blinkist-app\src\components\atoms\ProgressBar\index.test.tsx">
-    <testCase name="renders learn react link" duration="204"/>
-    <testCase name="should render progress bar with given value" duration="39"/>
-  </file>
-  <file path="C:\React Practice\blinkist-app\src\components\organisms\Footer\index.test.tsx">
-    <testCase name="renders learn react link" duration="149"/>
-  </file>
-  <file path="C:\React Practice\blinkist-app\src\components\atoms\Logo\index.test.tsx">
-    <testCase name="renders learn react link" duration="11"/>
-  </file>
-  <file path="C:\React Practice\blinkist-app\src\components\Pages\Enterpreneurship\index.test.tsx">
-    <testCase name="Home should render input" duration="2846"/>
-  </file>
-  <file path="C:\React Practice\blinkist-app\src\components\atoms\Avatar\index.test.tsx">
-    <testCase name="renders learn react link" duration="31"/>
-  </file>
-  <file path="C:\React Practice\blinkist-app\src\components\molecules\Button\index.test.tsx">
-    <testCase name="renders learn react link" duration="136"/>
-  </file>
-  <file path="C:\React Practice\blinkist-app\src\components\molecules\Banner\index.test.tsx">
-    <testCase name="renders learn react link" duration="15"/>
-  </file>
-  <file path="C:\React Practice\blinkist-app\src\components\atoms\Images\index.test.tsx">
-    <testCase name="renders learn react link" duration="26"/>
+    <testCase name="renders learn react link" duration="144"/>
   </file>
   <file path="C:\React Practice\blinkist-app\src\components\organisms\Header\index.test.tsx">
-    <testCase name="renders learn react link" duration="128"/>
+    <testCase name="renders learn react link" duration="100"/>
+  </file>
+  <file path="C:\React Practice\blinkist-app\src\components\organisms\Card\index.test.tsx">
+    <testCase name="renders learn react link" duration="154"/>
+    <testCase name="Render Add To Library on null status" duration="67"/>
+    <testCase name="Render Progress Bar on Reading Status" duration="31"/>
+  </file>
+  <file path="C:\React Practice\blinkist-app\src\components\molecules\Tabs\index.test.tsx">
+    <testCase name="should render 2 tabw for 2 length data" duration="79"/>
+    <testCase name="should have green indicator color for currently reading tab by default" duration="35"/>
   </file>
   <file path="C:\React Practice\blinkist-app\src\components\Pages\MyLibrary\index.test.tsx">
-    <testCase name="Home should render same no of finished books" duration="569"/>
-    <testCase name="Home should render same no of currently books" duration="1312">
+    <testCase name="Home should render same no of finished books" duration="455"/>
+    <testCase name="Home should render same no of currently books" duration="1267">
       <failure message="Error: Unable to find role=&quot;progressbar&quot;"><![CDATA[Error: Unable to find role="progressbar"
 
 Ignored nodes: comments, <script />, <style />
@@ -196,189 +179,7 @@ Ignored nodes: comments, <script />, <style />
               >
                 <div
                   class="makeStyles-uservector-32 MuiBox-root css-0"
-                >
-                  <div
-                    data-testid="box"
-                  >
-                    <svg
-                      aria-hidden="true"
-                      class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium makeStyles-usericon-29 css-i4bv87-MuiSvgIcon-root"
-                      data-testid="PersonOutlineIcon"
-                      focusable="false"
-                      viewBox="0 0 24 24"
-                    >
-                      <path
-                        d="M12 5.9c1.16 0 2.1.94 2.1 2.1s-.94 2.1-2.1 2.1S9.9 9.16 9.9 8s.94-2.1 2.1-2.1m0 9c2.97 0 6.1 1.46 6.1 2.1v1.1H5.9V17c0-.64 3.13-2.1 6.1-2.1M12 4C9.79 4 8 5.79 8 8s1.79 4 4 4 4-1.79 4-4-1.79-4-4-4zm0 9c-2.67 0-8 1.34-8 4v3h16v-3c0-2.66-5.33-4-8-4z"
-                      />
-                    </svg>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div
-              class="makeStyles-button-38 MuiBox-root css-0"
-            >
-              <button
-                class="MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium MuiButtonBase-root makeStyles-buttonStyle-40 css-aysoqb-MuiButtonBase-root-MuiButton-root"
-                data-testid="box"
-                tabindex="0"
-                type="button"
-              >
-                <span
-                  class="MuiButton-startIcon MuiButton-iconSizeMedium css-1d6wzja-MuiButton-startIcon"
-                >
-                  <svg
-                    aria-hidden="true"
-                    class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-i4bv87-MuiSvgIcon-root"
-                    data-testid="AddIcon"
-                    focusable="false"
-                    viewBox="0 0 24 24"
-                  >
-                    <path
-                      d="M19 13h-6v6h-2v-6H5v-2h6V5h2v6h6v2z"
-                    />
-                  </svg>
-                </span>
-                Read Again
-                <span
-                  class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
-                />
-              </button>
-            </div>
-          </div>
-          <div
-            class="makeStyles-Rectangle3-20 MuiBox-root css-0"
-          >
-            <div
-              class="MuiBox-root css-0"
-            >
-              <a
-                href="/book-info/4"
-              >
-                <img
-                  alt="not found"
-                  class=""
-                  data-testid="img"
-                  height="282px"
-                  src="/Assets/5.png"
-                  width="287px"
-                />
-              </a>
-            </div>
-            <p
-              class="MuiTypography-root MuiTypography-body1 makeStyles-HumanToWork-21 css-imro8o-MuiTypography-root"
-              data-testid="typo"
-            >
-              Lives of the Stoics
-            </p>
-            <p
-              class="MuiTypography-root MuiTypography-body1 makeStyles-Author-22 css-imro8o-MuiTypography-root"
-              data-testid="typo"
-            >
-              Ryan Holiday, Stephen Hansel
-            </p>
-            <div
-              class="makeStyles-Group6-24 MuiBox-root css-0"
-            >
-              <div
-                class="makeStyles-imageContainer-27 MuiBox-root css-0"
-              >
-                <div
-                  class="makeStyles-TimeIconContainer-25 MuiBox-root css-0"
-                >
-                  <div
-                    data-testid="box"
-                  >
-                    <svg
-                      aria-hidden="true"
-                      class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium makeStyles-TimeIcon-23 css-i4bv87-MuiSvgIcon-root"
-                      data-testid="AccessTimeOutlinedIcon"
-                      focusable="false"
-                      viewBox="0 0 24 24"
-                    >
-                      <path
-                        d="M11.99 2C6.47 2 2 6.48 2 12s4.47 10 9.99 10C17.52 22 22 17.52 22 12S17.52 2 11.99 2zM12 20c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8zm.5-13H11v6l5.25 3.15.75-1.23-4.5-2.67z"
-                      />
-                    </svg>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <span
-              class="MuiTypography-root MuiTypography-caption makeStyles-MinuteRead-26 css-8tvgdj-MuiTypography-root"
-              data-testid="typo"
-            >
-              13-minute read
-            </span>
-            <div
-              class="makeStyles-frame7-30 MuiBox-root css-0"
-            >
-              <span
-                class="MuiTypography-root MuiTypography-caption makeStyles-reads-31 css-8tvgdj-MuiTypography-root"
-                data-testid="typo"
-              >
-                1.9k reads
-              </span>
-              <div
-                class="makeStyles-UserContainer-28 MuiBox-root css-0"
-              >
-                <div
-                  class="makeStyles-uservector-32 MuiBox-root css-0"
-                >
-                  <div
-                    data-testid="box"
-                  >
-                    <svg
-                      aria-hidden="true"
-                      class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium makeStyles-usericon-29 css-i4bv87-MuiSvgIcon-root"
-                      data-testid="PersonOutlineIcon"
-                      focusable="false"
-                      viewBox="0 0 24 24"
-                    >
-                      <path
-                        d="M12 5.9c1.16 0 2.1.94 2.1 2.1s-.94 2.1-2.1 2.1S9.9 9.16 9.9 8s.94-2.1 2.1-2.1m0 9c2.97 0 6.1 1.46 6.1 2.1v1.1H5.9V17c0-.64 3.13-2.1 6.1-2.1M12 4C9.79 4 8 5.79 8 8s1.79 4 4 4 4-1.79 4-4-1.79-4-4-4zm0 9c-2.67 0-8 1.34-8 4v3h16v-3c0-2.66-5.33-4-8-4z"
-                      />
-                    </svg>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div
-              class="makeStyles-button-38 MuiBox-root css-0"
-            >
-              <button
-                class="MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium MuiButtonBase-root makeStyles-buttonStyle-40 css-aysoqb-MuiButtonBase-root-MuiButton-root"
-                data-testid="box"
-                tabindex="0"
-                type="button"
-              >
-                <span
-                  class="MuiButton-startIcon MuiButton-iconSizeMedium css-1d6wzja-MuiButton-startIcon"
-                >
-                  <svg
-                    aria-hidden="true"
-                    class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-i4bv87-MuiSvgIcon-root"
-                    data-testid="AddIcon"
-                    focusable="false"
-                    viewBox="0 0 24 24"
-                  >
-                    <path
-                      d="M19 13h-6v6h-2v-6H5v-2h6V5h2v6h6v2z"
-                    />
-                  </svg>
-                </span>
-                Read Again
-                <span
-                  class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
-                />
-              </button>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</body>
+...
     at waitForWrapper (C:\React Practice\blinkist-app\node_modules\@testing-library\dom\dist\wait-for.js:187:27)
     at findAllByRole (C:\React Practice\blinkist-app\node_modules\@testing-library\dom\dist\query-helpers.js:101:33)
     at Object.<anonymous> (C:\React Practice\blinkist-app\src\components\Pages\MyLibrary\index.test.tsx:42:45)
@@ -397,48 +198,225 @@ Ignored nodes: comments, <script />, <style />
     at Object.worker (C:\React Practice\blinkist-app\node_modules\jest-runner\build\testWorker.js:133:12)]]></failure>
     </testCase>
   </file>
+  <file path="C:\React Practice\blinkist-app\src\components\organisms\Footer\index.test.tsx">
+    <testCase name="renders learn react link" duration="55"/>
+  </file>
+  <file path="C:\React Practice\blinkist-app\src\components\atoms\ProgressBar\index.test.tsx">
+    <testCase name="renders learn react link" duration="130"/>
+    <testCase name="should render progress bar with given value" duration="29"/>
+  </file>
+  <file path="C:\React Practice\blinkist-app\src\components\atoms\Typography\index.test.tsx">
+    <testCase name="renders learn react link" duration="9"/>
+  </file>
+  <file path="C:\React Practice\blinkist-app\src\components\Pages\Enterpreneurship\index.test.tsx">
+    <testCase name="Home should render input" duration="2584">
+      <failure message="Error: expect([38;2;0;95;95m[48;2;215;255;255mreceived).toMatchSnapshot()"><![CDATA[Error: expect([38;2;0;95;95m[48;2;215;255;255mreceived).toMatchSnapshot()
+
+Snapshot name: `Home should render input 1`
+
+[38;2;128;0;128m[48;2;255;215;255m- Snapshot  - 51
+[38;2;0;95;95m[48;2;215;255;255m+ Received  + 31
+
+@@ -1496,56 +1496,46 @@
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div
+[38;2;128;0;128m[48;2;255;215;255m-                 data-testid="button"
+[38;2;0;95;95m[48;2;215;255;255m+                 class="makeStyles-button-21 MuiBox-root css-0"
+                >
+[38;2;128;0;128m[48;2;255;215;255m-                 <div
+[38;2;128;0;128m[48;2;255;215;255m-                   class="makeStyles-more-17 MuiBox-root css-0"
+[38;2;0;95;95m[48;2;215;255;255m+                 <button
+[38;2;0;95;95m[48;2;215;255;255m+                   class="MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium MuiButtonBase-root makeStyles-buttonStyle-23 css-aysoqb-MuiButtonBase-root-MuiButton-root"
+[38;2;0;95;95m[48;2;215;255;255m+                   data-testid="box"
+[38;2;0;95;95m[48;2;215;255;255m+                   tabindex="0"
+[38;2;0;95;95m[48;2;215;255;255m+                   type="button"
+                  >
+[38;2;128;0;128m[48;2;255;215;255m-                   <div
+[38;2;128;0;128m[48;2;255;215;255m-                     class="makeStyles-morecontainer-18 MuiBox-root css-0"
+[38;2;0;95;95m[48;2;215;255;255m+                   <span
+[38;2;0;95;95m[48;2;215;255;255m+                     class="MuiButton-startIcon MuiButton-iconSizeMedium css-1d6wzja-MuiButton-startIcon"
+                    >
+[38;2;128;0;128m[48;2;255;215;255m-                     <div
+[38;2;128;0;128m[48;2;255;215;255m-                       data-testid="box"
+[38;2;128;0;128m[48;2;255;215;255m-                     >
+                      <svg
+                        aria-hidden="true"
+[38;2;128;0;128m[48;2;255;215;255m-                         class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium makeStyles-morehoriz-16 css-i4bv87-MuiSvgIcon-root"
+[38;2;128;0;128m[48;2;255;215;255m-                         data-testid="MoreHorizIcon"
+[38;2;0;95;95m[48;2;215;255;255m+                       class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-i4bv87-MuiSvgIcon-root"
+[38;2;0;95;95m[48;2;215;255;255m+                       data-testid="AddIcon"
+                        focusable="false"
+                        viewBox="0 0 24 24"
+                      >
+                        <path
+[38;2;128;0;128m[48;2;255;215;255m-                           d="M6 10c-1.1 0-2 .9-2 2s.9 2 2 2 2-.9 2-2-.9-2-2-2zm12 0c-1.1 0-2 .9-2 2s.9 2 2 2 2-.9 2-2-.9-2-2-2zm-6 0c-1.1 0-2 .9-2 2s.9 2 2 2 2-.9 2-2-.9-2-2-2z"
+[38;2;0;95;95m[48;2;215;255;255m+                         d="M19 13h-6v6h-2v-6H5v-2h6V5h2v6h6v2z"
+                        />
+                      </svg>
+[38;2;128;0;128m[48;2;255;215;255m-                     </div>
+[38;2;128;0;128m[48;2;255;215;255m-                   </div>
+[38;2;128;0;128m[48;2;255;215;255m-                 </div>
+[38;2;0;95;95m[48;2;215;255;255m+                   </span>
+[38;2;0;95;95m[48;2;215;255;255m+                   Read Again
+                    <span
+[38;2;128;0;128m[48;2;255;215;255m-                   aria-valuemax="100"
+[38;2;128;0;128m[48;2;255;215;255m-                   aria-valuemin="0"
+[38;2;128;0;128m[48;2;255;215;255m-                   aria-valuenow="25"
+[38;2;128;0;128m[48;2;255;215;255m-                   class="MuiLinearProgress-root MuiLinearProgress-colorPrimary MuiLinearProgress-determinate makeStyles-rectangle6-20 css-1fqvzol-MuiLinearProgress-root"
+[38;2;128;0;128m[48;2;255;215;255m-                   data-testid="progress-bar"
+[38;2;128;0;128m[48;2;255;215;255m-                   role="progressbar"
+[38;2;128;0;128m[48;2;255;215;255m-                 >
+[38;2;128;0;128m[48;2;255;215;255m-                   <span
+[38;2;128;0;128m[48;2;255;215;255m-                     class="MuiLinearProgress-bar MuiLinearProgress-barColorPrimary MuiLinearProgress-bar1Determinate css-5xe99f-MuiLinearProgress-bar1"
+[38;2;128;0;128m[48;2;255;215;255m-                     style="transform: translateX(-75%);"
+[38;2;0;95;95m[48;2;215;255;255m+                     class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+                    />
+[38;2;128;0;128m[48;2;255;215;255m-                 </span>
+[38;2;0;95;95m[48;2;215;255;255m+                 </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </body>,
+[38;2;128;0;128m[48;2;255;215;255m-   "container": <div>
+[38;2;0;95;95m[48;2;215;255;255m+   "container": <div>
+      <div
+        class="MuiBox-root css-b93e9j"
+        data-testid="box"
+      >
+        <img
+@@ -3038,48 +3028,38 @@
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+[38;2;128;0;128m[48;2;255;215;255m-               data-testid="button"
+[38;2;0;95;95m[48;2;215;255;255m+               class="makeStyles-button-21 MuiBox-root css-0"
+              >
+[38;2;128;0;128m[48;2;255;215;255m-               <div
+[38;2;128;0;128m[48;2;255;215;255m-                 class="makeStyles-more-17 MuiBox-root css-0"
+[38;2;0;95;95m[48;2;215;255;255m+               <button
+[38;2;0;95;95m[48;2;215;255;255m+                 class="MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium MuiButtonBase-root makeStyles-buttonStyle-23 css-aysoqb-MuiButtonBase-root-MuiButton-root"
+[38;2;0;95;95m[48;2;215;255;255m+                 data-testid="box"
+[38;2;0;95;95m[48;2;215;255;255m+                 tabindex="0"
+[38;2;0;95;95m[48;2;215;255;255m+                 type="button"
+                >
+[38;2;128;0;128m[48;2;255;215;255m-                 <div
+[38;2;128;0;128m[48;2;255;215;255m-                   class="makeStyles-morecontainer-18 MuiBox-root css-0"
+[38;2;0;95;95m[48;2;215;255;255m+                 <span
+[38;2;0;95;95m[48;2;215;255;255m+                   class="MuiButton-startIcon MuiButton-iconSizeMedium css-1d6wzja-MuiButton-startIcon"
+                  >
+[38;2;128;0;128m[48;2;255;215;255m-                   <div
+[38;2;128;0;128m[48;2;255;215;255m-                     data-testid="box"
+[38;2;128;0;128m[48;2;255;215;255m-                   >
+                    <svg
+                      aria-hidden="true"
+[38;2;128;0;128m[48;2;255;215;255m-                       class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium makeStyles-morehoriz-16 css-i4bv87-MuiSvgIcon-root"
+[38;2;128;0;128m[48;2;255;215;255m-                       data-testid="MoreHorizIcon"
+[38;2;0;95;95m[48;2;215;255;255m+                     class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-i4bv87-MuiSvgIcon-root"
+[38;2;0;95;95m[48;2;215;255;255m+                     data-testid="AddIcon"
+                      focusable="false"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+[38;2;128;0;128m[48;2;255;215;255m-                         d="M6 10c-1.1 0-2 .9-2 2s.9 2 2 2 2-.9 2-2-.9-2-2-2zm12 0c-1.1 0-2 .9-2 2s.9 2 2 2 2-.9 2-2-.9-2-2-2zm-6 0c-1.1 0-2 .9-2 2s.9 2 2 2 2-.9 2-2-.9-2-2-2z"
+[38;2;0;95;95m[48;2;215;255;255m+                       d="M19 13h-6v6h-2v-6H5v-2h6V5h2v6h6v2z"
+                      />
+                    </svg>
+[38;2;128;0;128m[48;2;255;215;255m-                   </div>
+[38;2;128;0;128m[48;2;255;215;255m-                 </div>
+[38;2;128;0;128m[48;2;255;215;255m-               </div>
+[38;2;128;0;128m[48;2;255;215;255m-               <span
+[38;2;128;0;128m[48;2;255;215;255m-                 aria-valuemax="100"
+[38;2;128;0;128m[48;2;255;215;255m-                 aria-valuemin="0"
+[38;2;128;0;128m[48;2;255;215;255m-                 aria-valuenow="25"
+[38;2;128;0;128m[48;2;255;215;255m-                 class="MuiLinearProgress-root MuiLinearProgress-colorPrimary MuiLinearProgress-determinate makeStyles-rectangle6-20 css-1fqvzol-MuiLinearProgress-root"
+[38;2;128;0;128m[48;2;255;215;255m-                 data-testid="progress-bar"
+[38;2;128;0;128m[48;2;255;215;255m-                 role="progressbar"
+[38;2;128;0;128m[48;2;255;215;255m-               >
+[38;2;0;95;95m[48;2;215;255;255m+                 </span>
+[38;2;0;95;95m[48;2;215;255;255m+                 Read Again
+                  <span
+[38;2;128;0;128m[48;2;255;215;255m-                   class="MuiLinearProgress-bar MuiLinearProgress-barColorPrimary MuiLinearProgress-bar1Determinate css-5xe99f-MuiLinearProgress-bar1"
+[38;2;128;0;128m[48;2;255;215;255m-                   style="transform: translateX(-75%);"
+[38;2;0;95;95m[48;2;215;255;255m+                   class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+                  />
+[38;2;128;0;128m[48;2;255;215;255m-               </span>
+[38;2;0;95;95m[48;2;215;255;255m+               </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    at Object.<anonymous> (C:\React Practice\blinkist-app\src\components\Pages\Enterpreneurship\index.test.tsx:23:18)]]></failure>
+    </testCase>
+  </file>
+  <file path="C:\React Practice\blinkist-app\src\components\atoms\Avatar\index.test.tsx">
+    <testCase name="renders learn react link" duration="9"/>
+  </file>
+  <file path="C:\React Practice\blinkist-app\src\components\molecules\Button\index.test.tsx">
+    <testCase name="renders learn react link" duration="53"/>
+  </file>
+  <file path="C:\React Practice\blinkist-app\src\components\molecules\Banner\index.test.tsx">
+    <testCase name="renders learn react link" duration="17"/>
+  </file>
+  <file path="C:\React Practice\blinkist-app\src\components\atoms\Images\index.test.tsx">
+    <testCase name="renders learn react link" duration="8"/>
+  </file>
+  <file path="C:\React Practice\blinkist-app\src\components\atoms\Logo\index.test.tsx">
+    <testCase name="renders learn react link" duration="13"/>
+  </file>
   <file path="C:\React Practice\blinkist-app\src\components\Templates\index.test.tsx">
-    <testCase name="renders learn react link" duration="39">
+    <testCase name="renders learn react link" duration="2041">
+      <failure message="Error: You cannot render a &lt;Router&gt; inside another &lt;Router&gt;. You should never have more than one in your app."><![CDATA[Error: You cannot render a <Router> inside another <Router>. You should never have more than one in your app.
+    at invariant (C:\React Practice\packages\react-router\index.tsx:19:20)
+    at Router (C:\React Practice\packages\react-router\index.tsx:263:3)
+    at renderWithHooks (C:\React Practice\blinkist-app\node_modules\react-dom\cjs\react-dom.development.js:14985:18)
+    at mountIndeterminateComponent (C:\React Practice\blinkist-app\node_modules\react-dom\cjs\react-dom.development.js:17811:13)
+    at beginWork (C:\React Practice\blinkist-app\node_modules\react-dom\cjs\react-dom.development.js:19049:16)
+    at HTMLUnknownElement.callCallback (C:\React Practice\blinkist-app\node_modules\react-dom\cjs\react-dom.development.js:3945:14)
+    at HTMLUnknownElement.callTheUserObjectsOperation (C:\React Practice\blinkist-app\node_modules\jsdom\lib\jsdom\living\generated\EventListener.js:26:30)
+    at innerInvokeEventListeners (C:\React Practice\blinkist-app\node_modules\jsdom\lib\jsdom\living\events\EventTarget-impl.js:338:25)
+    at invokeEventListeners (C:\React Practice\blinkist-app\node_modules\jsdom\lib\jsdom\living\events\EventTarget-impl.js:274:3)
+    at HTMLUnknownElementImpl._dispatch (C:\React Practice\blinkist-app\node_modules\jsdom\lib\jsdom\living\events\EventTarget-impl.js:221:9)
+    at HTMLUnknownElementImpl.dispatchEvent (C:\React Practice\blinkist-app\node_modules\jsdom\lib\jsdom\living\events\EventTarget-impl.js:94:17)
+    at HTMLUnknownElement.dispatchEvent (C:\React Practice\blinkist-app\node_modules\jsdom\lib\jsdom\living\generated\EventTarget.js:231:34)
+    at Object.invokeGuardedCallbackDev (C:\React Practice\blinkist-app\node_modules\react-dom\cjs\react-dom.development.js:3994:16)
+    at invokeGuardedCallback (C:\React Practice\blinkist-app\node_modules\react-dom\cjs\react-dom.development.js:4056:31)
+    at beginWork$1 (C:\React Practice\blinkist-app\node_modules\react-dom\cjs\react-dom.development.js:23964:7)
+    at performUnitOfWork (C:\React Practice\blinkist-app\node_modules\react-dom\cjs\react-dom.development.js:22779:12)
+    at workLoopSync (C:\React Practice\blinkist-app\node_modules\react-dom\cjs\react-dom.development.js:22707:5)
+    at renderRootSync (C:\React Practice\blinkist-app\node_modules\react-dom\cjs\react-dom.development.js:22670:7)
+    at performSyncWorkOnRoot (C:\React Practice\blinkist-app\node_modules\react-dom\cjs\react-dom.development.js:22293:18)
+    at C:\React Practice\blinkist-app\node_modules\react-dom\cjs\react-dom.development.js:11327:26
+    at unstable_runWithPriority (C:\React Practice\blinkist-app\node_modules\scheduler\cjs\scheduler.development.js:468:12)
+    at runWithPriority$1 (C:\React Practice\blinkist-app\node_modules\react-dom\cjs\react-dom.development.js:11276:10)
+    at flushSyncCallbackQueueImpl (C:\React Practice\blinkist-app\node_modules\react-dom\cjs\react-dom.development.js:11322:9)
+    at flushSyncCallbackQueue (C:\React Practice\blinkist-app\node_modules\react-dom\cjs\react-dom.development.js:11309:3)
+    at scheduleUpdateOnFiber (C:\React Practice\blinkist-app\node_modules\react-dom\cjs\react-dom.development.js:21893:9)
+    at setBooks (C:\React Practice\blinkist-app\node_modules\react-dom\cjs\react-dom.development.js:16139:5)
+    at processor (C:\React Practice\blinkist-app\src\components\Templates\index.tsx:27:7)]]></failure>
       <failure message="TestingLibraryElementError: Unable to find an element by: [data-testid=&quot;box&quot;]"><![CDATA[TestingLibraryElementError: Unable to find an element by: [data-testid="box"]
 
 Ignored nodes: comments, <script />, <style />
 <body>
-  <div>
-    <div />
-  </div>
+  <div />
 </body>
     at Object.getElementError (C:\React Practice\blinkist-app\node_modules\@testing-library\dom\dist\config.js:38:19)
     at C:\React Practice\blinkist-app\node_modules\@testing-library\dom\dist\query-helpers.js:90:38
     at C:\React Practice\blinkist-app\node_modules\@testing-library\dom\dist\query-helpers.js:62:17
     at getByTestId (C:\React Practice\blinkist-app\node_modules\@testing-library\dom\dist\query-helpers.js:111:19)
-    at Object.<anonymous> (C:\React Practice\blinkist-app\src\components\Templates\index.test.tsx:10:30)
-    at Promise.then.completed (C:\React Practice\blinkist-app\node_modules\jest-circus\build\utils.js:391:28)
-    at new Promise (<anonymous>)
-    at callAsyncCircusFn (C:\React Practice\blinkist-app\node_modules\jest-circus\build\utils.js:316:10)
-    at _callCircusTest (C:\React Practice\blinkist-app\node_modules\jest-circus\build\run.js:218:40)
-    at processTicksAndRejections (internal/process/task_queues.js:95:5)
-    at _runTest (C:\React Practice\blinkist-app\node_modules\jest-circus\build\run.js:155:3)
-    at _runTestsForDescribeBlock (C:\React Practice\blinkist-app\node_modules\jest-circus\build\run.js:66:9)
-    at run (C:\React Practice\blinkist-app\node_modules\jest-circus\build\run.js:25:3)
-    at runAndTransformResultsToJestFormat (C:\React Practice\blinkist-app\node_modules\jest-circus\build\legacy-code-todo-rewrite\jestAdapterInit.js:170:21)
-    at jestAdapter (C:\React Practice\blinkist-app\node_modules\jest-circus\build\legacy-code-todo-rewrite\jestAdapter.js:82:19)
-    at runTestInternal (C:\React Practice\blinkist-app\node_modules\jest-runner\build\runTest.js:389:16)
-    at runTest (C:\React Practice\blinkist-app\node_modules\jest-runner\build\runTest.js:475:34)
-    at Object.worker (C:\React Practice\blinkist-app\node_modules\jest-runner\build\testWorker.js:133:12)]]></failure>
+    at Object.<anonymous> (C:\React Practice\blinkist-app\src\components\Templates\index.test.tsx:11:30)]]></failure>
     </testCase>
+    <testCase name="renders learn react link" duration="6"/>
   </file>
-  <file path="C:\React Practice\blinkist-app\src\components\Pages\BookInfo\index.test.tsx">
-    <testCase name="Home should render input" duration="2254"/>
-    <testCase name="Home should render selected tab 0" duration="2128"/>
-    <testCase name="Home should render tab 1" duration="2084"/>
-    <testCase name="Home should render tab 2" duration="2061"/>
-    <testCase name="Home Finished Reading Button Should not Be Displayed" duration="2051"/>
-    <testCase name="Home Finished Reading Button Should not Be Displayed" duration="2052"/>
-    <testCase name="Home Button is Clickable and state must be changed" duration="2077">
-      <failure message="Error: expect(element).not.toBeInTheDocument()"><![CDATA[Error: expect(element).not.toBeInTheDocument()
-
-expected document not to contain element, found <button class="MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium MuiButtonBase-root  css-5te66f-MuiButtonBase-root-MuiButton-root" tabindex="0" type="button">Finished Reading<span class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root" /></button> instead
-    at Object.<anonymous> (C:\React Practice\blinkist-app\src\components\Pages\BookInfo\index.test.tsx:74:31)]]></failure>
-    </testCase>
+  <file path="C:\React Practice\blinkist-app\src\components\atoms\Icons\index.test.tsx">
+    <testCase name="renders learn react link" duration="8"/>
   </file>
 </testExecutions>

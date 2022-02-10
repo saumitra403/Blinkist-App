@@ -30,7 +30,7 @@ const Template = () => {
   }, []);
 
   return !books ? (
-    <div></div>
+    <div data-testid="circular"></div>
   ) : (
     <Box sx={{ position: "relative" }} className={classes.pagewrap} data-testid="box">
       <Router>
