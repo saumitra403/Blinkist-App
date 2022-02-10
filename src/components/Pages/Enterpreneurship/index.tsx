@@ -37,6 +37,7 @@ const LandingPage = ({ books, setBooks }: any) => {
         justifyContent: "center",
         flexDirection: "column",
       }}
+      data-testid="box"
     >
       <Banner></Banner>
 
@@ -65,6 +66,7 @@ const LandingPage = ({ books, setBooks }: any) => {
                 id={currData.id}
                 handleClick={handleClick}
                 key={currData.id}
+                data-testid="card"
               ></Card>
             );
           })}

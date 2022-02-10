@@ -8,7 +8,7 @@ import ArrowForwardIcon from "@mui/icons-material/ArrowForward";
 import Tabs from "../../molecules/Tabs";
 import { useState } from "react";
 import Img from "../../atoms/Images";
-const BookInfo = ({ books,setBooks }: any) => {
+const BookInfo = ({ books, setBooks, id }: any) => {
   const tabData = [
     {
       value: 0,
@@ -28,6 +28,9 @@ const BookInfo = ({ books,setBooks }: any) => {
     setValue(0);
   };
   let { bookId } = useParams();
+  if (id) {
+    bookId = id;
+  }
   let currData = books[bookId!];
   const handleClickFinished = async (id: any) => {
     //put request
@@ -35,10 +38,10 @@ const BookInfo = ({ books,setBooks }: any) => {
     currData.status = "Finished";
     currData.progress = 100;
     const book = books.filter((curr: any) => {
-      return curr.id!=index;
-    })
-    book.splice(index,0,currData);
-    setBooks(book)
+      return curr.id != index;
+    });
+    book.splice(index, 0, currData);
+    setBooks(book);
 
     await fetch(`http://localhost:3000/books/${index}`, {
       method: "PUT",
@@ -95,7 +98,15 @@ const BookInfo = ({ books,setBooks }: any) => {
             ></AccessTimeIcon>
           }
         ></Icon>
-        <Box sx={{ display: "flex", justifyContent: "space-evenly", position: "absolute", top: "464px", left: "264px" }}>
+        <Box
+          sx={{
+            display: "flex",
+            justifyContent: "space-evenly",
+            position: "absolute",
+            top: "464px",
+            left: "264px",
+          }}
+        >
           <Button
             variant="outlined"
             sx={{
@@ -108,8 +119,7 @@ const BookInfo = ({ books,setBooks }: any) => {
           >
             Read Now
           </Button>
-          {
-            currData.status==="Reading" ?
+          {currData.status === "Reading" ? (
             <Button
               variant="contained"
               sx={{
@@ -121,8 +131,10 @@ const BookInfo = ({ books,setBooks }: any) => {
               onClick={handleClickFinished}
             >
               Finished Reading
-            </Button> : <Box sx={{display: "none"}}></Box>
-          }
+            </Button>
+          ) : (
+            <Box sx={{ display: "none" }}></Box>
+          )}
           <Button
             variant="text"
             endIcon={<ArrowForwardIcon></ArrowForwardIcon>}
@@ -142,9 +154,12 @@ const BookInfo = ({ books,setBooks }: any) => {
           <Tabs tabData={tabData} stateHandler={handleClick}></Tabs>
           <Box>
             {value == 0 ? (
-              <Typography variant="body2" sx={{width: "600px"}}>{`Beyond Entrepreneurship 2.0 (2020) updates Jim Collins and Bill Laziers essential 1992 business handbook, Beyond Entrepreneurship for the entrepreneurs, visionaries, and innovators of today. This new edition combines the timeless business advice and strategy of the original text, supplemented with cutting-edge insights and case studies pertinent to todays business world.`}</Typography>
+              <Typography
+                variant="body2"
+                sx={{ width: "600px" }}
+              >{`Beyond Entrepreneurship 2.0 (2020) updates Jim Collins and Bill Laziers essential 1992 business handbook, Beyond Entrepreneurship for the entrepreneurs, visionaries, and innovators of today. This new edition combines the timeless business advice and strategy of the original text, supplemented with cutting-edge insights and case studies pertinent to todays business world.`}</Typography>
             ) : (
-              <Box sx={{display: "none"}}></Box>
+              <Box sx={{ display: "none" }}></Box>
             )}
           </Box>
         </Box>

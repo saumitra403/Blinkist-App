@@ -5,7 +5,7 @@ import { Typography } from "@mui/material";
 const TypographyComponent = ({ theme, ...props }: any) => {
   return (
     <ThemeProvider theme={baseTheme}>
-      <Typography {...props}>
+      <Typography {...props} data-testid="typo">
         {props.children}
       </Typography>
     </ThemeProvider>
