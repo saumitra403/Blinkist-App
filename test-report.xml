@@ -1,37 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testExecutions version="1">
   <file path="C:\React Practice\blinkist-app\src\components\Pages\BookInfo\index.test.tsx">
-    <testCase name="Home should render input" duration="2365"/>
-    <testCase name="Home should render selected tab 0" duration="2145"/>
-    <testCase name="Home should render tab 1" duration="2128"/>
-    <testCase name="Home should render tab 2" duration="2141"/>
-    <testCase name="Home Finished Reading Button Should not Be Displayed" duration="2131"/>
-    <testCase name="Home Finished Reading Button Should not Be Displayed" duration="2122"/>
-    <testCase name="Home Button is Clickable and state must be changed" duration="2112">
+    <testCase name="Home should render input" duration="2236"/>
+    <testCase name="Home should render selected tab 0" duration="2078"/>
+    <testCase name="Home should render tab 1" duration="2069"/>
+    <testCase name="Home should render tab 2" duration="2072"/>
+    <testCase name="Home Finished Reading Button Should not Be Displayed" duration="2057"/>
+    <testCase name="Home Finished Reading Button Should not Be Displayed" duration="2056"/>
+    <testCase name="Home Button is Clickable and state must be changed" duration="2059">
       <failure message="Error: expect(element).not.toBeInTheDocument()"><![CDATA[Error: expect(element).not.toBeInTheDocument()
 
 expected document not to contain element, found <button class="MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium MuiButtonBase-root  css-5te66f-MuiButtonBase-root-MuiButton-root" tabindex="0" type="button">Finished Reading<span class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root" /></button> instead
     at Object.<anonymous> (C:\React Practice\blinkist-app\src\components\Pages\BookInfo\index.test.tsx:74:31)]]></failure>
     </testCase>
   </file>
-  <file path="C:\React Practice\blinkist-app\src\components\organisms\Header\index.test.tsx">
-    <testCase name="renders learn react link" duration="113"/>
+  <file path="C:\React Practice\blinkist-app\src\components\molecules\SearchBar\index.test.tsx">
+    <testCase name="renders learn react link" duration="55"/>
   </file>
-  <file path="C:\React Practice\blinkist-app\src\components\organisms\Card\index.test.tsx">
-    <testCase name="renders learn react link" duration="126"/>
-    <testCase name="Render Add To Library on null status" duration="76"/>
-    <testCase name="Render Progress Bar on Reading Status" duration="40"/>
+  <file path="C:\React Practice\blinkist-app\src\components\organisms\Header\index.test.tsx">
+    <testCase name="renders learn react link" duration="106"/>
   </file>
   <file path="C:\React Practice\blinkist-app\src\components\Pages\MyLibrary\index.test.tsx">
-    <testCase name="Home should render same no of finished books" duration="587"/>
-    <testCase name="Home should render same no of currently books" duration="1333">
+    <testCase name="Home should render same no of finished books" duration="534"/>
+    <testCase name="Home should render same no of currently books" duration="1258">
       <failure message="Error: Unable to find role=&quot;progressbar&quot;"><![CDATA[Error: Unable to find role="progressbar"
 
 Ignored nodes: comments, <script />, <style />
 <body>
   <div>
     <div
-      class="MuiBox-root MuiBox-root-6"
+      class="MuiBox-root MuiBox-root-5"
     >
       <h1
         class="MuiTypography-root MuiTypography-h1 css-11ocjh4-MuiTypography-root"
@@ -40,10 +38,10 @@ Ignored nodes: comments, <script />, <style />
         My library
       </h1>
       <div
-        class="MuiBox-root MuiBox-root-7"
+        class="MuiBox-root MuiBox-root-6"
       >
         <div
-          class="makeStyles-tabs-8 MuiBox-root css-1gsv261"
+          class="makeStyles-tabs-7 MuiBox-root css-1gsv261"
         >
           <div
             class="MuiTabs-root css-1dfm0b0-MuiTabs-root"
@@ -92,7 +90,7 @@ Ignored nodes: comments, <script />, <style />
           </div>
         </div>
         <div
-          class="MuiBox-root MuiBox-root-9"
+          class="MuiBox-root MuiBox-root-8"
         >
           <div
             class="makeStyles-Rectangle3-20 MuiBox-root css-0"
@@ -191,12 +189,13 @@ Ignored nodes: comments, <script />, <style />
     at Object.worker (C:\React Practice\blinkist-app\node_modules\jest-runner\build\testWorker.js:133:12)]]></failure>
     </testCase>
   </file>
-  <file path="C:\React Practice\blinkist-app\src\components\atoms\ProgressBar\index.test.tsx">
-    <testCase name="renders learn react link" duration="119"/>
-    <testCase name="should render progress bar with given value" duration="30"/>
+  <file path="C:\React Practice\blinkist-app\src\components\organisms\Card\index.test.tsx">
+    <testCase name="renders learn react link" duration="103"/>
+    <testCase name="Render Add To Library on null status" duration="68"/>
+    <testCase name="Render Progress Bar on Reading Status" duration="19"/>
   </file>
   <file path="C:\React Practice\blinkist-app\src\components\Templates\index.test.tsx">
-    <testCase name="renders learn react link" duration="2145">
+    <testCase name="renders learn react link" duration="2081">
       <failure message="Error: You cannot render a &lt;Router&gt; inside another &lt;Router&gt;. You should never have more than one in your app."><![CDATA[Error: You cannot render a <Router> inside another <Router>. You should never have more than one in your app.
     at invariant (C:\React Practice\packages\react-router\index.tsx:19:20)
     at Router (C:\React Practice\packages\react-router\index.tsx:263:3)
@@ -237,42 +236,2875 @@ Ignored nodes: comments, <script />, <style />
     at getByTestId (C:\React Practice\blinkist-app\node_modules\@testing-library\dom\dist\query-helpers.js:111:19)
     at Object.<anonymous> (C:\React Practice\blinkist-app\src\components\Templates\index.test.tsx:11:30)]]></failure>
     </testCase>
-    <testCase name="renders learn react link" duration="13"/>
-  </file>
-  <file path="C:\React Practice\blinkist-app\src\components\atoms\Logo\index.test.tsx">
-    <testCase name="renders learn react link" duration="15"/>
-    <testCase name="should render input" duration="2017"/>
-  </file>
-  <file path="C:\React Practice\blinkist-app\src\components\organisms\Footer\index.test.tsx">
-    <testCase name="renders learn react link" duration="69"/>
-  </file>
-  <file path="C:\React Practice\blinkist-app\src\components\Pages\Enterpreneurship\index.test.tsx">
-    <testCase name="Home should render input" duration="2677"/>
-    <testCase name="Home test Cards" duration="2352"/>
-  </file>
-  <file path="C:\React Practice\blinkist-app\src\components\atoms\Typography\index.test.tsx">
-    <testCase name="renders learn react link" duration="26"/>
-  </file>
-  <file path="C:\React Practice\blinkist-app\src\components\atoms\Images\index.test.tsx">
-    <testCase name="renders learn react link" duration="18"/>
-  </file>
-  <file path="C:\React Practice\blinkist-app\src\components\molecules\Button\index.test.tsx">
-    <testCase name="renders learn react link" duration="46"/>
+    <testCase name="renders learn react link" duration="9"/>
   </file>
   <file path="C:\React Practice\blinkist-app\src\components\molecules\Tabs\index.test.tsx">
-    <testCase name="should render 2 tabw for 2 length data" duration="89"/>
-    <testCase name="should have green indicator color for currently reading tab by default" duration="59"/>
+    <testCase name="should render 2 tabw for 2 length data" duration="82"/>
+    <testCase name="should have green indicator color for currently reading tab by default" duration="36"/>
   </file>
-  <file path="C:\React Practice\blinkist-app\src\components\atoms\Avatar\index.test.tsx">
-    <testCase name="renders learn react link" duration="11"/>
+  <file path="C:\React Practice\blinkist-app\src\components\atoms\ProgressBar\index.test.tsx">
+    <testCase name="renders learn react link" duration="157"/>
+    <testCase name="should render progress bar with given value" duration="24"/>
+  </file>
+  <file path="C:\React Practice\blinkist-app\src\components\atoms\Logo\index.test.tsx">
+    <testCase name="renders learn react link" duration="25"/>
+    <testCase name="should render input" duration="2014"/>
+  </file>
+  <file path="C:\React Practice\blinkist-app\src\components\molecules\Button\index.test.tsx">
+    <testCase name="renders learn react link" duration="58"/>
+  </file>
+  <file path="C:\React Practice\blinkist-app\src\components\organisms\Footer\index.test.tsx">
+    <testCase name="renders learn react link" duration="43"/>
+  </file>
+  <file path="C:\React Practice\blinkist-app\src\components\atoms\Typography\index.test.tsx">
+    <testCase name="renders learn react link" duration="35"/>
   </file>
   <file path="C:\React Practice\blinkist-app\src\components\molecules\Banner\index.test.tsx">
-    <testCase name="renders learn react link" duration="10"/>
+    <testCase name="renders learn react link" duration="12"/>
   </file>
-  <file path="C:\React Practice\blinkist-app\src\components\atoms\Icons\index.test.tsx">
+  <file path="C:\React Practice\blinkist-app\src\components\atoms\Avatar\index.test.tsx">
     <testCase name="renders learn react link" duration="13"/>
   </file>
-  <file path="C:\React Practice\blinkist-app\src\components\molecules\SearchBar\index.test.tsx">
-    <testCase name="renders learn react link" duration="61"/>
+  <file path="C:\React Practice\blinkist-app\src\components\atoms\Images\index.test.tsx">
+    <testCase name="renders learn react link" duration="5"/>
+  </file>
+  <file path="C:\React Practice\blinkist-app\src\components\Pages\Enterpreneurship\index.test.tsx">
+    <testCase name="Home should render input" duration="2596">
+      <failure message="Error: expect([38;2;0;95;95m[48;2;215;255;255mreceived).toMatchSnapshot()"><![CDATA[Error: expect([38;2;0;95;95m[48;2;215;255;255mreceived).toMatchSnapshot()
+
+Snapshot name: `Home should render input 1`
+
+[38;2;128;0;128m[48;2;255;215;255m- Snapshot  - 355
+[38;2;0;95;95m[48;2;215;255;255m+ Received  + 355
+
+@@ -59,11 +59,11 @@
+            </h3>
+            <div
+              class="MuiBox-root css-1fpq2bm"
+            >
+              <div
+[38;2;128;0;128m[48;2;255;215;255m-               class="makeStyles-Rectangle3-3 MuiBox-root css-0"
+[38;2;0;95;95m[48;2;215;255;255m+               class="makeStyles-Rectangle3-2 MuiBox-root css-0"
+              >
+                <div
+                  class="MuiBox-root css-0"
+                >
+                  <a
+@@ -78,36 +78,36 @@
+                      width="287px"
+                    />
+                  </a>
+                </div>
+                <p
+[38;2;128;0;128m[48;2;255;215;255m-                 class="MuiTypography-root MuiTypography-body1 makeStyles-HumanToWork-4 css-imro8o-MuiTypography-root"
+[38;2;0;95;95m[48;2;215;255;255m+                 class="MuiTypography-root MuiTypography-body1 makeStyles-HumanToWork-3 css-imro8o-MuiTypography-root"
+                  data-testid="typo"
+                >
+                  Being Boss
+                </p>
+                <p
+[38;2;128;0;128m[48;2;255;215;255m-                 class="MuiTypography-root MuiTypography-body1 makeStyles-Author-5 css-imro8o-MuiTypography-root"
+[38;2;0;95;95m[48;2;215;255;255m+                 class="MuiTypography-root MuiTypography-body1 makeStyles-Author-4 css-imro8o-MuiTypography-root"
+                  data-testid="typo"
+                >
+                  Kathleen Shannon and Emily
+                </p>
+                <div
+[38;2;128;0;128m[48;2;255;215;255m-                 class="makeStyles-Group6-7 MuiBox-root css-0"
+[38;2;0;95;95m[48;2;215;255;255m+                 class="makeStyles-Group6-6 MuiBox-root css-0"
+                >
+                  <div
+[38;2;128;0;128m[48;2;255;215;255m-                   class="makeStyles-imageContainer-10 MuiBox-root css-0"
+[38;2;0;95;95m[48;2;215;255;255m+                   class="makeStyles-imageContainer-9 MuiBox-root css-0"
+                  >
+                    <div
+[38;2;128;0;128m[48;2;255;215;255m-                     class="makeStyles-TimeIconContainer-8 MuiBox-root css-0"
+[38;2;0;95;95m[48;2;215;255;255m+                     class="makeStyles-TimeIconContainer-7 MuiBox-root css-0"
+                    >
+                      <div
+                        data-testid="box"
+                      >
+                        <svg
+                          aria-hidden="true"
+[38;2;128;0;128m[48;2;255;215;255m-                         class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium makeStyles-TimeIcon-6 css-i4bv87-MuiSvgIcon-root"
+[38;2;0;95;95m[48;2;215;255;255m+                         class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium makeStyles-TimeIcon-5 css-i4bv87-MuiSvgIcon-root"
+                          data-testid="AccessTimeOutlinedIcon"
+                          focusable="false"
+                          viewBox="0 0 24 24"
+                        >
+                          <path
+@@ -117,36 +117,36 @@
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <span
+[38;2;128;0;128m[48;2;255;215;255m-                 class="MuiTypography-root MuiTypography-caption makeStyles-MinuteRead-9 css-8tvgdj-MuiTypography-root"
+[38;2;0;95;95m[48;2;215;255;255m+                 class="MuiTypography-root MuiTypography-caption makeStyles-MinuteRead-8 css-8tvgdj-MuiTypography-root"
+                  data-testid="typo"
+                >
+                  13-minute read
+                </span>
+                <div
+[38;2;128;0;128m[48;2;255;215;255m-                 class="makeStyles-frame7-13 MuiBox-root css-0"
+[38;2;0;95;95m[48;2;215;255;255m+                 class="makeStyles-frame7-12 MuiBox-root css-0"
+                >
+                  <span
+[38;2;128;0;128m[48;2;255;215;255m-                   class="MuiTypography-root MuiTypography-caption makeStyles-reads-14 css-8tvgdj-MuiTypography-root"
+[38;2;0;95;95m[48;2;215;255;255m+                   class="MuiTypography-root MuiTypography-caption makeStyles-reads-13 css-8tvgdj-MuiTypography-root"
+                    data-testid="typo"
+                  >
+                    1.9k reads
+                  </span>
+                  <div
+[38;2;128;0;128m[48;2;255;215;255m-                   class="makeStyles-UserContainer-11 MuiBox-root css-0"
+[38;2;0;95;95m[48;2;215;255;255m+                   class="makeStyles-UserContainer-10 MuiBox-root css-0"
+                  >
+                    <div
+[38;2;128;0;128m[48;2;255;215;255m-                     class="makeStyles-uservector-15 MuiBox-root css-0"
+[38;2;0;95;95m[48;2;215;255;255m+                     class="makeStyles-uservector-14 MuiBox-root css-0"
+                    >
+                      <div
+                        data-testid="box"
+                      >
+                        <svg
+                          aria-hidden="true"
+[38;2;128;0;128m[48;2;255;215;255m-                         class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium makeStyles-usericon-12 css-i4bv87-MuiSvgIcon-root"
+[38;2;0;95;95m[48;2;215;255;255m+                         class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium makeStyles-usericon-11 css-i4bv87-MuiSvgIcon-root"
+                          data-testid="PersonOutlineIcon"
+                          focusable="false"
+                          viewBox="0 0 24 24"
+                        >
+                          <path
+@@ -159,21 +159,21 @@
+                </div>
+                <div
+                  data-testid="button"
+                >
+                  <div
+[38;2;128;0;128m[48;2;255;215;255m-                   class="makeStyles-more-17 MuiBox-root css-0"
+[38;2;0;95;95m[48;2;215;255;255m+                   class="makeStyles-more-16 MuiBox-root css-0"
+                  >
+                    <div
+[38;2;128;0;128m[48;2;255;215;255m-                     class="makeStyles-morecontainer-18 MuiBox-root css-0"
+[38;2;0;95;95m[48;2;215;255;255m+                     class="makeStyles-morecontainer-17 MuiBox-root css-0"
+                    >
+                      <div
+                        data-testid="box"
+                      >
+                        <svg
+                          aria-hidden="true"
+[38;2;128;0;128m[48;2;255;215;255m-                         class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium makeStyles-morehoriz-16 css-i4bv87-MuiSvgIcon-root"
+[38;2;0;95;95m[48;2;215;255;255m+                         class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium makeStyles-morehoriz-15 css-i4bv87-MuiSvgIcon-root"
+                          data-testid="MoreHorizIcon"
+                          focusable="false"
+                          viewBox="0 0 24 24"
+                        >
+                          <path
+@@ -185,11 +185,11 @@
+                  </div>
+                  <span
+                    aria-valuemax="100"
+                    aria-valuemin="0"
+                    aria-valuenow="25"
+[38;2;128;0;128m[48;2;255;215;255m-                   class="MuiLinearProgress-root MuiLinearProgress-colorPrimary MuiLinearProgress-determinate makeStyles-rectangle6-20 css-1fqvzol-MuiLinearProgress-root"
+[38;2;0;95;95m[48;2;215;255;255m+                   class="MuiLinearProgress-root MuiLinearProgress-colorPrimary MuiLinearProgress-determinate makeStyles-rectangle6-19 css-1fqvzol-MuiLinearProgress-root"
+                    data-testid="progress-bar"
+                    role="progressbar"
+                  >
+                    <span
+                      class="MuiLinearProgress-bar MuiLinearProgress-barColorPrimary MuiLinearProgress-bar1Determinate css-5xe99f-MuiLinearProgress-bar1"
+@@ -197,11 +197,11 @@
+                    />
+                  </span>
+                </div>
+              </div>
+              <div
+[38;2;128;0;128m[48;2;255;215;255m-               class="makeStyles-Rectangle3-3 MuiBox-root css-0"
+[38;2;0;95;95m[48;2;215;255;255m+               class="makeStyles-Rectangle3-2 MuiBox-root css-0"
+              >
+                <div
+                  class="MuiBox-root css-0"
+                >
+                  <a
+@@ -216,36 +216,36 @@
+                      width="287px"
+                    />
+                  </a>
+                </div>
+                <p
+[38;2;128;0;128m[48;2;255;215;255m-                 class="MuiTypography-root MuiTypography-body1 makeStyles-HumanToWork-4 css-imro8o-MuiTypography-root"
+[38;2;0;95;95m[48;2;215;255;255m+                 class="MuiTypography-root MuiTypography-body1 makeStyles-HumanToWork-3 css-imro8o-MuiTypography-root"
+                  data-testid="typo"
+                >
+                  Beyond Entrepreneurship
+                </p>
+                <p
+[38;2;128;0;128m[48;2;255;215;255m-                 class="MuiTypography-root MuiTypography-body1 makeStyles-Author-5 css-imro8o-MuiTypography-root"
+[38;2;0;95;95m[48;2;215;255;255m+                 class="MuiTypography-root MuiTypography-body1 makeStyles-Author-4 css-imro8o-MuiTypography-root"
+                  data-testid="typo"
+                >
+                  Jim Collins & Bill Lazier
+                </p>
+                <div
+[38;2;128;0;128m[48;2;255;215;255m-                 class="makeStyles-Group6-7 MuiBox-root css-0"
+[38;2;0;95;95m[48;2;215;255;255m+                 class="makeStyles-Group6-6 MuiBox-root css-0"
+                >
+                  <div
+[38;2;128;0;128m[48;2;255;215;255m-                   class="makeStyles-imageContainer-10 MuiBox-root css-0"
+[38;2;0;95;95m[48;2;215;255;255m+                   class="makeStyles-imageContainer-9 MuiBox-root css-0"
+                  >
+                    <div
+[38;2;128;0;128m[48;2;255;215;255m-                     class="makeStyles-TimeIconContainer-8 MuiBox-root css-0"
+[38;2;0;95;95m[48;2;215;255;255m+                     class="makeStyles-TimeIconContainer-7 MuiBox-root css-0"
+                    >
+                      <div
+                        data-testid="box"
+                      >
+                        <svg
+                          aria-hidden="true"
+[38;2;128;0;128m[48;2;255;215;255m-                         class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium makeStyles-TimeIcon-6 css-i4bv87-MuiSvgIcon-root"
+[38;2;0;95;95m[48;2;215;255;255m+                         class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium makeStyles-TimeIcon-5 css-i4bv87-MuiSvgIcon-root"
+                          data-testid="AccessTimeOutlinedIcon"
+                          focusable="false"
+                          viewBox="0 0 24 24"
+                        >
+                          <path
+@@ -255,36 +255,36 @@
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <span
+[38;2;128;0;128m[48;2;255;215;255m-                 class="MuiTypography-root MuiTypography-caption makeStyles-MinuteRead-9 css-8tvgdj-MuiTypography-root"
+[38;2;0;95;95m[48;2;215;255;255m+                 class="MuiTypography-root MuiTypography-caption makeStyles-MinuteRead-8 css-8tvgdj-MuiTypography-root"
+                  data-testid="typo"
+                >
+                  13-minute read
+                </span>
+                <div
+[38;2;128;0;128m[48;2;255;215;255m-                 class="makeStyles-frame7-13 MuiBox-root css-0"
+[38;2;0;95;95m[48;2;215;255;255m+                 class="makeStyles-frame7-12 MuiBox-root css-0"
+                >
+                  <span
+[38;2;128;0;128m[48;2;255;215;255m-                   class="MuiTypography-root MuiTypography-caption makeStyles-reads-14 css-8tvgdj-MuiTypography-root"
+[38;2;0;95;95m[48;2;215;255;255m+                   class="MuiTypography-root MuiTypography-caption makeStyles-reads-13 css-8tvgdj-MuiTypography-root"
+                    data-testid="typo"
+                  >
+                    1.9k reads
+                  </span>
+                  <div
+[38;2;128;0;128m[48;2;255;215;255m-                   class="makeStyles-UserContainer-11 MuiBox-root css-0"
+[38;2;0;95;95m[48;2;215;255;255m+                   class="makeStyles-UserContainer-10 MuiBox-root css-0"
+                  >
+                    <div
+[38;2;128;0;128m[48;2;255;215;255m-                     class="makeStyles-uservector-15 MuiBox-root css-0"
+[38;2;0;95;95m[48;2;215;255;255m+                     class="makeStyles-uservector-14 MuiBox-root css-0"
+                    >
+                      <div
+                        data-testid="box"
+                      >
+                        <svg
+                          aria-hidden="true"
+[38;2;128;0;128m[48;2;255;215;255m-                         class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium makeStyles-usericon-12 css-i4bv87-MuiSvgIcon-root"
+[38;2;0;95;95m[48;2;215;255;255m+                         class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium makeStyles-usericon-11 css-i4bv87-MuiSvgIcon-root"
+                          data-testid="PersonOutlineIcon"
+                          focusable="false"
+                          viewBox="0 0 24 24"
+                        >
+                          <path
+@@ -297,21 +297,21 @@
+                </div>
+                <div
+                  data-testid="button"
+                >
+                  <div
+[38;2;128;0;128m[48;2;255;215;255m-                   class="makeStyles-more-17 MuiBox-root css-0"
+[38;2;0;95;95m[48;2;215;255;255m+                   class="makeStyles-more-16 MuiBox-root css-0"
+                  >
+                    <div
+[38;2;128;0;128m[48;2;255;215;255m-                     class="makeStyles-morecontainer-18 MuiBox-root css-0"
+[38;2;0;95;95m[48;2;215;255;255m+                     class="makeStyles-morecontainer-17 MuiBox-root css-0"
+                    >
+                      <div
+                        data-testid="box"
+                      >
+                        <svg
+                          aria-hidden="true"
+[38;2;128;0;128m[48;2;255;215;255m-                         class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium makeStyles-morehoriz-16 css-i4bv87-MuiSvgIcon-root"
+[38;2;0;95;95m[48;2;215;255;255m+                         class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium makeStyles-morehoriz-15 css-i4bv87-MuiSvgIcon-root"
+                          data-testid="MoreHorizIcon"
+                          focusable="false"
+                          viewBox="0 0 24 24"
+                        >
+                          <path
+@@ -323,11 +323,11 @@
+                  </div>
+                  <span
+                    aria-valuemax="100"
+                    aria-valuemin="0"
+                    aria-valuenow="25"
+[38;2;128;0;128m[48;2;255;215;255m-                   class="MuiLinearProgress-root MuiLinearProgress-colorPrimary MuiLinearProgress-determinate makeStyles-rectangle6-20 css-1fqvzol-MuiLinearProgress-root"
+[38;2;0;95;95m[48;2;215;255;255m+                   class="MuiLinearProgress-root MuiLinearProgress-colorPrimary MuiLinearProgress-determinate makeStyles-rectangle6-19 css-1fqvzol-MuiLinearProgress-root"
+                    data-testid="progress-bar"
+                    role="progressbar"
+                  >
+                    <span
+                      class="MuiLinearProgress-bar MuiLinearProgress-barColorPrimary MuiLinearProgress-bar1Determinate css-5xe99f-MuiLinearProgress-bar1"
+@@ -335,11 +335,11 @@
+                    />
+                  </span>
+                </div>
+              </div>
+              <div
+[38;2;128;0;128m[48;2;255;215;255m-               class="makeStyles-Rectangle3-3 MuiBox-root css-0"
+[38;2;0;95;95m[48;2;215;255;255m+               class="makeStyles-Rectangle3-2 MuiBox-root css-0"
+              >
+                <div
+                  class="MuiBox-root css-0"
+                >
+                  <a
+@@ -354,36 +354,36 @@
+                      width="287px"
+                    />
+                  </a>
+                </div>
+                <p
+[38;2;128;0;128m[48;2;255;215;255m-                 class="MuiTypography-root MuiTypography-body1 makeStyles-HumanToWork-4 css-imro8o-MuiTypography-root"
+[38;2;0;95;95m[48;2;215;255;255m+                 class="MuiTypography-root MuiTypography-body1 makeStyles-HumanToWork-3 css-imro8o-MuiTypography-root"
+                  data-testid="typo"
+                >
+                  Employee to Entrepreneur
+                </p>
+                <p
+[38;2;128;0;128m[48;2;255;215;255m-                 class="MuiTypography-root MuiTypography-body1 makeStyles-Author-5 css-imro8o-MuiTypography-root"
+[38;2;0;95;95m[48;2;215;255;255m+                 class="MuiTypography-root MuiTypography-body1 makeStyles-Author-4 css-imro8o-MuiTypography-root"
+                  data-testid="typo"
+                >
+                  Steve Glaveski
+                </p>
+                <div
+[38;2;128;0;128m[48;2;255;215;255m-                 class="makeStyles-Group6-7 MuiBox-root css-0"
+[38;2;0;95;95m[48;2;215;255;255m+                 class="makeStyles-Group6-6 MuiBox-root css-0"
+                >
+                  <div
+[38;2;128;0;128m[48;2;255;215;255m-                   class="makeStyles-imageContainer-10 MuiBox-root css-0"
+[38;2;0;95;95m[48;2;215;255;255m+                   class="makeStyles-imageContainer-9 MuiBox-root css-0"
+                  >
+                    <div
+[38;2;128;0;128m[48;2;255;215;255m-                     class="makeStyles-TimeIconContainer-8 MuiBox-root css-0"
+[38;2;0;95;95m[48;2;215;255;255m+                     class="makeStyles-TimeIconContainer-7 MuiBox-root css-0"
+                    >
+                      <div
+                        data-testid="box"
+                      >
+                        <svg
+                          aria-hidden="true"
+[38;2;128;0;128m[48;2;255;215;255m-                         class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium makeStyles-TimeIcon-6 css-i4bv87-MuiSvgIcon-root"
+[38;2;0;95;95m[48;2;215;255;255m+                         class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium makeStyles-TimeIcon-5 css-i4bv87-MuiSvgIcon-root"
+                          data-testid="AccessTimeOutlinedIcon"
+                          focusable="false"
+                          viewBox="0 0 24 24"
+                        >
+                          <path
+@@ -393,36 +393,36 @@
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <span
+[38;2;128;0;128m[48;2;255;215;255m-                 class="MuiTypography-root MuiTypography-caption makeStyles-MinuteRead-9 css-8tvgdj-MuiTypography-root"
+[38;2;0;95;95m[48;2;215;255;255m+                 class="MuiTypography-root MuiTypography-caption makeStyles-MinuteRead-8 css-8tvgdj-MuiTypography-root"
+                  data-testid="typo"
+                >
+                  13-minute read
+                </span>
+                <div
+[38;2;128;0;128m[48;2;255;215;255m-                 class="makeStyles-frame7-13 MuiBox-root css-0"
+[38;2;0;95;95m[48;2;215;255;255m+                 class="makeStyles-frame7-12 MuiBox-root css-0"
+                >
+                  <span
+[38;2;128;0;128m[48;2;255;215;255m-                   class="MuiTypography-root MuiTypography-caption makeStyles-reads-14 css-8tvgdj-MuiTypography-root"
+[38;2;0;95;95m[48;2;215;255;255m+                   class="MuiTypography-root MuiTypography-caption makeStyles-reads-13 css-8tvgdj-MuiTypography-root"
+                    data-testid="typo"
+                  >
+                    1.9k reads
+                  </span>
+                  <div
+[38;2;128;0;128m[48;2;255;215;255m-                   class="makeStyles-UserContainer-11 MuiBox-root css-0"
+[38;2;0;95;95m[48;2;215;255;255m+                   class="makeStyles-UserContainer-10 MuiBox-root css-0"
+                  >
+                    <div
+[38;2;128;0;128m[48;2;255;215;255m-                     class="makeStyles-uservector-15 MuiBox-root css-0"
+[38;2;0;95;95m[48;2;215;255;255m+                     class="makeStyles-uservector-14 MuiBox-root css-0"
+                    >
+                      <div
+                        data-testid="box"
+                      >
+                        <svg
+                          aria-hidden="true"
+[38;2;128;0;128m[48;2;255;215;255m-                         class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium makeStyles-usericon-12 css-i4bv87-MuiSvgIcon-root"
+[38;2;0;95;95m[48;2;215;255;255m+                         class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium makeStyles-usericon-11 css-i4bv87-MuiSvgIcon-root"
+                          data-testid="PersonOutlineIcon"
+                          focusable="false"
+                          viewBox="0 0 24 24"
+                        >
+                          <path
+@@ -432,15 +432,15 @@
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div
+[38;2;128;0;128m[48;2;255;215;255m-                 class="makeStyles-button-21 MuiBox-root css-0"
+[38;2;0;95;95m[48;2;215;255;255m+                 class="makeStyles-button-20 MuiBox-root css-0"
+                  data-testid="card-library-handler"
+                >
+                  <button
+[38;2;128;0;128m[48;2;255;215;255m-                   class="MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium MuiButtonBase-root makeStyles-buttonStyle-23 css-aysoqb-MuiButtonBase-root-MuiButton-root"
+[38;2;0;95;95m[48;2;215;255;255m+                   class="MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium MuiButtonBase-root makeStyles-buttonStyle-22 css-aysoqb-MuiButtonBase-root-MuiButton-root"
+                    data-testid="box"
+                    tabindex="0"
+                    type="button"
+                  >
+                    <span
+@@ -464,11 +464,11 @@
+                    />
+                  </button>
+                </div>
+              </div>
+              <div
+[38;2;128;0;128m[48;2;255;215;255m-               class="makeStyles-Rectangle3-3 MuiBox-root css-0"
+[38;2;0;95;95m[48;2;215;255;255m+               class="makeStyles-Rectangle3-2 MuiBox-root css-0"
+              >
+                <div
+                  class="MuiBox-root css-0"
+                >
+                  <a
+@@ -483,36 +483,36 @@
+                      width="287px"
+                    />
+                  </a>
+                </div>
+                <p
+[38;2;128;0;128m[48;2;255;215;255m-                 class="MuiTypography-root MuiTypography-body1 makeStyles-HumanToWork-4 css-imro8o-MuiTypography-root"
+[38;2;0;95;95m[48;2;215;255;255m+                 class="MuiTypography-root MuiTypography-body1 makeStyles-HumanToWork-3 css-imro8o-MuiTypography-root"
+                  data-testid="typo"
+                >
+                  The Fate of Food
+                </p>
+                <p
+[38;2;128;0;128m[48;2;255;215;255m-                 class="MuiTypography-root MuiTypography-body1 makeStyles-Author-5 css-imro8o-MuiTypography-root"
+[38;2;0;95;95m[48;2;215;255;255m+                 class="MuiTypography-root MuiTypography-body1 makeStyles-Author-4 css-imro8o-MuiTypography-root"
+                  data-testid="typo"
+                >
+                  Amanda Little
+                </p>
+                <div
+[38;2;128;0;128m[48;2;255;215;255m-                 class="makeStyles-Group6-7 MuiBox-root css-0"
+[38;2;0;95;95m[48;2;215;255;255m+                 class="makeStyles-Group6-6 MuiBox-root css-0"
+                >
+                  <div
+[38;2;128;0;128m[48;2;255;215;255m-                   class="makeStyles-imageContainer-10 MuiBox-root css-0"
+[38;2;0;95;95m[48;2;215;255;255m+                   class="makeStyles-imageContainer-9 MuiBox-root css-0"
+                  >
+                    <div
+[38;2;128;0;128m[48;2;255;215;255m-                     class="makeStyles-TimeIconContainer-8 MuiBox-root css-0"
+[38;2;0;95;95m[48;2;215;255;255m+                     class="makeStyles-TimeIconContainer-7 MuiBox-root css-0"
+                    >
+                      <div
+                        data-testid="box"
+                      >
+                        <svg
+                          aria-hidden="true"
+[38;2;128;0;128m[48;2;255;215;255m-                         class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium makeStyles-TimeIcon-6 css-i4bv87-MuiSvgIcon-root"
+[38;2;0;95;95m[48;2;215;255;255m+                         class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium makeStyles-TimeIcon-5 css-i4bv87-MuiSvgIcon-root"
+                          data-testid="AccessTimeOutlinedIcon"
+                          focusable="false"
+                          viewBox="0 0 24 24"
+                        >
+                          <path
+@@ -522,36 +522,36 @@
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <span
+[38;2;128;0;128m[48;2;255;215;255m-                 class="MuiTypography-root MuiTypography-caption makeStyles-MinuteRead-9 css-8tvgdj-MuiTypography-root"
+[38;2;0;95;95m[48;2;215;255;255m+                 class="MuiTypography-root MuiTypography-caption makeStyles-MinuteRead-8 css-8tvgdj-MuiTypography-root"
+                  data-testid="typo"
+                >
+                  13-minute read
+                </span>
+                <div
+[38;2;128;0;128m[48;2;255;215;255m-                 class="makeStyles-frame7-13 MuiBox-root css-0"
+[38;2;0;95;95m[48;2;215;255;255m+                 class="makeStyles-frame7-12 MuiBox-root css-0"
+                >
+                  <span
+[38;2;128;0;128m[48;2;255;215;255m-                   class="MuiTypography-root MuiTypography-caption makeStyles-reads-14 css-8tvgdj-MuiTypography-root"
+[38;2;0;95;95m[48;2;215;255;255m+                   class="MuiTypography-root MuiTypography-caption makeStyles-reads-13 css-8tvgdj-MuiTypography-root"
+                    data-testid="typo"
+                  >
+                    1.9k reads
+                  </span>
+                  <div
+[38;2;128;0;128m[48;2;255;215;255m-                   class="makeStyles-UserContainer-11 MuiBox-root css-0"
+[38;2;0;95;95m[48;2;215;255;255m+                   class="makeStyles-UserContainer-10 MuiBox-root css-0"
+                  >
+                    <div
+[38;2;128;0;128m[48;2;255;215;255m-                     class="makeStyles-uservector-15 MuiBox-root css-0"
+[38;2;0;95;95m[48;2;215;255;255m+                     class="makeStyles-uservector-14 MuiBox-root css-0"
+                    >
+                      <div
+                        data-testid="box"
+                      >
+                        <svg
+                          aria-hidden="true"
+[38;2;128;0;128m[48;2;255;215;255m-                         class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium makeStyles-usericon-12 css-i4bv87-MuiSvgIcon-root"
+[38;2;0;95;95m[48;2;215;255;255m+                         class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium makeStyles-usericon-11 css-i4bv87-MuiSvgIcon-root"
+                          data-testid="PersonOutlineIcon"
+                          focusable="false"
+                          viewBox="0 0 24 24"
+                        >
+                          <path
+@@ -564,21 +564,21 @@
+                </div>
+                <div
+                  data-testid="button"
+                >
+                  <div
+[38;2;128;0;128m[48;2;255;215;255m-                   class="makeStyles-more-17 MuiBox-root css-0"
+[38;2;0;95;95m[48;2;215;255;255m+                   class="makeStyles-more-16 MuiBox-root css-0"
+                  >
+                    <div
+[38;2;128;0;128m[48;2;255;215;255m-                     class="makeStyles-morecontainer-18 MuiBox-root css-0"
+[38;2;0;95;95m[48;2;215;255;255m+                     class="makeStyles-morecontainer-17 MuiBox-root css-0"
+                    >
+                      <div
+                        data-testid="box"
+                      >
+                        <svg
+                          aria-hidden="true"
+[38;2;128;0;128m[48;2;255;215;255m-                         class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium makeStyles-morehoriz-16 css-i4bv87-MuiSvgIcon-root"
+[38;2;0;95;95m[48;2;215;255;255m+                         class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium makeStyles-morehoriz-15 css-i4bv87-MuiSvgIcon-root"
+                          data-testid="MoreHorizIcon"
+                          focusable="false"
+                          viewBox="0 0 24 24"
+                        >
+                          <path
+@@ -590,11 +590,11 @@
+                  </div>
+                  <span
+                    aria-valuemax="100"
+                    aria-valuemin="0"
+                    aria-valuenow="25"
+[38;2;128;0;128m[48;2;255;215;255m-                   class="MuiLinearProgress-root MuiLinearProgress-colorPrimary MuiLinearProgress-determinate makeStyles-rectangle6-20 css-1fqvzol-MuiLinearProgress-root"
+[38;2;0;95;95m[48;2;215;255;255m+                   class="MuiLinearProgress-root MuiLinearProgress-colorPrimary MuiLinearProgress-determinate makeStyles-rectangle6-19 css-1fqvzol-MuiLinearProgress-root"
+                    data-testid="progress-bar"
+                    role="progressbar"
+                  >
+                    <span
+                      class="MuiLinearProgress-bar MuiLinearProgress-barColorPrimary MuiLinearProgress-bar1Determinate css-5xe99f-MuiLinearProgress-bar1"
+@@ -602,11 +602,11 @@
+                    />
+                  </span>
+                </div>
+              </div>
+              <div
+[38;2;128;0;128m[48;2;255;215;255m-               class="makeStyles-Rectangle3-3 MuiBox-root css-0"
+[38;2;0;95;95m[48;2;215;255;255m+               class="makeStyles-Rectangle3-2 MuiBox-root css-0"
+              >
+                <div
+                  class="MuiBox-root css-0"
+                >
+                  <a
+@@ -621,36 +621,36 @@
+                      width="287px"
+                    />
+                  </a>
+                </div>
+                <p
+[38;2;128;0;128m[48;2;255;215;255m-                 class="MuiTypography-root MuiTypography-body1 makeStyles-HumanToWork-4 css-imro8o-MuiTypography-root"
+[38;2;0;95;95m[48;2;215;255;255m+                 class="MuiTypography-root MuiTypography-body1 makeStyles-HumanToWork-3 css-imro8o-MuiTypography-root"
+                  data-testid="typo"
+                >
+                  Lives of the Stoics
+                </p>
+                <p
+[38;2;128;0;128m[48;2;255;215;255m-                 class="MuiTypography-root MuiTypography-body1 makeStyles-Author-5 css-imro8o-MuiTypography-root"
+[38;2;0;95;95m[48;2;215;255;255m+                 class="MuiTypography-root MuiTypography-body1 makeStyles-Author-4 css-imro8o-MuiTypography-root"
+                  data-testid="typo"
+                >
+                  Ryan Holiday, Stephen Hansel
+                </p>
+                <div
+[38;2;128;0;128m[48;2;255;215;255m-                 class="makeStyles-Group6-7 MuiBox-root css-0"
+[38;2;0;95;95m[48;2;215;255;255m+                 class="makeStyles-Group6-6 MuiBox-root css-0"
+                >
+                  <div
+[38;2;128;0;128m[48;2;255;215;255m-                   class="makeStyles-imageContainer-10 MuiBox-root css-0"
+[38;2;0;95;95m[48;2;215;255;255m+                   class="makeStyles-imageContainer-9 MuiBox-root css-0"
+                  >
+                    <div
+[38;2;128;0;128m[48;2;255;215;255m-                     class="makeStyles-TimeIconContainer-8 MuiBox-root css-0"
+[38;2;0;95;95m[48;2;215;255;255m+                     class="makeStyles-TimeIconContainer-7 MuiBox-root css-0"
+                    >
+                      <div
+                        data-testid="box"
+                      >
+                        <svg
+                          aria-hidden="true"
+[38;2;128;0;128m[48;2;255;215;255m-                         class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium makeStyles-TimeIcon-6 css-i4bv87-MuiSvgIcon-root"
+[38;2;0;95;95m[48;2;215;255;255m+                         class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium makeStyles-TimeIcon-5 css-i4bv87-MuiSvgIcon-root"
+                          data-testid="AccessTimeOutlinedIcon"
+                          focusable="false"
+                          viewBox="0 0 24 24"
+                        >
+                          <path
+@@ -660,36 +660,36 @@
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <span
+[38;2;128;0;128m[48;2;255;215;255m-                 class="MuiTypography-root MuiTypography-caption makeStyles-MinuteRead-9 css-8tvgdj-MuiTypography-root"
+[38;2;0;95;95m[48;2;215;255;255m+                 class="MuiTypography-root MuiTypography-caption makeStyles-MinuteRead-8 css-8tvgdj-MuiTypography-root"
+                  data-testid="typo"
+                >
+                  13-minute read
+                </span>
+                <div
+[38;2;128;0;128m[48;2;255;215;255m-                 class="makeStyles-frame7-13 MuiBox-root css-0"
+[38;2;0;95;95m[48;2;215;255;255m+                 class="makeStyles-frame7-12 MuiBox-root css-0"
+                >
+                  <span
+[38;2;128;0;128m[48;2;255;215;255m-                   class="MuiTypography-root MuiTypography-caption makeStyles-reads-14 css-8tvgdj-MuiTypography-root"
+[38;2;0;95;95m[48;2;215;255;255m+                   class="MuiTypography-root MuiTypography-caption makeStyles-reads-13 css-8tvgdj-MuiTypography-root"
+                    data-testid="typo"
+                  >
+                    1.9k reads
+                  </span>
+                  <div
+[38;2;128;0;128m[48;2;255;215;255m-                   class="makeStyles-UserContainer-11 MuiBox-root css-0"
+[38;2;0;95;95m[48;2;215;255;255m+                   class="makeStyles-UserContainer-10 MuiBox-root css-0"
+                  >
+                    <div
+[38;2;128;0;128m[48;2;255;215;255m-                     class="makeStyles-uservector-15 MuiBox-root css-0"
+[38;2;0;95;95m[48;2;215;255;255m+                     class="makeStyles-uservector-14 MuiBox-root css-0"
+                    >
+                      <div
+                        data-testid="box"
+                      >
+                        <svg
+                          aria-hidden="true"
+[38;2;128;0;128m[48;2;255;215;255m-                         class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium makeStyles-usericon-12 css-i4bv87-MuiSvgIcon-root"
+[38;2;0;95;95m[48;2;215;255;255m+                         class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium makeStyles-usericon-11 css-i4bv87-MuiSvgIcon-root"
+                          data-testid="PersonOutlineIcon"
+                          focusable="false"
+                          viewBox="0 0 24 24"
+                        >
+                          <path
+@@ -699,15 +699,15 @@
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div
+[38;2;128;0;128m[48;2;255;215;255m-                 class="makeStyles-button-21 MuiBox-root css-0"
+[38;2;0;95;95m[48;2;215;255;255m+                 class="makeStyles-button-20 MuiBox-root css-0"
+                  data-testid="card-library-handler"
+                >
+                  <button
+[38;2;128;0;128m[48;2;255;215;255m-                   class="MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium MuiButtonBase-root makeStyles-buttonStyle-23 css-aysoqb-MuiButtonBase-root-MuiButton-root"
+[38;2;0;95;95m[48;2;215;255;255m+                   class="MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium MuiButtonBase-root makeStyles-buttonStyle-22 css-aysoqb-MuiButtonBase-root-MuiButton-root"
+                    data-testid="box"
+                    tabindex="0"
+                    type="button"
+                  >
+                    <span
+@@ -731,11 +731,11 @@
+                    />
+                  </button>
+                </div>
+              </div>
+              <div
+[38;2;128;0;128m[48;2;255;215;255m-               class="makeStyles-Rectangle3-3 MuiBox-root css-0"
+[38;2;0;95;95m[48;2;215;255;255m+               class="makeStyles-Rectangle3-2 MuiBox-root css-0"
+              >
+                <div
+                  class="MuiBox-root css-0"
+                >
+                  <a
+@@ -750,36 +750,36 @@
+                      width="287px"
+                    />
+                  </a>
+                </div>
+                <p
+[38;2;128;0;128m[48;2;255;215;255m-                 class="MuiTypography-root MuiTypography-body1 makeStyles-HumanToWork-4 css-imro8o-MuiTypography-root"
+[38;2;0;95;95m[48;2;215;255;255m+                 class="MuiTypography-root MuiTypography-body1 makeStyles-HumanToWork-3 css-imro8o-MuiTypography-root"
+                  data-testid="typo"
+                >
+                  Loving Your Business
+                </p>
+                <p
+[38;2;128;0;128m[48;2;255;215;255m-                 class="MuiTypography-root MuiTypography-body1 makeStyles-Author-5 css-imro8o-MuiTypography-root"
+[38;2;0;95;95m[48;2;215;255;255m+                 class="MuiTypography-root MuiTypography-body1 makeStyles-Author-4 css-imro8o-MuiTypography-root"
+                  data-testid="typo"
+                >
+                  Debbie King
+                </p>
+                <div
+[38;2;128;0;128m[48;2;255;215;255m-                 class="makeStyles-Group6-7 MuiBox-root css-0"
+[38;2;0;95;95m[48;2;215;255;255m+                 class="makeStyles-Group6-6 MuiBox-root css-0"
+                >
+                  <div
+[38;2;128;0;128m[48;2;255;215;255m-                   class="makeStyles-imageContainer-10 MuiBox-root css-0"
+[38;2;0;95;95m[48;2;215;255;255m+                   class="makeStyles-imageContainer-9 MuiBox-root css-0"
+                  >
+                    <div
+[38;2;128;0;128m[48;2;255;215;255m-                     class="makeStyles-TimeIconContainer-8 MuiBox-root css-0"
+[38;2;0;95;95m[48;2;215;255;255m+                     class="makeStyles-TimeIconContainer-7 MuiBox-root css-0"
+                    >
+                      <div
+                        data-testid="box"
+                      >
+                        <svg
+                          aria-hidden="true"
+[38;2;128;0;128m[48;2;255;215;255m-                         class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium makeStyles-TimeIcon-6 css-i4bv87-MuiSvgIcon-root"
+[38;2;0;95;95m[48;2;215;255;255m+                         class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium makeStyles-TimeIcon-5 css-i4bv87-MuiSvgIcon-root"
+                          data-testid="AccessTimeOutlinedIcon"
+                          focusable="false"
+                          viewBox="0 0 24 24"
+                        >
+                          <path
+@@ -789,36 +789,36 @@
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <span
+[38;2;128;0;128m[48;2;255;215;255m-                 class="MuiTypography-root MuiTypography-caption makeStyles-MinuteRead-9 css-8tvgdj-MuiTypography-root"
+[38;2;0;95;95m[48;2;215;255;255m+                 class="MuiTypography-root MuiTypography-caption makeStyles-MinuteRead-8 css-8tvgdj-MuiTypography-root"
+                  data-testid="typo"
+                >
+                  13-minute read
+                </span>
+                <div
+[38;2;128;0;128m[48;2;255;215;255m-                 class="makeStyles-frame7-13 MuiBox-root css-0"
+[38;2;0;95;95m[48;2;215;255;255m+                 class="makeStyles-frame7-12 MuiBox-root css-0"
+                >
+                  <span
+[38;2;128;0;128m[48;2;255;215;255m-                   class="MuiTypography-root MuiTypography-caption makeStyles-reads-14 css-8tvgdj-MuiTypography-root"
+[38;2;0;95;95m[48;2;215;255;255m+                   class="MuiTypography-root MuiTypography-caption makeStyles-reads-13 css-8tvgdj-MuiTypography-root"
+                    data-testid="typo"
+                  >
+                    1.9k reads
+                  </span>
+                  <div
+[38;2;128;0;128m[48;2;255;215;255m-                   class="makeStyles-UserContainer-11 MuiBox-root css-0"
+[38;2;0;95;95m[48;2;215;255;255m+                   class="makeStyles-UserContainer-10 MuiBox-root css-0"
+                  >
+                    <div
+[38;2;128;0;128m[48;2;255;215;255m-                     class="makeStyles-uservector-15 MuiBox-root css-0"
+[38;2;0;95;95m[48;2;215;255;255m+                     class="makeStyles-uservector-14 MuiBox-root css-0"
+                    >
+                      <div
+                        data-testid="box"
+                      >
+                        <svg
+                          aria-hidden="true"
+[38;2;128;0;128m[48;2;255;215;255m-                         class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium makeStyles-usericon-12 css-i4bv87-MuiSvgIcon-root"
+[38;2;0;95;95m[48;2;215;255;255m+                         class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium makeStyles-usericon-11 css-i4bv87-MuiSvgIcon-root"
+                          data-testid="PersonOutlineIcon"
+                          focusable="false"
+                          viewBox="0 0 24 24"
+                        >
+                          <path
+@@ -831,21 +831,21 @@
+                </div>
+                <div
+                  data-testid="button"
+                >
+                  <div
+[38;2;128;0;128m[48;2;255;215;255m-                   class="makeStyles-more-17 MuiBox-root css-0"
+[38;2;0;95;95m[48;2;215;255;255m+                   class="makeStyles-more-16 MuiBox-root css-0"
+                  >
+                    <div
+[38;2;128;0;128m[48;2;255;215;255m-                     class="makeStyles-morecontainer-18 MuiBox-root css-0"
+[38;2;0;95;95m[48;2;215;255;255m+                     class="makeStyles-morecontainer-17 MuiBox-root css-0"
+                    >
+                      <div
+                        data-testid="box"
+                      >
+                        <svg
+                          aria-hidden="true"
+[38;2;128;0;128m[48;2;255;215;255m-                         class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium makeStyles-morehoriz-16 css-i4bv87-MuiSvgIcon-root"
+[38;2;0;95;95m[48;2;215;255;255m+                         class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium makeStyles-morehoriz-15 css-i4bv87-MuiSvgIcon-root"
+                          data-testid="MoreHorizIcon"
+                          focusable="false"
+                          viewBox="0 0 24 24"
+                        >
+                          <path
+@@ -857,11 +857,11 @@
+                  </div>
+                  <span
+                    aria-valuemax="100"
+                    aria-valuemin="0"
+                    aria-valuenow="25"
+[38;2;128;0;128m[48;2;255;215;255m-                   class="MuiLinearProgress-root MuiLinearProgress-colorPrimary MuiLinearProgress-determinate makeStyles-rectangle6-20 css-1fqvzol-MuiLinearProgress-root"
+[38;2;0;95;95m[48;2;215;255;255m+                   class="MuiLinearProgress-root MuiLinearProgress-colorPrimary MuiLinearProgress-determinate makeStyles-rectangle6-19 css-1fqvzol-MuiLinearProgress-root"
+                    data-testid="progress-bar"
+                    role="progressbar"
+                  >
+                    <span
+                      class="MuiLinearProgress-bar MuiLinearProgress-barColorPrimary MuiLinearProgress-bar1Determinate css-5xe99f-MuiLinearProgress-bar1"
+@@ -869,11 +869,11 @@
+                    />
+                  </span>
+                </div>
+              </div>
+              <div
+[38;2;128;0;128m[48;2;255;215;255m-               class="makeStyles-Rectangle3-3 MuiBox-root css-0"
+[38;2;0;95;95m[48;2;215;255;255m+               class="makeStyles-Rectangle3-2 MuiBox-root css-0"
+              >
+                <div
+                  class="MuiBox-root css-0"
+                >
+                  <a
+@@ -888,36 +888,36 @@
+                      width="287px"
+                    />
+                  </a>
+                </div>
+                <p
+[38;2;128;0;128m[48;2;255;215;255m-                 class="MuiTypography-root MuiTypography-body1 makeStyles-HumanToWork-4 css-imro8o-MuiTypography-root"
+[38;2;0;95;95m[48;2;215;255;255m+                 class="MuiTypography-root MuiTypography-body1 makeStyles-HumanToWork-3 css-imro8o-MuiTypography-root"
+                  data-testid="typo"
+                >
+                  The Lonely Century
+                </p>
+                <p
+[38;2;128;0;128m[48;2;255;215;255m-                 class="MuiTypography-root MuiTypography-body1 makeStyles-Author-5 css-imro8o-MuiTypography-root"
+[38;2;0;95;95m[48;2;215;255;255m+                 class="MuiTypography-root MuiTypography-body1 makeStyles-Author-4 css-imro8o-MuiTypography-root"
+                  data-testid="typo"
+                >
+                  Noreena Hertz
+                </p>
+                <div
+[38;2;128;0;128m[48;2;255;215;255m-                 class="makeStyles-Group6-7 MuiBox-root css-0"
+[38;2;0;95;95m[48;2;215;255;255m+                 class="makeStyles-Group6-6 MuiBox-root css-0"
+                >
+                  <div
+[38;2;128;0;128m[48;2;255;215;255m-                   class="makeStyles-imageContainer-10 MuiBox-root css-0"
+[38;2;0;95;95m[48;2;215;255;255m+                   class="makeStyles-imageContainer-9 MuiBox-root css-0"
+                  >
+                    <div
+[38;2;128;0;128m[48;2;255;215;255m-                     class="makeStyles-TimeIconContainer-8 MuiBox-root css-0"
+[38;2;0;95;95m[48;2;215;255;255m+                     class="makeStyles-TimeIconContainer-7 MuiBox-root css-0"
+                    >
+                      <div
+                        data-testid="box"
+                      >
+                        <svg
+                          aria-hidden="true"
+[38;2;128;0;128m[48;2;255;215;255m-                         class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium makeStyles-TimeIcon-6 css-i4bv87-MuiSvgIcon-root"
+[38;2;0;95;95m[48;2;215;255;255m+                         class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium makeStyles-TimeIcon-5 css-i4bv87-MuiSvgIcon-root"
+                          data-testid="AccessTimeOutlinedIcon"
+                          focusable="false"
+                          viewBox="0 0 24 24"
+                        >
+                          <path
+@@ -927,36 +927,36 @@
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <span
+[38;2;128;0;128m[48;2;255;215;255m-                 class="MuiTypography-root MuiTypography-caption makeStyles-MinuteRead-9 css-8tvgdj-MuiTypography-root"
+[38;2;0;95;95m[48;2;215;255;255m+                 class="MuiTypography-root MuiTypography-caption makeStyles-MinuteRead-8 css-8tvgdj-MuiTypography-root"
+                  data-testid="typo"
+                >
+                  13-minute read
+                </span>
+                <div
+[38;2;128;0;128m[48;2;255;215;255m-                 class="makeStyles-frame7-13 MuiBox-root css-0"
+[38;2;0;95;95m[48;2;215;255;255m+                 class="makeStyles-frame7-12 MuiBox-root css-0"
+                >
+                  <span
+[38;2;128;0;128m[48;2;255;215;255m-                   class="MuiTypography-root MuiTypography-caption makeStyles-reads-14 css-8tvgdj-MuiTypography-root"
+[38;2;0;95;95m[48;2;215;255;255m+                   class="MuiTypography-root MuiTypography-caption makeStyles-reads-13 css-8tvgdj-MuiTypography-root"
+                    data-testid="typo"
+                  >
+                    1.9k reads
+                  </span>
+                  <div
+[38;2;128;0;128m[48;2;255;215;255m-                   class="makeStyles-UserContainer-11 MuiBox-root css-0"
+[38;2;0;95;95m[48;2;215;255;255m+                   class="makeStyles-UserContainer-10 MuiBox-root css-0"
+                  >
+                    <div
+[38;2;128;0;128m[48;2;255;215;255m-                     class="makeStyles-uservector-15 MuiBox-root css-0"
+[38;2;0;95;95m[48;2;215;255;255m+                     class="makeStyles-uservector-14 MuiBox-root css-0"
+                    >
+                      <div
+                        data-testid="box"
+                      >
+                        <svg
+                          aria-hidden="true"
+[38;2;128;0;128m[48;2;255;215;255m-                         class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium makeStyles-usericon-12 css-i4bv87-MuiSvgIcon-root"
+[38;2;0;95;95m[48;2;215;255;255m+                         class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium makeStyles-usericon-11 css-i4bv87-MuiSvgIcon-root"
+                          data-testid="PersonOutlineIcon"
+                          focusable="false"
+                          viewBox="0 0 24 24"
+                        >
+                          <path
+@@ -969,21 +969,21 @@
+                </div>
+                <div
+                  data-testid="button"
+                >
+                  <div
+[38;2;128;0;128m[48;2;255;215;255m-                   class="makeStyles-more-17 MuiBox-root css-0"
+[38;2;0;95;95m[48;2;215;255;255m+                   class="makeStyles-more-16 MuiBox-root css-0"
+                  >
+                    <div
+[38;2;128;0;128m[48;2;255;215;255m-                     class="makeStyles-morecontainer-18 MuiBox-root css-0"
+[38;2;0;95;95m[48;2;215;255;255m+                     class="makeStyles-morecontainer-17 MuiBox-root css-0"
+                    >
+                      <div
+                        data-testid="box"
+                      >
+                        <svg
+                          aria-hidden="true"
+[38;2;128;0;128m[48;2;255;215;255m-                         class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium makeStyles-morehoriz-16 css-i4bv87-MuiSvgIcon-root"
+[38;2;0;95;95m[48;2;215;255;255m+                         class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium makeStyles-morehoriz-15 css-i4bv87-MuiSvgIcon-root"
+                          data-testid="MoreHorizIcon"
+                          focusable="false"
+                          viewBox="0 0 24 24"
+                        >
+                          <path
+@@ -995,11 +995,11 @@
+                  </div>
+                  <span
+                    aria-valuemax="100"
+                    aria-valuemin="0"
+                    aria-valuenow="25"
+[38;2;128;0;128m[48;2;255;215;255m-                   class="MuiLinearProgress-root MuiLinearProgress-colorPrimary MuiLinearProgress-determinate makeStyles-rectangle6-20 css-1fqvzol-MuiLinearProgress-root"
+[38;2;0;95;95m[48;2;215;255;255m+                   class="MuiLinearProgress-root MuiLinearProgress-colorPrimary MuiLinearProgress-determinate makeStyles-rectangle6-19 css-1fqvzol-MuiLinearProgress-root"
+                    data-testid="progress-bar"
+                    role="progressbar"
+                  >
+                    <span
+                      class="MuiLinearProgress-bar MuiLinearProgress-barColorPrimary MuiLinearProgress-bar1Determinate css-5xe99f-MuiLinearProgress-bar1"
+@@ -1007,11 +1007,11 @@
+                    />
+                  </span>
+                </div>
+              </div>
+              <div
+[38;2;128;0;128m[48;2;255;215;255m-               class="makeStyles-Rectangle3-3 MuiBox-root css-0"
+[38;2;0;95;95m[48;2;215;255;255m+               class="makeStyles-Rectangle3-2 MuiBox-root css-0"
+              >
+                <div
+                  class="MuiBox-root css-0"
+                >
+                  <a
+@@ -1026,36 +1026,36 @@
+                      width="287px"
+                    />
+                  </a>
+                </div>
+                <p
+[38;2;128;0;128m[48;2;255;215;255m-                 class="MuiTypography-root MuiTypography-body1 makeStyles-HumanToWork-4 css-imro8o-MuiTypography-root"
+[38;2;0;95;95m[48;2;215;255;255m+                 class="MuiTypography-root MuiTypography-body1 makeStyles-HumanToWork-3 css-imro8o-MuiTypography-root"
+                  data-testid="typo"
+                >
+                  Eat Better, Feel Better
+                </p>
+                <p
+[38;2;128;0;128m[48;2;255;215;255m-                 class="MuiTypography-root MuiTypography-body1 makeStyles-Author-5 css-imro8o-MuiTypography-root"
+[38;2;0;95;95m[48;2;215;255;255m+                 class="MuiTypography-root MuiTypography-body1 makeStyles-Author-4 css-imro8o-MuiTypography-root"
+                  data-testid="typo"
+                >
+                  Giada De Laurentiis
+                </p>
+                <div
+[38;2;128;0;128m[48;2;255;215;255m-                 class="makeStyles-Group6-7 MuiBox-root css-0"
+[38;2;0;95;95m[48;2;215;255;255m+                 class="makeStyles-Group6-6 MuiBox-root css-0"
+                >
+                  <div
+[38;2;128;0;128m[48;2;255;215;255m-                   class="makeStyles-imageContainer-10 MuiBox-root css-0"
+[38;2;0;95;95m[48;2;215;255;255m+                   class="makeStyles-imageContainer-9 MuiBox-root css-0"
+                  >
+                    <div
+[38;2;128;0;128m[48;2;255;215;255m-                     class="makeStyles-TimeIconContainer-8 MuiBox-root css-0"
+[38;2;0;95;95m[48;2;215;255;255m+                     class="makeStyles-TimeIconContainer-7 MuiBox-root css-0"
+                    >
+                      <div
+                        data-testid="box"
+                      >
+                        <svg
+                          aria-hidden="true"
+[38;2;128;0;128m[48;2;255;215;255m-                         class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium makeStyles-TimeIcon-6 css-i4bv87-MuiSvgIcon-root"
+[38;2;0;95;95m[48;2;215;255;255m+                         class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium makeStyles-TimeIcon-5 css-i4bv87-MuiSvgIcon-root"
+                          data-testid="AccessTimeOutlinedIcon"
+                          focusable="false"
+                          viewBox="0 0 24 24"
+                        >
+                          <path
+@@ -1065,36 +1065,36 @@
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <span
+[38;2;128;0;128m[48;2;255;215;255m-                 class="MuiTypography-root MuiTypography-caption makeStyles-MinuteRead-9 css-8tvgdj-MuiTypography-root"
+[38;2;0;95;95m[48;2;215;255;255m+                 class="MuiTypography-root MuiTypography-caption makeStyles-MinuteRead-8 css-8tvgdj-MuiTypography-root"
+                  data-testid="typo"
+                >
+                  13-minute read
+                </span>
+                <div
+[38;2;128;0;128m[48;2;255;215;255m-                 class="makeStyles-frame7-13 MuiBox-root css-0"
+[38;2;0;95;95m[48;2;215;255;255m+                 class="makeStyles-frame7-12 MuiBox-root css-0"
+                >
+                  <span
+[38;2;128;0;128m[48;2;255;215;255m-                   class="MuiTypography-root MuiTypography-caption makeStyles-reads-14 css-8tvgdj-MuiTypography-root"
+[38;2;0;95;95m[48;2;215;255;255m+                   class="MuiTypography-root MuiTypography-caption makeStyles-reads-13 css-8tvgdj-MuiTypography-root"
+                    data-testid="typo"
+                  >
+                    1.9k reads
+                  </span>
+                  <div
+[38;2;128;0;128m[48;2;255;215;255m-                   class="makeStyles-UserContainer-11 MuiBox-root css-0"
+[38;2;0;95;95m[48;2;215;255;255m+                   class="makeStyles-UserContainer-10 MuiBox-root css-0"
+                  >
+                    <div
+[38;2;128;0;128m[48;2;255;215;255m-                     class="makeStyles-uservector-15 MuiBox-root css-0"
+[38;2;0;95;95m[48;2;215;255;255m+                     class="makeStyles-uservector-14 MuiBox-root css-0"
+                    >
+                      <div
+                        data-testid="box"
+                      >
+                        <svg
+                          aria-hidden="true"
+[38;2;128;0;128m[48;2;255;215;255m-                         class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium makeStyles-usericon-12 css-i4bv87-MuiSvgIcon-root"
+[38;2;0;95;95m[48;2;215;255;255m+                         class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium makeStyles-usericon-11 css-i4bv87-MuiSvgIcon-root"
+                          data-testid="PersonOutlineIcon"
+                          focusable="false"
+                          viewBox="0 0 24 24"
+                        >
+                          <path
+@@ -1104,14 +1104,14 @@
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div
+[38;2;128;0;128m[48;2;255;215;255m-                 class="makeStyles-button-21 MuiBox-root css-0"
+[38;2;0;95;95m[48;2;215;255;255m+                 class="makeStyles-button-20 MuiBox-root css-0"
+                >
+                  <button
+[38;2;128;0;128m[48;2;255;215;255m-                   class="MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium MuiButtonBase-root makeStyles-buttonStyle-23 css-aysoqb-MuiButtonBase-root-MuiButton-root"
+[38;2;0;95;95m[48;2;215;255;255m+                   class="MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium MuiButtonBase-root makeStyles-buttonStyle-22 css-aysoqb-MuiButtonBase-root-MuiButton-root"
+                    data-testid="box"
+                    tabindex="0"
+                    type="button"
+                  >
+                    <span
+@@ -1135,11 +1135,11 @@
+                    />
+                  </button>
+                </div>
+              </div>
+              <div
+[38;2;128;0;128m[48;2;255;215;255m-               class="makeStyles-Rectangle3-3 MuiBox-root css-0"
+[38;2;0;95;95m[48;2;215;255;255m+               class="makeStyles-Rectangle3-2 MuiBox-root css-0"
+              >
+                <div
+                  class="MuiBox-root css-0"
+                >
+                  <a
+@@ -1154,36 +1154,36 @@
+                      width="287px"
+                    />
+                  </a>
+                </div>
+                <p
+[38;2;128;0;128m[48;2;255;215;255m-                 class="MuiTypography-root MuiTypography-body1 makeStyles-HumanToWork-4 css-imro8o-MuiTypography-root"
+[38;2;0;95;95m[48;2;215;255;255m+                 class="MuiTypography-root MuiTypography-body1 makeStyles-HumanToWork-3 css-imro8o-MuiTypography-root"
+                  data-testid="typo"
+                >
+                  Dropshipping
+                </p>
+                <p
+[38;2;128;0;128m[48;2;255;215;255m-                 class="MuiTypography-root MuiTypography-body1 makeStyles-Author-5 css-imro8o-MuiTypography-root"
+[38;2;0;95;95m[48;2;215;255;255m+                 class="MuiTypography-root MuiTypography-body1 makeStyles-Author-4 css-imro8o-MuiTypography-root"
+                  data-testid="typo"
+                >
+                  Giada De Laurentiis
+                </p>
+                <div
+[38;2;128;0;128m[48;2;255;215;255m-                 class="makeStyles-Group6-7 MuiBox-root css-0"
+[38;2;0;95;95m[48;2;215;255;255m+                 class="makeStyles-Group6-6 MuiBox-root css-0"
+                >
+                  <div
+[38;2;128;0;128m[48;2;255;215;255m-                   class="makeStyles-imageContainer-10 MuiBox-root css-0"
+[38;2;0;95;95m[48;2;215;255;255m+                   class="makeStyles-imageContainer-9 MuiBox-root css-0"
+                  >
+                    <div
+[38;2;128;0;128m[48;2;255;215;255m-                     class="makeStyles-TimeIconContainer-8 MuiBox-root css-0"
+[38;2;0;95;95m[48;2;215;255;255m+                     class="makeStyles-TimeIconContainer-7 MuiBox-root css-0"
+                    >
+                      <div
+                        data-testid="box"
+                      >
+                        <svg
+                          aria-hidden="true"
+[38;2;128;0;128m[48;2;255;215;255m-                         class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium makeStyles-TimeIcon-6 css-i4bv87-MuiSvgIcon-root"
+[38;2;0;95;95m[48;2;215;255;255m+                         class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium makeStyles-TimeIcon-5 css-i4bv87-MuiSvgIcon-root"
+                          data-testid="AccessTimeOutlinedIcon"
+                          focusable="false"
+                          viewBox="0 0 24 24"
+                        >
+                          <path
+@@ -1193,36 +1193,36 @@
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <span
+[38;2;128;0;128m[48;2;255;215;255m-                 class="MuiTypography-root MuiTypography-caption makeStyles-MinuteRead-9 css-8tvgdj-MuiTypography-root"
+[38;2;0;95;95m[48;2;215;255;255m+                 class="MuiTypography-root MuiTypography-caption makeStyles-MinuteRead-8 css-8tvgdj-MuiTypography-root"
+                  data-testid="typo"
+                >
+                  13-minute read
+                </span>
+                <div
+[38;2;128;0;128m[48;2;255;215;255m-                 class="makeStyles-frame7-13 MuiBox-root css-0"
+[38;2;0;95;95m[48;2;215;255;255m+                 class="makeStyles-frame7-12 MuiBox-root css-0"
+                >
+                  <span
+[38;2;128;0;128m[48;2;255;215;255m-                   class="MuiTypography-root MuiTypography-caption makeStyles-reads-14 css-8tvgdj-MuiTypography-root"
+[38;2;0;95;95m[48;2;215;255;255m+                   class="MuiTypography-root MuiTypography-caption makeStyles-reads-13 css-8tvgdj-MuiTypography-root"
+                    data-testid="typo"
+                  >
+                    1.9k reads
+                  </span>
+                  <div
+[38;2;128;0;128m[48;2;255;215;255m-                   class="makeStyles-UserContainer-11 MuiBox-root css-0"
+[38;2;0;95;95m[48;2;215;255;255m+                   class="makeStyles-UserContainer-10 MuiBox-root css-0"
+                  >
+                    <div
+[38;2;128;0;128m[48;2;255;215;255m-                     class="makeStyles-uservector-15 MuiBox-root css-0"
+[38;2;0;95;95m[48;2;215;255;255m+                     class="makeStyles-uservector-14 MuiBox-root css-0"
+                    >
+                      <div
+                        data-testid="box"
+                      >
+                        <svg
+                          aria-hidden="true"
+[38;2;128;0;128m[48;2;255;215;255m-                         class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium makeStyles-usericon-12 css-i4bv87-MuiSvgIcon-root"
+[38;2;0;95;95m[48;2;215;255;255m+                         class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium makeStyles-usericon-11 css-i4bv87-MuiSvgIcon-root"
+                          data-testid="PersonOutlineIcon"
+                          focusable="false"
+                          viewBox="0 0 24 24"
+                        >
+                          <path
+@@ -1232,14 +1232,14 @@
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div
+[38;2;128;0;128m[48;2;255;215;255m-                 class="makeStyles-button-21 MuiBox-root css-0"
+[38;2;0;95;95m[48;2;215;255;255m+                 class="makeStyles-button-20 MuiBox-root css-0"
+                >
+                  <button
+[38;2;128;0;128m[48;2;255;215;255m-                   class="MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium MuiButtonBase-root makeStyles-buttonStyle-23 css-aysoqb-MuiButtonBase-root-MuiButton-root"
+[38;2;0;95;95m[48;2;215;255;255m+                   class="MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium MuiButtonBase-root makeStyles-buttonStyle-22 css-aysoqb-MuiButtonBase-root-MuiButton-root"
+                    data-testid="box"
+                    tabindex="0"
+                    type="button"
+                  >
+                    <span
+@@ -1263,11 +1263,11 @@
+                    />
+                  </button>
+                </div>
+              </div>
+              <div
+[38;2;128;0;128m[48;2;255;215;255m-               class="makeStyles-Rectangle3-3 MuiBox-root css-0"
+[38;2;0;95;95m[48;2;215;255;255m+               class="makeStyles-Rectangle3-2 MuiBox-root css-0"
+              >
+                <div
+                  class="MuiBox-root css-0"
+                >
+                  <a
+@@ -1282,36 +1282,36 @@
+                      width="287px"
+                    />
+                  </a>
+                </div>
+                <p
+[38;2;128;0;128m[48;2;255;215;255m-                 class="MuiTypography-root MuiTypography-body1 makeStyles-HumanToWork-4 css-imro8o-MuiTypography-root"
+[38;2;0;95;95m[48;2;215;255;255m+                 class="MuiTypography-root MuiTypography-body1 makeStyles-HumanToWork-3 css-imro8o-MuiTypography-root"
+                  data-testid="typo"
+                >
+                  Bring Your Human to Work
+                </p>
+                <p
+[38;2;128;0;128m[48;2;255;215;255m-                 class="MuiTypography-root MuiTypography-body1 makeStyles-Author-5 css-imro8o-MuiTypography-root"
+[38;2;0;95;95m[48;2;215;255;255m+                 class="MuiTypography-root MuiTypography-body1 makeStyles-Author-4 css-imro8o-MuiTypography-root"
+                  data-testid="typo"
+                >
+                  Erica Keswin
+                </p>
+                <div
+[38;2;128;0;128m[48;2;255;215;255m-                 class="makeStyles-Group6-7 MuiBox-root css-0"
+[38;2;0;95;95m[48;2;215;255;255m+                 class="makeStyles-Group6-6 MuiBox-root css-0"
+                >
+                  <div
+[38;2;128;0;128m[48;2;255;215;255m-                   class="makeStyles-imageContainer-10 MuiBox-root css-0"
+[38;2;0;95;95m[48;2;215;255;255m+                   class="makeStyles-imageContainer-9 MuiBox-root css-0"
+                  >
+                    <div
+[38;2;128;0;128m[48;2;255;215;255m-                     class="makeStyles-TimeIconContainer-8 MuiBox-root css-0"
+[38;2;0;95;95m[48;2;215;255;255m+                     class="makeStyles-TimeIconContainer-7 MuiBox-root css-0"
+                    >
+                      <div
+                        data-testid="box"
+                      >
+                        <svg
+                          aria-hidden="true"
+[38;2;128;0;128m[48;2;255;215;255m-                         class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium makeStyles-TimeIcon-6 css-i4bv87-MuiSvgIcon-root"
+[38;2;0;95;95m[48;2;215;255;255m+                         class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium makeStyles-TimeIcon-5 css-i4bv87-MuiSvgIcon-root"
+                          data-testid="AccessTimeOutlinedIcon"
+                          focusable="false"
+                          viewBox="0 0 24 24"
+                        >
+                          <path
+@@ -1321,36 +1321,36 @@
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <span
+[38;2;128;0;128m[48;2;255;215;255m-                 class="MuiTypography-root MuiTypography-caption makeStyles-MinuteRead-9 css-8tvgdj-MuiTypography-root"
+[38;2;0;95;95m[48;2;215;255;255m+                 class="MuiTypography-root MuiTypography-caption makeStyles-MinuteRead-8 css-8tvgdj-MuiTypography-root"
+                  data-testid="typo"
+                >
+                  13-minute read
+                </span>
+                <div
+[38;2;128;0;128m[48;2;255;215;255m-                 class="makeStyles-frame7-13 MuiBox-root css-0"
+[38;2;0;95;95m[48;2;215;255;255m+                 class="makeStyles-frame7-12 MuiBox-root css-0"
+                >
+                  <span
+[38;2;128;0;128m[48;2;255;215;255m-                   class="MuiTypography-root MuiTypography-caption makeStyles-reads-14 css-8tvgdj-MuiTypography-root"
+[38;2;0;95;95m[48;2;215;255;255m+                   class="MuiTypography-root MuiTypography-caption makeStyles-reads-13 css-8tvgdj-MuiTypography-root"
+                    data-testid="typo"
+                  >
+                    1.9k reads
+                  </span>
+                  <div
+[38;2;128;0;128m[48;2;255;215;255m-                   class="makeStyles-UserContainer-11 MuiBox-root css-0"
+[38;2;0;95;95m[48;2;215;255;255m+                   class="makeStyles-UserContainer-10 MuiBox-root css-0"
+                  >
+                    <div
+[38;2;128;0;128m[48;2;255;215;255m-                     class="makeStyles-uservector-15 MuiBox-root css-0"
+[38;2;0;95;95m[48;2;215;255;255m+                     class="makeStyles-uservector-14 MuiBox-root css-0"
+                    >
+                      <div
+                        data-testid="box"
+                      >
+                        <svg
+                          aria-hidden="true"
+[38;2;128;0;128m[48;2;255;215;255m-                         class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium makeStyles-usericon-12 css-i4bv87-MuiSvgIcon-root"
+[38;2;0;95;95m[48;2;215;255;255m+                         class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium makeStyles-usericon-11 css-i4bv87-MuiSvgIcon-root"
+                          data-testid="PersonOutlineIcon"
+                          focusable="false"
+                          viewBox="0 0 24 24"
+                        >
+                          <path
+@@ -1363,21 +1363,21 @@
+                </div>
+                <div
+                  data-testid="button"
+                >
+                  <div
+[38;2;128;0;128m[48;2;255;215;255m-                   class="makeStyles-more-17 MuiBox-root css-0"
+[38;2;0;95;95m[48;2;215;255;255m+                   class="makeStyles-more-16 MuiBox-root css-0"
+                  >
+                    <div
+[38;2;128;0;128m[48;2;255;215;255m-                     class="makeStyles-morecontainer-18 MuiBox-root css-0"
+[38;2;0;95;95m[48;2;215;255;255m+                     class="makeStyles-morecontainer-17 MuiBox-root css-0"
+                    >
+                      <div
+                        data-testid="box"
+                      >
+                        <svg
+                          aria-hidden="true"
+[38;2;128;0;128m[48;2;255;215;255m-                         class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium makeStyles-morehoriz-16 css-i4bv87-MuiSvgIcon-root"
+[38;2;0;95;95m[48;2;215;255;255m+                         class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium makeStyles-morehoriz-15 css-i4bv87-MuiSvgIcon-root"
+                          data-testid="MoreHorizIcon"
+                          focusable="false"
+                          viewBox="0 0 24 24"
+                        >
+                          <path
+@@ -1389,11 +1389,11 @@
+                  </div>
+                  <span
+                    aria-valuemax="100"
+                    aria-valuemin="0"
+                    aria-valuenow="25"
+[38;2;128;0;128m[48;2;255;215;255m-                   class="MuiLinearProgress-root MuiLinearProgress-colorPrimary MuiLinearProgress-determinate makeStyles-rectangle6-20 css-1fqvzol-MuiLinearProgress-root"
+[38;2;0;95;95m[48;2;215;255;255m+                   class="MuiLinearProgress-root MuiLinearProgress-colorPrimary MuiLinearProgress-determinate makeStyles-rectangle6-19 css-1fqvzol-MuiLinearProgress-root"
+                    data-testid="progress-bar"
+                    role="progressbar"
+                  >
+                    <span
+                      class="MuiLinearProgress-bar MuiLinearProgress-barColorPrimary MuiLinearProgress-bar1Determinate css-5xe99f-MuiLinearProgress-bar1"
+@@ -1401,11 +1401,11 @@
+                    />
+                  </span>
+                </div>
+              </div>
+              <div
+[38;2;128;0;128m[48;2;255;215;255m-               class="makeStyles-Rectangle3-3 MuiBox-root css-0"
+[38;2;0;95;95m[48;2;215;255;255m+               class="makeStyles-Rectangle3-2 MuiBox-root css-0"
+              >
+                <div
+                  class="MuiBox-root css-0"
+                >
+                  <a
+@@ -1420,36 +1420,36 @@
+                      width="287px"
+                    />
+                  </a>
+                </div>
+                <p
+[38;2;128;0;128m[48;2;255;215;255m-                 class="MuiTypography-root MuiTypography-body1 makeStyles-HumanToWork-4 css-imro8o-MuiTypography-root"
+[38;2;0;95;95m[48;2;215;255;255m+                 class="MuiTypography-root MuiTypography-body1 makeStyles-HumanToWork-3 css-imro8o-MuiTypography-root"
+                  data-testid="typo"
+                >
+                  Doesn’t Hurt to Ask
+                </p>
+                <p
+[38;2;128;0;128m[48;2;255;215;255m-                 class="MuiTypography-root MuiTypography-body1 makeStyles-Author-5 css-imro8o-MuiTypography-root"
+[38;2;0;95;95m[48;2;215;255;255m+                 class="MuiTypography-root MuiTypography-body1 makeStyles-Author-4 css-imro8o-MuiTypography-root"
+                  data-testid="typo"
+                >
+                  Trey Gowdy
+                </p>
+                <div
+[38;2;128;0;128m[48;2;255;215;255m-                 class="makeStyles-Group6-7 MuiBox-root css-0"
+[38;2;0;95;95m[48;2;215;255;255m+                 class="makeStyles-Group6-6 MuiBox-root css-0"
+                >
+                  <div
+[38;2;128;0;128m[48;2;255;215;255m-                   class="makeStyles-imageContainer-10 MuiBox-root css-0"
+[38;2;0;95;95m[48;2;215;255;255m+                   class="makeStyles-imageContainer-9 MuiBox-root css-0"
+                  >
+                    <div
+[38;2;128;0;128m[48;2;255;215;255m-                     class="makeStyles-TimeIconContainer-8 MuiBox-root css-0"
+[38;2;0;95;95m[48;2;215;255;255m+                     class="makeStyles-TimeIconContainer-7 MuiBox-root css-0"
+                    >
+                      <div
+                        data-testid="box"
+                      >
+                        <svg
+                          aria-hidden="true"
+[38;2;128;0;128m[48;2;255;215;255m-                         class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium makeStyles-TimeIcon-6 css-i4bv87-MuiSvgIcon-root"
+[38;2;0;95;95m[48;2;215;255;255m+                         class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium makeStyles-TimeIcon-5 css-i4bv87-MuiSvgIcon-root"
+                          data-testid="AccessTimeOutlinedIcon"
+                          focusable="false"
+                          viewBox="0 0 24 24"
+                        >
+                          <path
+@@ -1459,36 +1459,36 @@
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <span
+[38;2;128;0;128m[48;2;255;215;255m-                 class="MuiTypography-root MuiTypography-caption makeStyles-MinuteRead-9 css-8tvgdj-MuiTypography-root"
+[38;2;0;95;95m[48;2;215;255;255m+                 class="MuiTypography-root MuiTypography-caption makeStyles-MinuteRead-8 css-8tvgdj-MuiTypography-root"
+                  data-testid="typo"
+                >
+                  13-minute read
+                </span>
+                <div
+[38;2;128;0;128m[48;2;255;215;255m-                 class="makeStyles-frame7-13 MuiBox-root css-0"
+[38;2;0;95;95m[48;2;215;255;255m+                 class="makeStyles-frame7-12 MuiBox-root css-0"
+                >
+                  <span
+[38;2;128;0;128m[48;2;255;215;255m-                   class="MuiTypography-root MuiTypography-caption makeStyles-reads-14 css-8tvgdj-MuiTypography-root"
+[38;2;0;95;95m[48;2;215;255;255m+                   class="MuiTypography-root MuiTypography-caption makeStyles-reads-13 css-8tvgdj-MuiTypography-root"
+                    data-testid="typo"
+                  >
+                    1.9k reads
+                  </span>
+                  <div
+[38;2;128;0;128m[48;2;255;215;255m-                   class="makeStyles-UserContainer-11 MuiBox-root css-0"
+[38;2;0;95;95m[48;2;215;255;255m+                   class="makeStyles-UserContainer-10 MuiBox-root css-0"
+                  >
+                    <div
+[38;2;128;0;128m[48;2;255;215;255m-                     class="makeStyles-uservector-15 MuiBox-root css-0"
+[38;2;0;95;95m[48;2;215;255;255m+                     class="makeStyles-uservector-14 MuiBox-root css-0"
+                    >
+                      <div
+                        data-testid="box"
+                      >
+                        <svg
+                          aria-hidden="true"
+[38;2;128;0;128m[48;2;255;215;255m-                         class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium makeStyles-usericon-12 css-i4bv87-MuiSvgIcon-root"
+[38;2;0;95;95m[48;2;215;255;255m+                         class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium makeStyles-usericon-11 css-i4bv87-MuiSvgIcon-root"
+                          data-testid="PersonOutlineIcon"
+                          focusable="false"
+                          viewBox="0 0 24 24"
+                        >
+                          <path
+@@ -1498,15 +1498,15 @@
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div
+[38;2;128;0;128m[48;2;255;215;255m-                 class="makeStyles-button-21 MuiBox-root css-0"
+[38;2;0;95;95m[48;2;215;255;255m+                 class="makeStyles-button-20 MuiBox-root css-0"
+                  data-testid="card-library-handler"
+                >
+                  <button
+[38;2;128;0;128m[48;2;255;215;255m-                   class="MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium MuiButtonBase-root makeStyles-buttonStyle-23 css-aysoqb-MuiButtonBase-root-MuiButton-root"
+[38;2;0;95;95m[48;2;215;255;255m+                   class="MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium MuiButtonBase-root makeStyles-buttonStyle-22 css-aysoqb-MuiButtonBase-root-MuiButton-root"
+                    data-testid="box"
+                    tabindex="0"
+                    type="button"
+                  >
+                    <span
+@@ -1534,11 +1534,11 @@
+            </div>
+          </div>
+        </div>
+      </div>
+    </body>,
+[38;2;128;0;128m[48;2;255;215;255m-   "container": <div>
+[38;2;0;95;95m[48;2;215;255;255m+   "container": <div>
+      <div
+        class="MuiBox-root css-b93e9j"
+        data-testid="box"
+      >
+        <img
+@@ -1594,11 +1594,11 @@
+          </h3>
+          <div
+            class="MuiBox-root css-1fpq2bm"
+          >
+            <div
+[38;2;128;0;128m[48;2;255;215;255m-             class="makeStyles-Rectangle3-3 MuiBox-root css-0"
+[38;2;0;95;95m[48;2;215;255;255m+             class="makeStyles-Rectangle3-2 MuiBox-root css-0"
+            >
+              <div
+                class="MuiBox-root css-0"
+              >
+                <a
+@@ -1613,36 +1613,36 @@
+                    width="287px"
+                  />
+                </a>
+              </div>
+              <p
+[38;2;128;0;128m[48;2;255;215;255m-               class="MuiTypography-root MuiTypography-body1 makeStyles-HumanToWork-4 css-imro8o-MuiTypography-root"
+[38;2;0;95;95m[48;2;215;255;255m+               class="MuiTypography-root MuiTypography-body1 makeStyles-HumanToWork-3 css-imro8o-MuiTypography-root"
+                data-testid="typo"
+              >
+                Being Boss
+              </p>
+              <p
+[38;2;128;0;128m[48;2;255;215;255m-               class="MuiTypography-root MuiTypography-body1 makeStyles-Author-5 css-imro8o-MuiTypography-root"
+[38;2;0;95;95m[48;2;215;255;255m+               class="MuiTypography-root MuiTypography-body1 makeStyles-Author-4 css-imro8o-MuiTypography-root"
+                data-testid="typo"
+              >
+                Kathleen Shannon and Emily
+              </p>
+              <div
+[38;2;128;0;128m[48;2;255;215;255m-               class="makeStyles-Group6-7 MuiBox-root css-0"
+[38;2;0;95;95m[48;2;215;255;255m+               class="makeStyles-Group6-6 MuiBox-root css-0"
+              >
+                <div
+[38;2;128;0;128m[48;2;255;215;255m-                 class="makeStyles-imageContainer-10 MuiBox-root css-0"
+[38;2;0;95;95m[48;2;215;255;255m+                 class="makeStyles-imageContainer-9 MuiBox-root css-0"
+                >
+                  <div
+[38;2;128;0;128m[48;2;255;215;255m-                   class="makeStyles-TimeIconContainer-8 MuiBox-root css-0"
+[38;2;0;95;95m[48;2;215;255;255m+                   class="makeStyles-TimeIconContainer-7 MuiBox-root css-0"
+                  >
+                    <div
+                      data-testid="box"
+                    >
+                      <svg
+                        aria-hidden="true"
+[38;2;128;0;128m[48;2;255;215;255m-                       class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium makeStyles-TimeIcon-6 css-i4bv87-MuiSvgIcon-root"
+[38;2;0;95;95m[48;2;215;255;255m+                       class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium makeStyles-TimeIcon-5 css-i4bv87-MuiSvgIcon-root"
+                        data-testid="AccessTimeOutlinedIcon"
+                        focusable="false"
+                        viewBox="0 0 24 24"
+                      >
+                        <path
+@@ -1652,36 +1652,36 @@
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <span
+[38;2;128;0;128m[48;2;255;215;255m-               class="MuiTypography-root MuiTypography-caption makeStyles-MinuteRead-9 css-8tvgdj-MuiTypography-root"
+[38;2;0;95;95m[48;2;215;255;255m+               class="MuiTypography-root MuiTypography-caption makeStyles-MinuteRead-8 css-8tvgdj-MuiTypography-root"
+                data-testid="typo"
+              >
+                13-minute read
+              </span>
+              <div
+[38;2;128;0;128m[48;2;255;215;255m-               class="makeStyles-frame7-13 MuiBox-root css-0"
+[38;2;0;95;95m[48;2;215;255;255m+               class="makeStyles-frame7-12 MuiBox-root css-0"
+              >
+                <span
+[38;2;128;0;128m[48;2;255;215;255m-                 class="MuiTypography-root MuiTypography-caption makeStyles-reads-14 css-8tvgdj-MuiTypography-root"
+[38;2;0;95;95m[48;2;215;255;255m+                 class="MuiTypography-root MuiTypography-caption makeStyles-reads-13 css-8tvgdj-MuiTypography-root"
+                  data-testid="typo"
+                >
+                  1.9k reads
+                </span>
+                <div
+[38;2;128;0;128m[48;2;255;215;255m-                 class="makeStyles-UserContainer-11 MuiBox-root css-0"
+[38;2;0;95;95m[48;2;215;255;255m+                 class="makeStyles-UserContainer-10 MuiBox-root css-0"
+                >
+                  <div
+[38;2;128;0;128m[48;2;255;215;255m-                   class="makeStyles-uservector-15 MuiBox-root css-0"
+[38;2;0;95;95m[48;2;215;255;255m+                   class="makeStyles-uservector-14 MuiBox-root css-0"
+                  >
+                    <div
+                      data-testid="box"
+                    >
+                      <svg
+                        aria-hidden="true"
+[38;2;128;0;128m[48;2;255;215;255m-                       class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium makeStyles-usericon-12 css-i4bv87-MuiSvgIcon-root"
+[38;2;0;95;95m[48;2;215;255;255m+                       class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium makeStyles-usericon-11 css-i4bv87-MuiSvgIcon-root"
+                        data-testid="PersonOutlineIcon"
+                        focusable="false"
+                        viewBox="0 0 24 24"
+                      >
+                        <path
+@@ -1694,21 +1694,21 @@
+              </div>
+              <div
+                data-testid="button"
+              >
+                <div
+[38;2;128;0;128m[48;2;255;215;255m-                 class="makeStyles-more-17 MuiBox-root css-0"
+[38;2;0;95;95m[48;2;215;255;255m+                 class="makeStyles-more-16 MuiBox-root css-0"
+                >
+                  <div
+[38;2;128;0;128m[48;2;255;215;255m-                   class="makeStyles-morecontainer-18 MuiBox-root css-0"
+[38;2;0;95;95m[48;2;215;255;255m+                   class="makeStyles-morecontainer-17 MuiBox-root css-0"
+                  >
+                    <div
+                      data-testid="box"
+                    >
+                      <svg
+                        aria-hidden="true"
+[38;2;128;0;128m[48;2;255;215;255m-                       class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium makeStyles-morehoriz-16 css-i4bv87-MuiSvgIcon-root"
+[38;2;0;95;95m[48;2;215;255;255m+                       class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium makeStyles-morehoriz-15 css-i4bv87-MuiSvgIcon-root"
+                        data-testid="MoreHorizIcon"
+                        focusable="false"
+                        viewBox="0 0 24 24"
+                      >
+                        <path
+@@ -1720,11 +1720,11 @@
+                </div>
+                <span
+                  aria-valuemax="100"
+                  aria-valuemin="0"
+                  aria-valuenow="25"
+[38;2;128;0;128m[48;2;255;215;255m-                 class="MuiLinearProgress-root MuiLinearProgress-colorPrimary MuiLinearProgress-determinate makeStyles-rectangle6-20 css-1fqvzol-MuiLinearProgress-root"
+[38;2;0;95;95m[48;2;215;255;255m+                 class="MuiLinearProgress-root MuiLinearProgress-colorPrimary MuiLinearProgress-determinate makeStyles-rectangle6-19 css-1fqvzol-MuiLinearProgress-root"
+                  data-testid="progress-bar"
+                  role="progressbar"
+                >
+                  <span
+                    class="MuiLinearProgress-bar MuiLinearProgress-barColorPrimary MuiLinearProgress-bar1Determinate css-5xe99f-MuiLinearProgress-bar1"
+@@ -1732,11 +1732,11 @@
+                  />
+                </span>
+              </div>
+            </div>
+            <div
+[38;2;128;0;128m[48;2;255;215;255m-             class="makeStyles-Rectangle3-3 MuiBox-root css-0"
+[38;2;0;95;95m[48;2;215;255;255m+             class="makeStyles-Rectangle3-2 MuiBox-root css-0"
+            >
+              <div
+                class="MuiBox-root css-0"
+              >
+                <a
+@@ -1751,36 +1751,36 @@
+                    width="287px"
+                  />
+                </a>
+              </div>
+              <p
+[38;2;128;0;128m[48;2;255;215;255m-               class="MuiTypography-root MuiTypography-body1 makeStyles-HumanToWork-4 css-imro8o-MuiTypography-root"
+[38;2;0;95;95m[48;2;215;255;255m+               class="MuiTypography-root MuiTypography-body1 makeStyles-HumanToWork-3 css-imro8o-MuiTypography-root"
+                data-testid="typo"
+              >
+                Beyond Entrepreneurship
+              </p>
+              <p
+[38;2;128;0;128m[48;2;255;215;255m-               class="MuiTypography-root MuiTypography-body1 makeStyles-Author-5 css-imro8o-MuiTypography-root"
+[38;2;0;95;95m[48;2;215;255;255m+               class="MuiTypography-root MuiTypography-body1 makeStyles-Author-4 css-imro8o-MuiTypography-root"
+                data-testid="typo"
+              >
+                Jim Collins & Bill Lazier
+              </p>
+              <div
+[38;2;128;0;128m[48;2;255;215;255m-               class="makeStyles-Group6-7 MuiBox-root css-0"
+[38;2;0;95;95m[48;2;215;255;255m+               class="makeStyles-Group6-6 MuiBox-root css-0"
+              >
+                <div
+[38;2;128;0;128m[48;2;255;215;255m-                 class="makeStyles-imageContainer-10 MuiBox-root css-0"
+[38;2;0;95;95m[48;2;215;255;255m+                 class="makeStyles-imageContainer-9 MuiBox-root css-0"
+                >
+                  <div
+[38;2;128;0;128m[48;2;255;215;255m-                   class="makeStyles-TimeIconContainer-8 MuiBox-root css-0"
+[38;2;0;95;95m[48;2;215;255;255m+                   class="makeStyles-TimeIconContainer-7 MuiBox-root css-0"
+                  >
+                    <div
+                      data-testid="box"
+                    >
+                      <svg
+                        aria-hidden="true"
+[38;2;128;0;128m[48;2;255;215;255m-                       class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium makeStyles-TimeIcon-6 css-i4bv87-MuiSvgIcon-root"
+[38;2;0;95;95m[48;2;215;255;255m+                       class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium makeStyles-TimeIcon-5 css-i4bv87-MuiSvgIcon-root"
+                        data-testid="AccessTimeOutlinedIcon"
+                        focusable="false"
+                        viewBox="0 0 24 24"
+                      >
+                        <path
+@@ -1790,36 +1790,36 @@
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <span
+[38;2;128;0;128m[48;2;255;215;255m-               class="MuiTypography-root MuiTypography-caption makeStyles-MinuteRead-9 css-8tvgdj-MuiTypography-root"
+[38;2;0;95;95m[48;2;215;255;255m+               class="MuiTypography-root MuiTypography-caption makeStyles-MinuteRead-8 css-8tvgdj-MuiTypography-root"
+                data-testid="typo"
+              >
+                13-minute read
+              </span>
+              <div
+[38;2;128;0;128m[48;2;255;215;255m-               class="makeStyles-frame7-13 MuiBox-root css-0"
+[38;2;0;95;95m[48;2;215;255;255m+               class="makeStyles-frame7-12 MuiBox-root css-0"
+              >
+                <span
+[38;2;128;0;128m[48;2;255;215;255m-                 class="MuiTypography-root MuiTypography-caption makeStyles-reads-14 css-8tvgdj-MuiTypography-root"
+[38;2;0;95;95m[48;2;215;255;255m+                 class="MuiTypography-root MuiTypography-caption makeStyles-reads-13 css-8tvgdj-MuiTypography-root"
+                  data-testid="typo"
+                >
+                  1.9k reads
+                </span>
+                <div
+[38;2;128;0;128m[48;2;255;215;255m-                 class="makeStyles-UserContainer-11 MuiBox-root css-0"
+[38;2;0;95;95m[48;2;215;255;255m+                 class="makeStyles-UserContainer-10 MuiBox-root css-0"
+                >
+                  <div
+[38;2;128;0;128m[48;2;255;215;255m-                   class="makeStyles-uservector-15 MuiBox-root css-0"
+[38;2;0;95;95m[48;2;215;255;255m+                   class="makeStyles-uservector-14 MuiBox-root css-0"
+                  >
+                    <div
+                      data-testid="box"
+                    >
+                      <svg
+                        aria-hidden="true"
+[38;2;128;0;128m[48;2;255;215;255m-                       class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium makeStyles-usericon-12 css-i4bv87-MuiSvgIcon-root"
+[38;2;0;95;95m[48;2;215;255;255m+                       class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium makeStyles-usericon-11 css-i4bv87-MuiSvgIcon-root"
+                        data-testid="PersonOutlineIcon"
+                        focusable="false"
+                        viewBox="0 0 24 24"
+                      >
+                        <path
+@@ -1832,21 +1832,21 @@
+              </div>
+              <div
+                data-testid="button"
+              >
+                <div
+[38;2;128;0;128m[48;2;255;215;255m-                 class="makeStyles-more-17 MuiBox-root css-0"
+[38;2;0;95;95m[48;2;215;255;255m+                 class="makeStyles-more-16 MuiBox-root css-0"
+                >
+                  <div
+[38;2;128;0;128m[48;2;255;215;255m-                   class="makeStyles-morecontainer-18 MuiBox-root css-0"
+[38;2;0;95;95m[48;2;215;255;255m+                   class="makeStyles-morecontainer-17 MuiBox-root css-0"
+                  >
+                    <div
+                      data-testid="box"
+                    >
+                      <svg
+                        aria-hidden="true"
+[38;2;128;0;128m[48;2;255;215;255m-                       class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium makeStyles-morehoriz-16 css-i4bv87-MuiSvgIcon-root"
+[38;2;0;95;95m[48;2;215;255;255m+                       class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium makeStyles-morehoriz-15 css-i4bv87-MuiSvgIcon-root"
+                        data-testid="MoreHorizIcon"
+                        focusable="false"
+                        viewBox="0 0 24 24"
+                      >
+                        <path
+@@ -1858,11 +1858,11 @@
+                </div>
+                <span
+                  aria-valuemax="100"
+                  aria-valuemin="0"
+                  aria-valuenow="25"
+[38;2;128;0;128m[48;2;255;215;255m-                 class="MuiLinearProgress-root MuiLinearProgress-colorPrimary MuiLinearProgress-determinate makeStyles-rectangle6-20 css-1fqvzol-MuiLinearProgress-root"
+[38;2;0;95;95m[48;2;215;255;255m+                 class="MuiLinearProgress-root MuiLinearProgress-colorPrimary MuiLinearProgress-determinate makeStyles-rectangle6-19 css-1fqvzol-MuiLinearProgress-root"
+                  data-testid="progress-bar"
+                  role="progressbar"
+                >
+                  <span
+                    class="MuiLinearProgress-bar MuiLinearProgress-barColorPrimary MuiLinearProgress-bar1Determinate css-5xe99f-MuiLinearProgress-bar1"
+@@ -1870,11 +1870,11 @@
+                  />
+                </span>
+              </div>
+            </div>
+            <div
+[38;2;128;0;128m[48;2;255;215;255m-             class="makeStyles-Rectangle3-3 MuiBox-root css-0"
+[38;2;0;95;95m[48;2;215;255;255m+             class="makeStyles-Rectangle3-2 MuiBox-root css-0"
+            >
+              <div
+                class="MuiBox-root css-0"
+              >
+                <a
+@@ -1889,36 +1889,36 @@
+                    width="287px"
+                  />
+                </a>
+              </div>
+              <p
+[38;2;128;0;128m[48;2;255;215;255m-               class="MuiTypography-root MuiTypography-body1 makeStyles-HumanToWork-4 css-imro8o-MuiTypography-root"
+[38;2;0;95;95m[48;2;215;255;255m+               class="MuiTypography-root MuiTypography-body1 makeStyles-HumanToWork-3 css-imro8o-MuiTypography-root"
+                data-testid="typo"
+              >
+                Employee to Entrepreneur
+              </p>
+              <p
+[38;2;128;0;128m[48;2;255;215;255m-               class="MuiTypography-root MuiTypography-body1 makeStyles-Author-5 css-imro8o-MuiTypography-root"
+[38;2;0;95;95m[48;2;215;255;255m+               class="MuiTypography-root MuiTypography-body1 makeStyles-Author-4 css-imro8o-MuiTypography-root"
+                data-testid="typo"
+              >
+                Steve Glaveski
+              </p>
+              <div
+[38;2;128;0;128m[48;2;255;215;255m-               class="makeStyles-Group6-7 MuiBox-root css-0"
+[38;2;0;95;95m[48;2;215;255;255m+               class="makeStyles-Group6-6 MuiBox-root css-0"
+              >
+                <div
+[38;2;128;0;128m[48;2;255;215;255m-                 class="makeStyles-imageContainer-10 MuiBox-root css-0"
+[38;2;0;95;95m[48;2;215;255;255m+                 class="makeStyles-imageContainer-9 MuiBox-root css-0"
+                >
+                  <div
+[38;2;128;0;128m[48;2;255;215;255m-                   class="makeStyles-TimeIconContainer-8 MuiBox-root css-0"
+[38;2;0;95;95m[48;2;215;255;255m+                   class="makeStyles-TimeIconContainer-7 MuiBox-root css-0"
+                  >
+                    <div
+                      data-testid="box"
+                    >
+                      <svg
+                        aria-hidden="true"
+[38;2;128;0;128m[48;2;255;215;255m-                       class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium makeStyles-TimeIcon-6 css-i4bv87-MuiSvgIcon-root"
+[38;2;0;95;95m[48;2;215;255;255m+                       class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium makeStyles-TimeIcon-5 css-i4bv87-MuiSvgIcon-root"
+                        data-testid="AccessTimeOutlinedIcon"
+                        focusable="false"
+                        viewBox="0 0 24 24"
+                      >
+                        <path
+@@ -1928,36 +1928,36 @@
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <span
+[38;2;128;0;128m[48;2;255;215;255m-               class="MuiTypography-root MuiTypography-caption makeStyles-MinuteRead-9 css-8tvgdj-MuiTypography-root"
+[38;2;0;95;95m[48;2;215;255;255m+               class="MuiTypography-root MuiTypography-caption makeStyles-MinuteRead-8 css-8tvgdj-MuiTypography-root"
+                data-testid="typo"
+              >
+                13-minute read
+              </span>
+              <div
+[38;2;128;0;128m[48;2;255;215;255m-               class="makeStyles-frame7-13 MuiBox-root css-0"
+[38;2;0;95;95m[48;2;215;255;255m+               class="makeStyles-frame7-12 MuiBox-root css-0"
+              >
+                <span
+[38;2;128;0;128m[48;2;255;215;255m-                 class="MuiTypography-root MuiTypography-caption makeStyles-reads-14 css-8tvgdj-MuiTypography-root"
+[38;2;0;95;95m[48;2;215;255;255m+                 class="MuiTypography-root MuiTypography-caption makeStyles-reads-13 css-8tvgdj-MuiTypography-root"
+                  data-testid="typo"
+                >
+                  1.9k reads
+                </span>
+                <div
+[38;2;128;0;128m[48;2;255;215;255m-                 class="makeStyles-UserContainer-11 MuiBox-root css-0"
+[38;2;0;95;95m[48;2;215;255;255m+                 class="makeStyles-UserContainer-10 MuiBox-root css-0"
+                >
+                  <div
+[38;2;128;0;128m[48;2;255;215;255m-                   class="makeStyles-uservector-15 MuiBox-root css-0"
+[38;2;0;95;95m[48;2;215;255;255m+                   class="makeStyles-uservector-14 MuiBox-root css-0"
+                  >
+                    <div
+                      data-testid="box"
+                    >
+                      <svg
+                        aria-hidden="true"
+[38;2;128;0;128m[48;2;255;215;255m-                       class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium makeStyles-usericon-12 css-i4bv87-MuiSvgIcon-root"
+[38;2;0;95;95m[48;2;215;255;255m+                       class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium makeStyles-usericon-11 css-i4bv87-MuiSvgIcon-root"
+                        data-testid="PersonOutlineIcon"
+                        focusable="false"
+                        viewBox="0 0 24 24"
+                      >
+                        <path
+@@ -1967,15 +1967,15 @@
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+[38;2;128;0;128m[48;2;255;215;255m-               class="makeStyles-button-21 MuiBox-root css-0"
+[38;2;0;95;95m[48;2;215;255;255m+               class="makeStyles-button-20 MuiBox-root css-0"
+                data-testid="card-library-handler"
+              >
+                <button
+[38;2;128;0;128m[48;2;255;215;255m-                 class="MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium MuiButtonBase-root makeStyles-buttonStyle-23 css-aysoqb-MuiButtonBase-root-MuiButton-root"
+[38;2;0;95;95m[48;2;215;255;255m+                 class="MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium MuiButtonBase-root makeStyles-buttonStyle-22 css-aysoqb-MuiButtonBase-root-MuiButton-root"
+                  data-testid="box"
+                  tabindex="0"
+                  type="button"
+                >
+                  <span
+@@ -1999,11 +1999,11 @@
+                  />
+                </button>
+              </div>
+            </div>
+            <div
+[38;2;128;0;128m[48;2;255;215;255m-             class="makeStyles-Rectangle3-3 MuiBox-root css-0"
+[38;2;0;95;95m[48;2;215;255;255m+             class="makeStyles-Rectangle3-2 MuiBox-root css-0"
+            >
+              <div
+                class="MuiBox-root css-0"
+              >
+                <a
+@@ -2018,36 +2018,36 @@
+                    width="287px"
+                  />
+                </a>
+              </div>
+              <p
+[38;2;128;0;128m[48;2;255;215;255m-               class="MuiTypography-root MuiTypography-body1 makeStyles-HumanToWork-4 css-imro8o-MuiTypography-root"
+[38;2;0;95;95m[48;2;215;255;255m+               class="MuiTypography-root MuiTypography-body1 makeStyles-HumanToWork-3 css-imro8o-MuiTypography-root"
+                data-testid="typo"
+              >
+                The Fate of Food
+              </p>
+              <p
+[38;2;128;0;128m[48;2;255;215;255m-               class="MuiTypography-root MuiTypography-body1 makeStyles-Author-5 css-imro8o-MuiTypography-root"
+[38;2;0;95;95m[48;2;215;255;255m+               class="MuiTypography-root MuiTypography-body1 makeStyles-Author-4 css-imro8o-MuiTypography-root"
+                data-testid="typo"
+              >
+                Amanda Little
+              </p>
+              <div
+[38;2;128;0;128m[48;2;255;215;255m-               class="makeStyles-Group6-7 MuiBox-root css-0"
+[38;2;0;95;95m[48;2;215;255;255m+               class="makeStyles-Group6-6 MuiBox-root css-0"
+              >
+                <div
+[38;2;128;0;128m[48;2;255;215;255m-                 class="makeStyles-imageContainer-10 MuiBox-root css-0"
+[38;2;0;95;95m[48;2;215;255;255m+                 class="makeStyles-imageContainer-9 MuiBox-root css-0"
+                >
+                  <div
+[38;2;128;0;128m[48;2;255;215;255m-                   class="makeStyles-TimeIconContainer-8 MuiBox-root css-0"
+[38;2;0;95;95m[48;2;215;255;255m+                   class="makeStyles-TimeIconContainer-7 MuiBox-root css-0"
+                  >
+                    <div
+                      data-testid="box"
+                    >
+                      <svg
+                        aria-hidden="true"
+[38;2;128;0;128m[48;2;255;215;255m-                       class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium makeStyles-TimeIcon-6 css-i4bv87-MuiSvgIcon-root"
+[38;2;0;95;95m[48;2;215;255;255m+                       class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium makeStyles-TimeIcon-5 css-i4bv87-MuiSvgIcon-root"
+                        data-testid="AccessTimeOutlinedIcon"
+                        focusable="false"
+                        viewBox="0 0 24 24"
+                      >
+                        <path
+@@ -2057,36 +2057,36 @@
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <span
+[38;2;128;0;128m[48;2;255;215;255m-               class="MuiTypography-root MuiTypography-caption makeStyles-MinuteRead-9 css-8tvgdj-MuiTypography-root"
+[38;2;0;95;95m[48;2;215;255;255m+               class="MuiTypography-root MuiTypography-caption makeStyles-MinuteRead-8 css-8tvgdj-MuiTypography-root"
+                data-testid="typo"
+              >
+                13-minute read
+              </span>
+              <div
+[38;2;128;0;128m[48;2;255;215;255m-               class="makeStyles-frame7-13 MuiBox-root css-0"
+[38;2;0;95;95m[48;2;215;255;255m+               class="makeStyles-frame7-12 MuiBox-root css-0"
+              >
+                <span
+[38;2;128;0;128m[48;2;255;215;255m-                 class="MuiTypography-root MuiTypography-caption makeStyles-reads-14 css-8tvgdj-MuiTypography-root"
+[38;2;0;95;95m[48;2;215;255;255m+                 class="MuiTypography-root MuiTypography-caption makeStyles-reads-13 css-8tvgdj-MuiTypography-root"
+                  data-testid="typo"
+                >
+                  1.9k reads
+                </span>
+                <div
+[38;2;128;0;128m[48;2;255;215;255m-                 class="makeStyles-UserContainer-11 MuiBox-root css-0"
+[38;2;0;95;95m[48;2;215;255;255m+                 class="makeStyles-UserContainer-10 MuiBox-root css-0"
+                >
+                  <div
+[38;2;128;0;128m[48;2;255;215;255m-                   class="makeStyles-uservector-15 MuiBox-root css-0"
+[38;2;0;95;95m[48;2;215;255;255m+                   class="makeStyles-uservector-14 MuiBox-root css-0"
+                  >
+                    <div
+                      data-testid="box"
+                    >
+                      <svg
+                        aria-hidden="true"
+[38;2;128;0;128m[48;2;255;215;255m-                       class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium makeStyles-usericon-12 css-i4bv87-MuiSvgIcon-root"
+[38;2;0;95;95m[48;2;215;255;255m+                       class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium makeStyles-usericon-11 css-i4bv87-MuiSvgIcon-root"
+                        data-testid="PersonOutlineIcon"
+                        focusable="false"
+                        viewBox="0 0 24 24"
+                      >
+                        <path
+@@ -2099,21 +2099,21 @@
+              </div>
+              <div
+                data-testid="button"
+              >
+                <div
+[38;2;128;0;128m[48;2;255;215;255m-                 class="makeStyles-more-17 MuiBox-root css-0"
+[38;2;0;95;95m[48;2;215;255;255m+                 class="makeStyles-more-16 MuiBox-root css-0"
+                >
+                  <div
+[38;2;128;0;128m[48;2;255;215;255m-                   class="makeStyles-morecontainer-18 MuiBox-root css-0"
+[38;2;0;95;95m[48;2;215;255;255m+                   class="makeStyles-morecontainer-17 MuiBox-root css-0"
+                  >
+                    <div
+                      data-testid="box"
+                    >
+                      <svg
+                        aria-hidden="true"
+[38;2;128;0;128m[48;2;255;215;255m-                       class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium makeStyles-morehoriz-16 css-i4bv87-MuiSvgIcon-root"
+[38;2;0;95;95m[48;2;215;255;255m+                       class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium makeStyles-morehoriz-15 css-i4bv87-MuiSvgIcon-root"
+                        data-testid="MoreHorizIcon"
+                        focusable="false"
+                        viewBox="0 0 24 24"
+                      >
+                        <path
+@@ -2125,11 +2125,11 @@
+                </div>
+                <span
+                  aria-valuemax="100"
+                  aria-valuemin="0"
+                  aria-valuenow="25"
+[38;2;128;0;128m[48;2;255;215;255m-                 class="MuiLinearProgress-root MuiLinearProgress-colorPrimary MuiLinearProgress-determinate makeStyles-rectangle6-20 css-1fqvzol-MuiLinearProgress-root"
+[38;2;0;95;95m[48;2;215;255;255m+                 class="MuiLinearProgress-root MuiLinearProgress-colorPrimary MuiLinearProgress-determinate makeStyles-rectangle6-19 css-1fqvzol-MuiLinearProgress-root"
+                  data-testid="progress-bar"
+                  role="progressbar"
+                >
+                  <span
+                    class="MuiLinearProgress-bar MuiLinearProgress-barColorPrimary MuiLinearProgress-bar1Determinate css-5xe99f-MuiLinearProgress-bar1"
+@@ -2137,11 +2137,11 @@
+                  />
+                </span>
+              </div>
+            </div>
+            <div
+[38;2;128;0;128m[48;2;255;215;255m-             class="makeStyles-Rectangle3-3 MuiBox-root css-0"
+[38;2;0;95;95m[48;2;215;255;255m+             class="makeStyles-Rectangle3-2 MuiBox-root css-0"
+            >
+              <div
+                class="MuiBox-root css-0"
+              >
+                <a
+@@ -2156,36 +2156,36 @@
+                    width="287px"
+                  />
+                </a>
+              </div>
+              <p
+[38;2;128;0;128m[48;2;255;215;255m-               class="MuiTypography-root MuiTypography-body1 makeStyles-HumanToWork-4 css-imro8o-MuiTypography-root"
+[38;2;0;95;95m[48;2;215;255;255m+               class="MuiTypography-root MuiTypography-body1 makeStyles-HumanToWork-3 css-imro8o-MuiTypography-root"
+                data-testid="typo"
+              >
+                Lives of the Stoics
+              </p>
+              <p
+[38;2;128;0;128m[48;2;255;215;255m-               class="MuiTypography-root MuiTypography-body1 makeStyles-Author-5 css-imro8o-MuiTypography-root"
+[38;2;0;95;95m[48;2;215;255;255m+               class="MuiTypography-root MuiTypography-body1 makeStyles-Author-4 css-imro8o-MuiTypography-root"
+                data-testid="typo"
+              >
+                Ryan Holiday, Stephen Hansel
+              </p>
+              <div
+[38;2;128;0;128m[48;2;255;215;255m-               class="makeStyles-Group6-7 MuiBox-root css-0"
+[38;2;0;95;95m[48;2;215;255;255m+               class="makeStyles-Group6-6 MuiBox-root css-0"
+              >
+                <div
+[38;2;128;0;128m[48;2;255;215;255m-                 class="makeStyles-imageContainer-10 MuiBox-root css-0"
+[38;2;0;95;95m[48;2;215;255;255m+                 class="makeStyles-imageContainer-9 MuiBox-root css-0"
+                >
+                  <div
+[38;2;128;0;128m[48;2;255;215;255m-                   class="makeStyles-TimeIconContainer-8 MuiBox-root css-0"
+[38;2;0;95;95m[48;2;215;255;255m+                   class="makeStyles-TimeIconContainer-7 MuiBox-root css-0"
+                  >
+                    <div
+                      data-testid="box"
+                    >
+                      <svg
+                        aria-hidden="true"
+[38;2;128;0;128m[48;2;255;215;255m-                       class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium makeStyles-TimeIcon-6 css-i4bv87-MuiSvgIcon-root"
+[38;2;0;95;95m[48;2;215;255;255m+                       class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium makeStyles-TimeIcon-5 css-i4bv87-MuiSvgIcon-root"
+                        data-testid="AccessTimeOutlinedIcon"
+                        focusable="false"
+                        viewBox="0 0 24 24"
+                      >
+                        <path
+@@ -2195,36 +2195,36 @@
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <span
+[38;2;128;0;128m[48;2;255;215;255m-               class="MuiTypography-root MuiTypography-caption makeStyles-MinuteRead-9 css-8tvgdj-MuiTypography-root"
+[38;2;0;95;95m[48;2;215;255;255m+               class="MuiTypography-root MuiTypography-caption makeStyles-MinuteRead-8 css-8tvgdj-MuiTypography-root"
+                data-testid="typo"
+              >
+                13-minute read
+              </span>
+              <div
+[38;2;128;0;128m[48;2;255;215;255m-               class="makeStyles-frame7-13 MuiBox-root css-0"
+[38;2;0;95;95m[48;2;215;255;255m+               class="makeStyles-frame7-12 MuiBox-root css-0"
+              >
+                <span
+[38;2;128;0;128m[48;2;255;215;255m-                 class="MuiTypography-root MuiTypography-caption makeStyles-reads-14 css-8tvgdj-MuiTypography-root"
+[38;2;0;95;95m[48;2;215;255;255m+                 class="MuiTypography-root MuiTypography-caption makeStyles-reads-13 css-8tvgdj-MuiTypography-root"
+                  data-testid="typo"
+                >
+                  1.9k reads
+                </span>
+                <div
+[38;2;128;0;128m[48;2;255;215;255m-                 class="makeStyles-UserContainer-11 MuiBox-root css-0"
+[38;2;0;95;95m[48;2;215;255;255m+                 class="makeStyles-UserContainer-10 MuiBox-root css-0"
+                >
+                  <div
+[38;2;128;0;128m[48;2;255;215;255m-                   class="makeStyles-uservector-15 MuiBox-root css-0"
+[38;2;0;95;95m[48;2;215;255;255m+                   class="makeStyles-uservector-14 MuiBox-root css-0"
+                  >
+                    <div
+                      data-testid="box"
+                    >
+                      <svg
+                        aria-hidden="true"
+[38;2;128;0;128m[48;2;255;215;255m-                       class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium makeStyles-usericon-12 css-i4bv87-MuiSvgIcon-root"
+[38;2;0;95;95m[48;2;215;255;255m+                       class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium makeStyles-usericon-11 css-i4bv87-MuiSvgIcon-root"
+                        data-testid="PersonOutlineIcon"
+                        focusable="false"
+                        viewBox="0 0 24 24"
+                      >
+                        <path
+@@ -2234,15 +2234,15 @@
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+[38;2;128;0;128m[48;2;255;215;255m-               class="makeStyles-button-21 MuiBox-root css-0"
+[38;2;0;95;95m[48;2;215;255;255m+               class="makeStyles-button-20 MuiBox-root css-0"
+                data-testid="card-library-handler"
+              >
+                <button
+[38;2;128;0;128m[48;2;255;215;255m-                 class="MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium MuiButtonBase-root makeStyles-buttonStyle-23 css-aysoqb-MuiButtonBase-root-MuiButton-root"
+[38;2;0;95;95m[48;2;215;255;255m+                 class="MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium MuiButtonBase-root makeStyles-buttonStyle-22 css-aysoqb-MuiButtonBase-root-MuiButton-root"
+                  data-testid="box"
+                  tabindex="0"
+                  type="button"
+                >
+                  <span
+@@ -2266,11 +2266,11 @@
+                  />
+                </button>
+              </div>
+            </div>
+            <div
+[38;2;128;0;128m[48;2;255;215;255m-             class="makeStyles-Rectangle3-3 MuiBox-root css-0"
+[38;2;0;95;95m[48;2;215;255;255m+             class="makeStyles-Rectangle3-2 MuiBox-root css-0"
+            >
+              <div
+                class="MuiBox-root css-0"
+              >
+                <a
+@@ -2285,36 +2285,36 @@
+                    width="287px"
+                  />
+                </a>
+              </div>
+              <p
+[38;2;128;0;128m[48;2;255;215;255m-               class="MuiTypography-root MuiTypography-body1 makeStyles-HumanToWork-4 css-imro8o-MuiTypography-root"
+[38;2;0;95;95m[48;2;215;255;255m+               class="MuiTypography-root MuiTypography-body1 makeStyles-HumanToWork-3 css-imro8o-MuiTypography-root"
+                data-testid="typo"
+              >
+                Loving Your Business
+              </p>
+              <p
+[38;2;128;0;128m[48;2;255;215;255m-               class="MuiTypography-root MuiTypography-body1 makeStyles-Author-5 css-imro8o-MuiTypography-root"
+[38;2;0;95;95m[48;2;215;255;255m+               class="MuiTypography-root MuiTypography-body1 makeStyles-Author-4 css-imro8o-MuiTypography-root"
+                data-testid="typo"
+              >
+                Debbie King
+              </p>
+              <div
+[38;2;128;0;128m[48;2;255;215;255m-               class="makeStyles-Group6-7 MuiBox-root css-0"
+[38;2;0;95;95m[48;2;215;255;255m+               class="makeStyles-Group6-6 MuiBox-root css-0"
+              >
+                <div
+[38;2;128;0;128m[48;2;255;215;255m-                 class="makeStyles-imageContainer-10 MuiBox-root css-0"
+[38;2;0;95;95m[48;2;215;255;255m+                 class="makeStyles-imageContainer-9 MuiBox-root css-0"
+                >
+                  <div
+[38;2;128;0;128m[48;2;255;215;255m-                   class="makeStyles-TimeIconContainer-8 MuiBox-root css-0"
+[38;2;0;95;95m[48;2;215;255;255m+                   class="makeStyles-TimeIconContainer-7 MuiBox-root css-0"
+                  >
+                    <div
+                      data-testid="box"
+                    >
+                      <svg
+                        aria-hidden="true"
+[38;2;128;0;128m[48;2;255;215;255m-                       class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium makeStyles-TimeIcon-6 css-i4bv87-MuiSvgIcon-root"
+[38;2;0;95;95m[48;2;215;255;255m+                       class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium makeStyles-TimeIcon-5 css-i4bv87-MuiSvgIcon-root"
+                        data-testid="AccessTimeOutlinedIcon"
+                        focusable="false"
+                        viewBox="0 0 24 24"
+                      >
+                        <path
+@@ -2324,36 +2324,36 @@
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <span
+[38;2;128;0;128m[48;2;255;215;255m-               class="MuiTypography-root MuiTypography-caption makeStyles-MinuteRead-9 css-8tvgdj-MuiTypography-root"
+[38;2;0;95;95m[48;2;215;255;255m+               class="MuiTypography-root MuiTypography-caption makeStyles-MinuteRead-8 css-8tvgdj-MuiTypography-root"
+                data-testid="typo"
+              >
+                13-minute read
+              </span>
+              <div
+[38;2;128;0;128m[48;2;255;215;255m-               class="makeStyles-frame7-13 MuiBox-root css-0"
+[38;2;0;95;95m[48;2;215;255;255m+               class="makeStyles-frame7-12 MuiBox-root css-0"
+              >
+                <span
+[38;2;128;0;128m[48;2;255;215;255m-                 class="MuiTypography-root MuiTypography-caption makeStyles-reads-14 css-8tvgdj-MuiTypography-root"
+[38;2;0;95;95m[48;2;215;255;255m+                 class="MuiTypography-root MuiTypography-caption makeStyles-reads-13 css-8tvgdj-MuiTypography-root"
+                  data-testid="typo"
+                >
+                  1.9k reads
+                </span>
+                <div
+[38;2;128;0;128m[48;2;255;215;255m-                 class="makeStyles-UserContainer-11 MuiBox-root css-0"
+[38;2;0;95;95m[48;2;215;255;255m+                 class="makeStyles-UserContainer-10 MuiBox-root css-0"
+                >
+                  <div
+[38;2;128;0;128m[48;2;255;215;255m-                   class="makeStyles-uservector-15 MuiBox-root css-0"
+[38;2;0;95;95m[48;2;215;255;255m+                   class="makeStyles-uservector-14 MuiBox-root css-0"
+                  >
+                    <div
+                      data-testid="box"
+                    >
+                      <svg
+                        aria-hidden="true"
+[38;2;128;0;128m[48;2;255;215;255m-                       class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium makeStyles-usericon-12 css-i4bv87-MuiSvgIcon-root"
+[38;2;0;95;95m[48;2;215;255;255m+                       class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium makeStyles-usericon-11 css-i4bv87-MuiSvgIcon-root"
+                        data-testid="PersonOutlineIcon"
+                        focusable="false"
+                        viewBox="0 0 24 24"
+                      >
+                        <path
+@@ -2366,21 +2366,21 @@
+              </div>
+              <div
+                data-testid="button"
+              >
+                <div
+[38;2;128;0;128m[48;2;255;215;255m-                 class="makeStyles-more-17 MuiBox-root css-0"
+[38;2;0;95;95m[48;2;215;255;255m+                 class="makeStyles-more-16 MuiBox-root css-0"
+                >
+                  <div
+[38;2;128;0;128m[48;2;255;215;255m-                   class="makeStyles-morecontainer-18 MuiBox-root css-0"
+[38;2;0;95;95m[48;2;215;255;255m+                   class="makeStyles-morecontainer-17 MuiBox-root css-0"
+                  >
+                    <div
+                      data-testid="box"
+                    >
+                      <svg
+                        aria-hidden="true"
+[38;2;128;0;128m[48;2;255;215;255m-                       class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium makeStyles-morehoriz-16 css-i4bv87-MuiSvgIcon-root"
+[38;2;0;95;95m[48;2;215;255;255m+                       class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium makeStyles-morehoriz-15 css-i4bv87-MuiSvgIcon-root"
+                        data-testid="MoreHorizIcon"
+                        focusable="false"
+                        viewBox="0 0 24 24"
+                      >
+                        <path
+@@ -2392,11 +2392,11 @@
+                </div>
+                <span
+                  aria-valuemax="100"
+                  aria-valuemin="0"
+                  aria-valuenow="25"
+[38;2;128;0;128m[48;2;255;215;255m-                 class="MuiLinearProgress-root MuiLinearProgress-colorPrimary MuiLinearProgress-determinate makeStyles-rectangle6-20 css-1fqvzol-MuiLinearProgress-root"
+[38;2;0;95;95m[48;2;215;255;255m+                 class="MuiLinearProgress-root MuiLinearProgress-colorPrimary MuiLinearProgress-determinate makeStyles-rectangle6-19 css-1fqvzol-MuiLinearProgress-root"
+                  data-testid="progress-bar"
+                  role="progressbar"
+                >
+                  <span
+                    class="MuiLinearProgress-bar MuiLinearProgress-barColorPrimary MuiLinearProgress-bar1Determinate css-5xe99f-MuiLinearProgress-bar1"
+@@ -2404,11 +2404,11 @@
+                  />
+                </span>
+              </div>
+            </div>
+            <div
+[38;2;128;0;128m[48;2;255;215;255m-             class="makeStyles-Rectangle3-3 MuiBox-root css-0"
+[38;2;0;95;95m[48;2;215;255;255m+             class="makeStyles-Rectangle3-2 MuiBox-root css-0"
+            >
+              <div
+                class="MuiBox-root css-0"
+              >
+                <a
+@@ -2423,36 +2423,36 @@
+                    width="287px"
+                  />
+                </a>
+              </div>
+              <p
+[38;2;128;0;128m[48;2;255;215;255m-               class="MuiTypography-root MuiTypography-body1 makeStyles-HumanToWork-4 css-imro8o-MuiTypography-root"
+[38;2;0;95;95m[48;2;215;255;255m+               class="MuiTypography-root MuiTypography-body1 makeStyles-HumanToWork-3 css-imro8o-MuiTypography-root"
+                data-testid="typo"
+              >
+                The Lonely Century
+              </p>
+              <p
+[38;2;128;0;128m[48;2;255;215;255m-               class="MuiTypography-root MuiTypography-body1 makeStyles-Author-5 css-imro8o-MuiTypography-root"
+[38;2;0;95;95m[48;2;215;255;255m+               class="MuiTypography-root MuiTypography-body1 makeStyles-Author-4 css-imro8o-MuiTypography-root"
+                data-testid="typo"
+              >
+                Noreena Hertz
+              </p>
+              <div
+[38;2;128;0;128m[48;2;255;215;255m-               class="makeStyles-Group6-7 MuiBox-root css-0"
+[38;2;0;95;95m[48;2;215;255;255m+               class="makeStyles-Group6-6 MuiBox-root css-0"
+              >
+                <div
+[38;2;128;0;128m[48;2;255;215;255m-                 class="makeStyles-imageContainer-10 MuiBox-root css-0"
+[38;2;0;95;95m[48;2;215;255;255m+                 class="makeStyles-imageContainer-9 MuiBox-root css-0"
+                >
+                  <div
+[38;2;128;0;128m[48;2;255;215;255m-                   class="makeStyles-TimeIconContainer-8 MuiBox-root css-0"
+[38;2;0;95;95m[48;2;215;255;255m+                   class="makeStyles-TimeIconContainer-7 MuiBox-root css-0"
+                  >
+                    <div
+                      data-testid="box"
+                    >
+                      <svg
+                        aria-hidden="true"
+[38;2;128;0;128m[48;2;255;215;255m-                       class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium makeStyles-TimeIcon-6 css-i4bv87-MuiSvgIcon-root"
+[38;2;0;95;95m[48;2;215;255;255m+                       class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium makeStyles-TimeIcon-5 css-i4bv87-MuiSvgIcon-root"
+                        data-testid="AccessTimeOutlinedIcon"
+                        focusable="false"
+                        viewBox="0 0 24 24"
+                      >
+                        <path
+@@ -2462,36 +2462,36 @@
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <span
+[38;2;128;0;128m[48;2;255;215;255m-               class="MuiTypography-root MuiTypography-caption makeStyles-MinuteRead-9 css-8tvgdj-MuiTypography-root"
+[38;2;0;95;95m[48;2;215;255;255m+               class="MuiTypography-root MuiTypography-caption makeStyles-MinuteRead-8 css-8tvgdj-MuiTypography-root"
+                data-testid="typo"
+              >
+                13-minute read
+              </span>
+              <div
+[38;2;128;0;128m[48;2;255;215;255m-               class="makeStyles-frame7-13 MuiBox-root css-0"
+[38;2;0;95;95m[48;2;215;255;255m+               class="makeStyles-frame7-12 MuiBox-root css-0"
+              >
+                <span
+[38;2;128;0;128m[48;2;255;215;255m-                 class="MuiTypography-root MuiTypography-caption makeStyles-reads-14 css-8tvgdj-MuiTypography-root"
+[38;2;0;95;95m[48;2;215;255;255m+                 class="MuiTypography-root MuiTypography-caption makeStyles-reads-13 css-8tvgdj-MuiTypography-root"
+                  data-testid="typo"
+                >
+                  1.9k reads
+                </span>
+                <div
+[38;2;128;0;128m[48;2;255;215;255m-                 class="makeStyles-UserContainer-11 MuiBox-root css-0"
+[38;2;0;95;95m[48;2;215;255;255m+                 class="makeStyles-UserContainer-10 MuiBox-root css-0"
+                >
+                  <div
+[38;2;128;0;128m[48;2;255;215;255m-                   class="makeStyles-uservector-15 MuiBox-root css-0"
+[38;2;0;95;95m[48;2;215;255;255m+                   class="makeStyles-uservector-14 MuiBox-root css-0"
+                  >
+                    <div
+                      data-testid="box"
+                    >
+                      <svg
+                        aria-hidden="true"
+[38;2;128;0;128m[48;2;255;215;255m-                       class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium makeStyles-usericon-12 css-i4bv87-MuiSvgIcon-root"
+[38;2;0;95;95m[48;2;215;255;255m+                       class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium makeStyles-usericon-11 css-i4bv87-MuiSvgIcon-root"
+                        data-testid="PersonOutlineIcon"
+                        focusable="false"
+                        viewBox="0 0 24 24"
+                      >
+                        <path
+@@ -2504,21 +2504,21 @@
+              </div>
+              <div
+                data-testid="button"
+              >
+                <div
+[38;2;128;0;128m[48;2;255;215;255m-                 class="makeStyles-more-17 MuiBox-root css-0"
+[38;2;0;95;95m[48;2;215;255;255m+                 class="makeStyles-more-16 MuiBox-root css-0"
+                >
+                  <div
+[38;2;128;0;128m[48;2;255;215;255m-                   class="makeStyles-morecontainer-18 MuiBox-root css-0"
+[38;2;0;95;95m[48;2;215;255;255m+                   class="makeStyles-morecontainer-17 MuiBox-root css-0"
+                  >
+                    <div
+                      data-testid="box"
+                    >
+                      <svg
+                        aria-hidden="true"
+[38;2;128;0;128m[48;2;255;215;255m-                       class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium makeStyles-morehoriz-16 css-i4bv87-MuiSvgIcon-root"
+[38;2;0;95;95m[48;2;215;255;255m+                       class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium makeStyles-morehoriz-15 css-i4bv87-MuiSvgIcon-root"
+                        data-testid="MoreHorizIcon"
+                        focusable="false"
+                        viewBox="0 0 24 24"
+                      >
+                        <path
+@@ -2530,11 +2530,11 @@
+                </div>
+                <span
+                  aria-valuemax="100"
+                  aria-valuemin="0"
+                  aria-valuenow="25"
+[38;2;128;0;128m[48;2;255;215;255m-                 class="MuiLinearProgress-root MuiLinearProgress-colorPrimary MuiLinearProgress-determinate makeStyles-rectangle6-20 css-1fqvzol-MuiLinearProgress-root"
+[38;2;0;95;95m[48;2;215;255;255m+                 class="MuiLinearProgress-root MuiLinearProgress-colorPrimary MuiLinearProgress-determinate makeStyles-rectangle6-19 css-1fqvzol-MuiLinearProgress-root"
+                  data-testid="progress-bar"
+                  role="progressbar"
+                >
+                  <span
+                    class="MuiLinearProgress-bar MuiLinearProgress-barColorPrimary MuiLinearProgress-bar1Determinate css-5xe99f-MuiLinearProgress-bar1"
+@@ -2542,11 +2542,11 @@
+                  />
+                </span>
+              </div>
+            </div>
+            <div
+[38;2;128;0;128m[48;2;255;215;255m-             class="makeStyles-Rectangle3-3 MuiBox-root css-0"
+[38;2;0;95;95m[48;2;215;255;255m+             class="makeStyles-Rectangle3-2 MuiBox-root css-0"
+            >
+              <div
+                class="MuiBox-root css-0"
+              >
+                <a
+@@ -2561,36 +2561,36 @@
+                    width="287px"
+                  />
+                </a>
+              </div>
+              <p
+[38;2;128;0;128m[48;2;255;215;255m-               class="MuiTypography-root MuiTypography-body1 makeStyles-HumanToWork-4 css-imro8o-MuiTypography-root"
+[38;2;0;95;95m[48;2;215;255;255m+               class="MuiTypography-root MuiTypography-body1 makeStyles-HumanToWork-3 css-imro8o-MuiTypography-root"
+                data-testid="typo"
+              >
+                Eat Better, Feel Better
+              </p>
+              <p
+[38;2;128;0;128m[48;2;255;215;255m-               class="MuiTypography-root MuiTypography-body1 makeStyles-Author-5 css-imro8o-MuiTypography-root"
+[38;2;0;95;95m[48;2;215;255;255m+               class="MuiTypography-root MuiTypography-body1 makeStyles-Author-4 css-imro8o-MuiTypography-root"
+                data-testid="typo"
+              >
+                Giada De Laurentiis
+              </p>
+              <div
+[38;2;128;0;128m[48;2;255;215;255m-               class="makeStyles-Group6-7 MuiBox-root css-0"
+[38;2;0;95;95m[48;2;215;255;255m+               class="makeStyles-Group6-6 MuiBox-root css-0"
+              >
+                <div
+[38;2;128;0;128m[48;2;255;215;255m-                 class="makeStyles-imageContainer-10 MuiBox-root css-0"
+[38;2;0;95;95m[48;2;215;255;255m+                 class="makeStyles-imageContainer-9 MuiBox-root css-0"
+                >
+                  <div
+[38;2;128;0;128m[48;2;255;215;255m-                   class="makeStyles-TimeIconContainer-8 MuiBox-root css-0"
+[38;2;0;95;95m[48;2;215;255;255m+                   class="makeStyles-TimeIconContainer-7 MuiBox-root css-0"
+                  >
+                    <div
+                      data-testid="box"
+                    >
+                      <svg
+                        aria-hidden="true"
+[38;2;128;0;128m[48;2;255;215;255m-                       class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium makeStyles-TimeIcon-6 css-i4bv87-MuiSvgIcon-root"
+[38;2;0;95;95m[48;2;215;255;255m+                       class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium makeStyles-TimeIcon-5 css-i4bv87-MuiSvgIcon-root"
+                        data-testid="AccessTimeOutlinedIcon"
+                        focusable="false"
+                        viewBox="0 0 24 24"
+                      >
+                        <path
+@@ -2600,36 +2600,36 @@
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <span
+[38;2;128;0;128m[48;2;255;215;255m-               class="MuiTypography-root MuiTypography-caption makeStyles-MinuteRead-9 css-8tvgdj-MuiTypography-root"
+[38;2;0;95;95m[48;2;215;255;255m+               class="MuiTypography-root MuiTypography-caption makeStyles-MinuteRead-8 css-8tvgdj-MuiTypography-root"
+                data-testid="typo"
+              >
+                13-minute read
+              </span>
+              <div
+[38;2;128;0;128m[48;2;255;215;255m-               class="makeStyles-frame7-13 MuiBox-root css-0"
+[38;2;0;95;95m[48;2;215;255;255m+               class="makeStyles-frame7-12 MuiBox-root css-0"
+              >
+                <span
+[38;2;128;0;128m[48;2;255;215;255m-                 class="MuiTypography-root MuiTypography-caption makeStyles-reads-14 css-8tvgdj-MuiTypography-root"
+[38;2;0;95;95m[48;2;215;255;255m+                 class="MuiTypography-root MuiTypography-caption makeStyles-reads-13 css-8tvgdj-MuiTypography-root"
+                  data-testid="typo"
+                >
+                  1.9k reads
+                </span>
+                <div
+[38;2;128;0;128m[48;2;255;215;255m-                 class="makeStyles-UserContainer-11 MuiBox-root css-0"
+[38;2;0;95;95m[48;2;215;255;255m+                 class="makeStyles-UserContainer-10 MuiBox-root css-0"
+                >
+                  <div
+[38;2;128;0;128m[48;2;255;215;255m-                   class="makeStyles-uservector-15 MuiBox-root css-0"
+[38;2;0;95;95m[48;2;215;255;255m+                   class="makeStyles-uservector-14 MuiBox-root css-0"
+                  >
+                    <div
+                      data-testid="box"
+                    >
+                      <svg
+                        aria-hidden="true"
+[38;2;128;0;128m[48;2;255;215;255m-                       class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium makeStyles-usericon-12 css-i4bv87-MuiSvgIcon-root"
+[38;2;0;95;95m[48;2;215;255;255m+                       class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium makeStyles-usericon-11 css-i4bv87-MuiSvgIcon-root"
+                        data-testid="PersonOutlineIcon"
+                        focusable="false"
+                        viewBox="0 0 24 24"
+                      >
+                        <path
+@@ -2639,14 +2639,14 @@
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+[38;2;128;0;128m[48;2;255;215;255m-               class="makeStyles-button-21 MuiBox-root css-0"
+[38;2;0;95;95m[48;2;215;255;255m+               class="makeStyles-button-20 MuiBox-root css-0"
+              >
+                <button
+[38;2;128;0;128m[48;2;255;215;255m-                 class="MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium MuiButtonBase-root makeStyles-buttonStyle-23 css-aysoqb-MuiButtonBase-root-MuiButton-root"
+[38;2;0;95;95m[48;2;215;255;255m+                 class="MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium MuiButtonBase-root makeStyles-buttonStyle-22 css-aysoqb-MuiButtonBase-root-MuiButton-root"
+                  data-testid="box"
+                  tabindex="0"
+                  type="button"
+                >
+                  <span
+@@ -2670,11 +2670,11 @@
+                  />
+                </button>
+              </div>
+            </div>
+            <div
+[38;2;128;0;128m[48;2;255;215;255m-             class="makeStyles-Rectangle3-3 MuiBox-root css-0"
+[38;2;0;95;95m[48;2;215;255;255m+             class="makeStyles-Rectangle3-2 MuiBox-root css-0"
+            >
+              <div
+                class="MuiBox-root css-0"
+              >
+                <a
+@@ -2689,36 +2689,36 @@
+                    width="287px"
+                  />
+                </a>
+              </div>
+              <p
+[38;2;128;0;128m[48;2;255;215;255m-               class="MuiTypography-root MuiTypography-body1 makeStyles-HumanToWork-4 css-imro8o-MuiTypography-root"
+[38;2;0;95;95m[48;2;215;255;255m+               class="MuiTypography-root MuiTypography-body1 makeStyles-HumanToWork-3 css-imro8o-MuiTypography-root"
+                data-testid="typo"
+              >
+                Dropshipping
+              </p>
+              <p
+[38;2;128;0;128m[48;2;255;215;255m-               class="MuiTypography-root MuiTypography-body1 makeStyles-Author-5 css-imro8o-MuiTypography-root"
+[38;2;0;95;95m[48;2;215;255;255m+               class="MuiTypography-root MuiTypography-body1 makeStyles-Author-4 css-imro8o-MuiTypography-root"
+                data-testid="typo"
+              >
+                Giada De Laurentiis
+              </p>
+              <div
+[38;2;128;0;128m[48;2;255;215;255m-               class="makeStyles-Group6-7 MuiBox-root css-0"
+[38;2;0;95;95m[48;2;215;255;255m+               class="makeStyles-Group6-6 MuiBox-root css-0"
+              >
+                <div
+[38;2;128;0;128m[48;2;255;215;255m-                 class="makeStyles-imageContainer-10 MuiBox-root css-0"
+[38;2;0;95;95m[48;2;215;255;255m+                 class="makeStyles-imageContainer-9 MuiBox-root css-0"
+                >
+                  <div
+[38;2;128;0;128m[48;2;255;215;255m-                   class="makeStyles-TimeIconContainer-8 MuiBox-root css-0"
+[38;2;0;95;95m[48;2;215;255;255m+                   class="makeStyles-TimeIconContainer-7 MuiBox-root css-0"
+                  >
+                    <div
+                      data-testid="box"
+                    >
+                      <svg
+                        aria-hidden="true"
+[38;2;128;0;128m[48;2;255;215;255m-                       class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium makeStyles-TimeIcon-6 css-i4bv87-MuiSvgIcon-root"
+[38;2;0;95;95m[48;2;215;255;255m+                       class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium makeStyles-TimeIcon-5 css-i4bv87-MuiSvgIcon-root"
+                        data-testid="AccessTimeOutlinedIcon"
+                        focusable="false"
+                        viewBox="0 0 24 24"
+                      >
+                        <path
+@@ -2728,36 +2728,36 @@
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <span
+[38;2;128;0;128m[48;2;255;215;255m-               class="MuiTypography-root MuiTypography-caption makeStyles-MinuteRead-9 css-8tvgdj-MuiTypography-root"
+[38;2;0;95;95m[48;2;215;255;255m+               class="MuiTypography-root MuiTypography-caption makeStyles-MinuteRead-8 css-8tvgdj-MuiTypography-root"
+                data-testid="typo"
+              >
+                13-minute read
+              </span>
+              <div
+[38;2;128;0;128m[48;2;255;215;255m-               class="makeStyles-frame7-13 MuiBox-root css-0"
+[38;2;0;95;95m[48;2;215;255;255m+               class="makeStyles-frame7-12 MuiBox-root css-0"
+              >
+                <span
+[38;2;128;0;128m[48;2;255;215;255m-                 class="MuiTypography-root MuiTypography-caption makeStyles-reads-14 css-8tvgdj-MuiTypography-root"
+[38;2;0;95;95m[48;2;215;255;255m+                 class="MuiTypography-root MuiTypography-caption makeStyles-reads-13 css-8tvgdj-MuiTypography-root"
+                  data-testid="typo"
+                >
+                  1.9k reads
+                </span>
+                <div
+[38;2;128;0;128m[48;2;255;215;255m-                 class="makeStyles-UserContainer-11 MuiBox-root css-0"
+[38;2;0;95;95m[48;2;215;255;255m+                 class="makeStyles-UserContainer-10 MuiBox-root css-0"
+                >
+                  <div
+[38;2;128;0;128m[48;2;255;215;255m-                   class="makeStyles-uservector-15 MuiBox-root css-0"
+[38;2;0;95;95m[48;2;215;255;255m+                   class="makeStyles-uservector-14 MuiBox-root css-0"
+                  >
+                    <div
+                      data-testid="box"
+                    >
+                      <svg
+                        aria-hidden="true"
+[38;2;128;0;128m[48;2;255;215;255m-                       class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium makeStyles-usericon-12 css-i4bv87-MuiSvgIcon-root"
+[38;2;0;95;95m[48;2;215;255;255m+                       class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium makeStyles-usericon-11 css-i4bv87-MuiSvgIcon-root"
+                        data-testid="PersonOutlineIcon"
+                        focusable="false"
+                        viewBox="0 0 24 24"
+                      >
+                        <path
+@@ -2767,14 +2767,14 @@
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+[38;2;128;0;128m[48;2;255;215;255m-               class="makeStyles-button-21 MuiBox-root css-0"
+[38;2;0;95;95m[48;2;215;255;255m+               class="makeStyles-button-20 MuiBox-root css-0"
+              >
+                <button
+[38;2;128;0;128m[48;2;255;215;255m-                 class="MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium MuiButtonBase-root makeStyles-buttonStyle-23 css-aysoqb-MuiButtonBase-root-MuiButton-root"
+[38;2;0;95;95m[48;2;215;255;255m+                 class="MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium MuiButtonBase-root makeStyles-buttonStyle-22 css-aysoqb-MuiButtonBase-root-MuiButton-root"
+                  data-testid="box"
+                  tabindex="0"
+                  type="button"
+                >
+                  <span
+@@ -2798,11 +2798,11 @@
+                  />
+                </button>
+              </div>
+            </div>
+            <div
+[38;2;128;0;128m[48;2;255;215;255m-             class="makeStyles-Rectangle3-3 MuiBox-root css-0"
+[38;2;0;95;95m[48;2;215;255;255m+             class="makeStyles-Rectangle3-2 MuiBox-root css-0"
+            >
+              <div
+                class="MuiBox-root css-0"
+              >
+                <a
+@@ -2817,36 +2817,36 @@
+                    width="287px"
+                  />
+                </a>
+              </div>
+              <p
+[38;2;128;0;128m[48;2;255;215;255m-               class="MuiTypography-root MuiTypography-body1 makeStyles-HumanToWork-4 css-imro8o-MuiTypography-root"
+[38;2;0;95;95m[48;2;215;255;255m+               class="MuiTypography-root MuiTypography-body1 makeStyles-HumanToWork-3 css-imro8o-MuiTypography-root"
+                data-testid="typo"
+              >
+                Bring Your Human to Work
+              </p>
+              <p
+[38;2;128;0;128m[48;2;255;215;255m-               class="MuiTypography-root MuiTypography-body1 makeStyles-Author-5 css-imro8o-MuiTypography-root"
+[38;2;0;95;95m[48;2;215;255;255m+               class="MuiTypography-root MuiTypography-body1 makeStyles-Author-4 css-imro8o-MuiTypography-root"
+                data-testid="typo"
+              >
+                Erica Keswin
+              </p>
+              <div
+[38;2;128;0;128m[48;2;255;215;255m-               class="makeStyles-Group6-7 MuiBox-root css-0"
+[38;2;0;95;95m[48;2;215;255;255m+               class="makeStyles-Group6-6 MuiBox-root css-0"
+              >
+                <div
+[38;2;128;0;128m[48;2;255;215;255m-                 class="makeStyles-imageContainer-10 MuiBox-root css-0"
+[38;2;0;95;95m[48;2;215;255;255m+                 class="makeStyles-imageContainer-9 MuiBox-root css-0"
+                >
+                  <div
+[38;2;128;0;128m[48;2;255;215;255m-                   class="makeStyles-TimeIconContainer-8 MuiBox-root css-0"
+[38;2;0;95;95m[48;2;215;255;255m+                   class="makeStyles-TimeIconContainer-7 MuiBox-root css-0"
+                  >
+                    <div
+                      data-testid="box"
+                    >
+                      <svg
+                        aria-hidden="true"
+[38;2;128;0;128m[48;2;255;215;255m-                       class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium makeStyles-TimeIcon-6 css-i4bv87-MuiSvgIcon-root"
+[38;2;0;95;95m[48;2;215;255;255m+                       class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium makeStyles-TimeIcon-5 css-i4bv87-MuiSvgIcon-root"
+                        data-testid="AccessTimeOutlinedIcon"
+                        focusable="false"
+                        viewBox="0 0 24 24"
+                      >
+                        <path
+@@ -2856,36 +2856,36 @@
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <span
+[38;2;128;0;128m[48;2;255;215;255m-               class="MuiTypography-root MuiTypography-caption makeStyles-MinuteRead-9 css-8tvgdj-MuiTypography-root"
+[38;2;0;95;95m[48;2;215;255;255m+               class="MuiTypography-root MuiTypography-caption makeStyles-MinuteRead-8 css-8tvgdj-MuiTypography-root"
+                data-testid="typo"
+              >
+                13-minute read
+              </span>
+              <div
+[38;2;128;0;128m[48;2;255;215;255m-               class="makeStyles-frame7-13 MuiBox-root css-0"
+[38;2;0;95;95m[48;2;215;255;255m+               class="makeStyles-frame7-12 MuiBox-root css-0"
+              >
+                <span
+[38;2;128;0;128m[48;2;255;215;255m-                 class="MuiTypography-root MuiTypography-caption makeStyles-reads-14 css-8tvgdj-MuiTypography-root"
+[38;2;0;95;95m[48;2;215;255;255m+                 class="MuiTypography-root MuiTypography-caption makeStyles-reads-13 css-8tvgdj-MuiTypography-root"
+                  data-testid="typo"
+                >
+                  1.9k reads
+                </span>
+                <div
+[38;2;128;0;128m[48;2;255;215;255m-                 class="makeStyles-UserContainer-11 MuiBox-root css-0"
+[38;2;0;95;95m[48;2;215;255;255m+                 class="makeStyles-UserContainer-10 MuiBox-root css-0"
+                >
+                  <div
+[38;2;128;0;128m[48;2;255;215;255m-                   class="makeStyles-uservector-15 MuiBox-root css-0"
+[38;2;0;95;95m[48;2;215;255;255m+                   class="makeStyles-uservector-14 MuiBox-root css-0"
+                  >
+                    <div
+                      data-testid="box"
+                    >
+                      <svg
+                        aria-hidden="true"
+[38;2;128;0;128m[48;2;255;215;255m-                       class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium makeStyles-usericon-12 css-i4bv87-MuiSvgIcon-root"
+[38;2;0;95;95m[48;2;215;255;255m+                       class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium makeStyles-usericon-11 css-i4bv87-MuiSvgIcon-root"
+                        data-testid="PersonOutlineIcon"
+                        focusable="false"
+                        viewBox="0 0 24 24"
+                      >
+                        <path
+@@ -2898,21 +2898,21 @@
+              </div>
+              <div
+                data-testid="button"
+              >
+                <div
+[38;2;128;0;128m[48;2;255;215;255m-                 class="makeStyles-more-17 MuiBox-root css-0"
+[38;2;0;95;95m[48;2;215;255;255m+                 class="makeStyles-more-16 MuiBox-root css-0"
+                >
+                  <div
+[38;2;128;0;128m[48;2;255;215;255m-                   class="makeStyles-morecontainer-18 MuiBox-root css-0"
+[38;2;0;95;95m[48;2;215;255;255m+                   class="makeStyles-morecontainer-17 MuiBox-root css-0"
+                  >
+                    <div
+                      data-testid="box"
+                    >
+                      <svg
+                        aria-hidden="true"
+[38;2;128;0;128m[48;2;255;215;255m-                       class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium makeStyles-morehoriz-16 css-i4bv87-MuiSvgIcon-root"
+[38;2;0;95;95m[48;2;215;255;255m+                       class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium makeStyles-morehoriz-15 css-i4bv87-MuiSvgIcon-root"
+                        data-testid="MoreHorizIcon"
+                        focusable="false"
+                        viewBox="0 0 24 24"
+                      >
+                        <path
+@@ -2924,11 +2924,11 @@
+                </div>
+                <span
+                  aria-valuemax="100"
+                  aria-valuemin="0"
+                  aria-valuenow="25"
+[38;2;128;0;128m[48;2;255;215;255m-                 class="MuiLinearProgress-root MuiLinearProgress-colorPrimary MuiLinearProgress-determinate makeStyles-rectangle6-20 css-1fqvzol-MuiLinearProgress-root"
+[38;2;0;95;95m[48;2;215;255;255m+                 class="MuiLinearProgress-root MuiLinearProgress-colorPrimary MuiLinearProgress-determinate makeStyles-rectangle6-19 css-1fqvzol-MuiLinearProgress-root"
+                  data-testid="progress-bar"
+                  role="progressbar"
+                >
+                  <span
+                    class="MuiLinearProgress-bar MuiLinearProgress-barColorPrimary MuiLinearProgress-bar1Determinate css-5xe99f-MuiLinearProgress-bar1"
+@@ -2936,11 +2936,11 @@
+                  />
+                </span>
+              </div>
+            </div>
+            <div
+[38;2;128;0;128m[48;2;255;215;255m-             class="makeStyles-Rectangle3-3 MuiBox-root css-0"
+[38;2;0;95;95m[48;2;215;255;255m+             class="makeStyles-Rectangle3-2 MuiBox-root css-0"
+            >
+              <div
+                class="MuiBox-root css-0"
+              >
+                <a
+@@ -2955,36 +2955,36 @@
+                    width="287px"
+                  />
+                </a>
+              </div>
+              <p
+[38;2;128;0;128m[48;2;255;215;255m-               class="MuiTypography-root MuiTypography-body1 makeStyles-HumanToWork-4 css-imro8o-MuiTypography-root"
+[38;2;0;95;95m[48;2;215;255;255m+               class="MuiTypography-root MuiTypography-body1 makeStyles-HumanToWork-3 css-imro8o-MuiTypography-root"
+                data-testid="typo"
+              >
+                Doesn’t Hurt to Ask
+              </p>
+              <p
+[38;2;128;0;128m[48;2;255;215;255m-               class="MuiTypography-root MuiTypography-body1 makeStyles-Author-5 css-imro8o-MuiTypography-root"
+[38;2;0;95;95m[48;2;215;255;255m+               class="MuiTypography-root MuiTypography-body1 makeStyles-Author-4 css-imro8o-MuiTypography-root"
+                data-testid="typo"
+              >
+                Trey Gowdy
+              </p>
+              <div
+[38;2;128;0;128m[48;2;255;215;255m-               class="makeStyles-Group6-7 MuiBox-root css-0"
+[38;2;0;95;95m[48;2;215;255;255m+               class="makeStyles-Group6-6 MuiBox-root css-0"
+              >
+                <div
+[38;2;128;0;128m[48;2;255;215;255m-                 class="makeStyles-imageContainer-10 MuiBox-root css-0"
+[38;2;0;95;95m[48;2;215;255;255m+                 class="makeStyles-imageContainer-9 MuiBox-root css-0"
+                >
+                  <div
+[38;2;128;0;128m[48;2;255;215;255m-                   class="makeStyles-TimeIconContainer-8 MuiBox-root css-0"
+[38;2;0;95;95m[48;2;215;255;255m+                   class="makeStyles-TimeIconContainer-7 MuiBox-root css-0"
+                  >
+                    <div
+                      data-testid="box"
+                    >
+                      <svg
+                        aria-hidden="true"
+[38;2;128;0;128m[48;2;255;215;255m-                       class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium makeStyles-TimeIcon-6 css-i4bv87-MuiSvgIcon-root"
+[38;2;0;95;95m[48;2;215;255;255m+                       class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium makeStyles-TimeIcon-5 css-i4bv87-MuiSvgIcon-root"
+                        data-testid="AccessTimeOutlinedIcon"
+                        focusable="false"
+                        viewBox="0 0 24 24"
+                      >
+                        <path
+@@ -2994,36 +2994,36 @@
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <span
+[38;2;128;0;128m[48;2;255;215;255m-               class="MuiTypography-root MuiTypography-caption makeStyles-MinuteRead-9 css-8tvgdj-MuiTypography-root"
+[38;2;0;95;95m[48;2;215;255;255m+               class="MuiTypography-root MuiTypography-caption makeStyles-MinuteRead-8 css-8tvgdj-MuiTypography-root"
+                data-testid="typo"
+              >
+                13-minute read
+              </span>
+              <div
+[38;2;128;0;128m[48;2;255;215;255m-               class="makeStyles-frame7-13 MuiBox-root css-0"
+[38;2;0;95;95m[48;2;215;255;255m+               class="makeStyles-frame7-12 MuiBox-root css-0"
+              >
+                <span
+[38;2;128;0;128m[48;2;255;215;255m-                 class="MuiTypography-root MuiTypography-caption makeStyles-reads-14 css-8tvgdj-MuiTypography-root"
+[38;2;0;95;95m[48;2;215;255;255m+                 class="MuiTypography-root MuiTypography-caption makeStyles-reads-13 css-8tvgdj-MuiTypography-root"
+                  data-testid="typo"
+                >
+                  1.9k reads
+                </span>
+                <div
+[38;2;128;0;128m[48;2;255;215;255m-                 class="makeStyles-UserContainer-11 MuiBox-root css-0"
+[38;2;0;95;95m[48;2;215;255;255m+                 class="makeStyles-UserContainer-10 MuiBox-root css-0"
+                >
+                  <div
+[38;2;128;0;128m[48;2;255;215;255m-                   class="makeStyles-uservector-15 MuiBox-root css-0"
+[38;2;0;95;95m[48;2;215;255;255m+                   class="makeStyles-uservector-14 MuiBox-root css-0"
+                  >
+                    <div
+                      data-testid="box"
+                    >
+                      <svg
+                        aria-hidden="true"
+[38;2;128;0;128m[48;2;255;215;255m-                       class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium makeStyles-usericon-12 css-i4bv87-MuiSvgIcon-root"
+[38;2;0;95;95m[48;2;215;255;255m+                       class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium makeStyles-usericon-11 css-i4bv87-MuiSvgIcon-root"
+                        data-testid="PersonOutlineIcon"
+                        focusable="false"
+                        viewBox="0 0 24 24"
+                      >
+                        <path
+@@ -3033,15 +3033,15 @@
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+[38;2;128;0;128m[48;2;255;215;255m-               class="makeStyles-button-21 MuiBox-root css-0"
+[38;2;0;95;95m[48;2;215;255;255m+               class="makeStyles-button-20 MuiBox-root css-0"
+                data-testid="card-library-handler"
+              >
+                <button
+[38;2;128;0;128m[48;2;255;215;255m-                 class="MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium MuiButtonBase-root makeStyles-buttonStyle-23 css-aysoqb-MuiButtonBase-root-MuiButton-root"
+[38;2;0;95;95m[48;2;215;255;255m+                 class="MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium MuiButtonBase-root makeStyles-buttonStyle-22 css-aysoqb-MuiButtonBase-root-MuiButton-root"
+                  data-testid="box"
+                  tabindex="0"
+                  type="button"
+                >
+                  <span
+    at Object.<anonymous> (C:\React Practice\blinkist-app\src\components\Pages\Enterpreneurship\index.test.tsx:23:18)]]></failure>
+    </testCase>
+    <testCase name="Home test Cards" duration="2285"/>
+  </file>
+  <file path="C:\React Practice\blinkist-app\src\components\atoms\Icons\index.test.tsx">
+    <testCase name="renders learn react link" duration="23"/>
   </file>
 </testExecutions>

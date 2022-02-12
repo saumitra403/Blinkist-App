@@ -9,6 +9,9 @@ import { ExpandMore } from "@mui/icons-material";
 import Typography from "../../atoms/Typography";
 import AvatarComponent from "../../atoms/Avatar";
 import { Link } from "react-router-dom";
+import { Popover } from "@mui/material";
+import { useState } from "react";
+import Nav from "../../molecules/ExtendedNav";
 const useStyle = makeStyles({
   logo: {
     position: "absolute",
@@ -69,6 +72,18 @@ const useStyle = makeStyles({
   },
 });
 const Header = () => {
+  const [anchorEl, setAnchorEl] = useState(null);
+
+  const handleClose = () => {
+    setAnchorEl(null);
+  };
+
+  const handleclick = (event: any) => {
+    setAnchorEl(event.currentTarget);
+  };
+
+  const open = Boolean(anchorEl);
+  const id = open ? "simple-popover" : undefined;
   const classes = useStyle();
   return (
     <ThemeProvider theme={mainTheme}>
@@ -94,10 +109,27 @@ const Header = () => {
           className={classes.search}
         ></Img>
 
-        <Box className={classes.explore}>
+        <Box
+          className={classes.explore}
+          aria-describedby={id}
+          onClick={handleclick}
+        >
           <Typography variant="body1">Explore</Typography>
           <ExpandMore></ExpandMore>
         </Box>
+
+        <Popover
+          id={id}
+          open={open}
+          anchorEl={anchorEl}
+          onClose={handleClose}
+          anchorOrigin={{
+            vertical: "bottom",
+            horizontal: "center"
+          }}
+        >
+          <Nav></Nav>
+        </Popover>
 
         <Link to="/library">
           <Typography className={classes.mylibrary} variant="body1">

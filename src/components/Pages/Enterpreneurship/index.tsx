@@ -1,10 +1,8 @@
 import Banner from "../../molecules/Banner";
 import { Box } from "@mui/material";
-import { makeStyles } from "@material-ui/core";
 import SearchBar from "../../molecules/SearchBar";
 import Card from "../../organisms/Card";
 import Typography from "../../atoms/Typography/index";
-const useStyle = makeStyles({});
 
 const LandingPage = ({ books, setBooks }: any) => {
   const handleClick = async (id: any) => {
