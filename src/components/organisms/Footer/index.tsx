@@ -1,5 +1,5 @@
 import { makeStyles } from "@material-ui/styles";
-import Logo from "../../atoms/Logo";
+import Logo from "../../atoms/Logo/index";
 import Typography from "../../atoms/Typography";
 import { Box } from "@mui/material";
 type FooterProps = {
