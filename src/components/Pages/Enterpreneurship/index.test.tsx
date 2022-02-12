@@ -14,7 +14,7 @@ const setBooks = jest.fn();
 describe("Home", () => {
   let response, books: any;
   beforeAll(async () => {
-    response = await fetch("http://localhost:3000/books");
+    response = await fetch("https://jsonserver-saumitra.herokuapp.com/books");
     books = await response.json();
   });
   test("should render input", async () => {

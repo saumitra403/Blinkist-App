@@ -22,7 +22,7 @@ const Template = () => {
   const classes = useStyle();
   useEffect(() => {
     const processor = async () => {
-      let res = await fetch("http://localhost:3000/books");
+      let res = await fetch("https://jsonserver-saumitra.herokuapp.com/books");
       let cards = await res.json();
       setBooks(cards);
     };

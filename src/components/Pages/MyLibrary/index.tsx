@@ -32,7 +32,7 @@ const MyLibrary = ({ books, setBooks }: any) => {
     book.splice(index, 0, currData);
     setBooks(book);
 
-    await fetch(`http://localhost:3000/books/${index}`, {
+    await fetch(`https://jsonserver-saumitra.herokuapp.com/books/${index}`, {
       method: "PUT",
       body: JSON.stringify(currData),
       headers: {
