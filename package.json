@@ -34,7 +34,9 @@
     "build-storybook": "build-storybook -s public",
     "coverage": "npm test -- --coverage --watchAll --collectCoverageFrom=!src/**/*.stories.tsx --collectCoverageFrom=!src/index.tsx --collectCoverageFrom=!src/components/atoms/Logo/index.tsx --collectCoverageFrom=!src/App.tsx --collectCoverageFrom=!src/reportWebVitals.ts --testResultsProcessor=jest-sonar-reporter",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d build",
+    "heroku-prebuild": "export NPM_CONFIG_PRODUCTION=false; export NODE_ENV=; NPM_CONFIG_PRODUCTION=false NODE_ENV=development npm install --only=dev --dev",
+    "heroku-postbuild": "export NPM_CONFIG_PRODUCTION=true; export NODE_ENV=production"
   },
   "eslintConfig": {
     "extends": [

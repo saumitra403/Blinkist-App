@@ -2,7 +2,7 @@ import { Box } from "@material-ui/core";
 import AppBar from "@mui/material/AppBar";
 import mainTheme from "../../../Theme/mainTheme";
 import { ThemeProvider } from "emotion-theming";
-import Logo from "../../atoms/Logo";
+import Logo from "../../atoms/Logo/index";
 import { makeStyles } from "@mui/styles";
 import Img from "../../atoms/Images";
 import { ExpandMore } from "@mui/icons-material";
