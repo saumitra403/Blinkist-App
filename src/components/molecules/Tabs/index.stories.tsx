@@ -6,5 +6,17 @@ export default {
     component: TabComponent
 }   
 
-export const Tab: ComponentStory<typeof TabComponent> = (...args) => <TabComponent value={1}/>;
+const tabData = [
+    { 
+      'value': 0,
+      'label': 'Explore by category',
+    },
+    { 
+      'value': 1,
+      'label': 'See recently added titles'
+    }
+]
+
+const stateHandler = () => {};
+export const Tab: ComponentStory<typeof TabComponent> = (...args) => <TabComponent tabData={tabData} stateHandler={stateHandler}/>;
 

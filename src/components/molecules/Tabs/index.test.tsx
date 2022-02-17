@@ -14,7 +14,7 @@ const tabData = [
 
 
 test('should render 2 tabw for 2 length data', () => {
-  render(<BrowserRouter><Tabs tabData={tabData}/></BrowserRouter>);
+  render(<BrowserRouter><Tabs tabData={tabData} stateHandler={mockCallback }/></BrowserRouter>);
   const tabsElement = screen.getAllByTestId(/tab-/);
   expect(tabsElement.length).toBe(2);
 });

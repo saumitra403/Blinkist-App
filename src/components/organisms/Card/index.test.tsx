@@ -6,7 +6,7 @@ test("renders learn react link", () => {
   render(
     <BrowserRouter>
       <Card
-        src="/Assets/6.png"
+        imgsrc="/Assets/6.png"
         bookname="Loving Your Business"
         author="Debbie King"
         status="Reading"
@@ -23,7 +23,7 @@ test("Render Add To Library on null status", () => {
   render(
     <BrowserRouter>
       <Card
-        src="/Assets/8.png"
+        imgsrc="/Assets/8.png"
         bookname="Eat Better, Feel Better"
         author="Giada De Laurentiis"
         status="Null"
@@ -40,7 +40,7 @@ test("Render Progress Bar on Reading Status", () => {
   render(
     <BrowserRouter>
       <Card
-        src="/Assets/8.png"
+        imgsrc="/Assets/8.png"
         bookname="The Lonely Century"
         author="Noreena Hertz"
         status="Reading"

@@ -8,6 +8,7 @@ import { makeStyles } from "@material-ui/styles";
 import MyLibrary from "../Pages/MyLibrary";
 import BookInfo from "../Pages/BookInfo";
 
+
 const useStyle = makeStyles({
   pagewrap: {
     minHeight: "100%",
@@ -19,6 +20,7 @@ const useStyle = makeStyles({
 });
 const Template = () => {
   const [books, setBooks] = useState<any>(null);
+  console.log(typeof(setBooks))
   const classes = useStyle();
   useEffect(() => {
     const processor = async () => {

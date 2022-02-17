@@ -12,14 +12,22 @@ const useStyle = makeStyles({
     height: "fit-content",
   },
 });
-
-const TabComponent = ({ tabData, ...props }: any) => {
+type tabDataProps = {
+  value: number,
+  label: string
+}
+type TabProps = {
+  tabData: Array<tabDataProps>,
+  stateHandler: Function
+}
+const TabComponent = (props: TabProps) => {
+  const {tabData, stateHandler} = props;
   const classes = useStyle();
   const [value, setValue] = useState(tabData && tabData[0].value);
 
   const handleChange = (event: React.SyntheticEvent, val: any) => {
     setValue(val);
-    props.stateHandler(val);
+    stateHandler(val);
   };
   return (
     <Box

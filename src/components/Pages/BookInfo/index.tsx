@@ -8,7 +8,22 @@ import ArrowForwardIcon from "@mui/icons-material/ArrowForward";
 import Tabs from "../../molecules/Tabs";
 import { useState } from "react";
 import Img from "../../atoms/Images";
-const BookInfo = ({ books, setBooks, id }: any) => {
+type bookType = {
+  id: number,
+  bookname: string,
+  src: string,
+  author: string,
+  status: string,
+  category: string,
+  progress: number
+}
+
+type BookInfoProps = {
+  books: Array<bookType>,
+  setBooks: Function,
+}
+const BookInfo = (props: BookInfoProps) => {
+  const {books, setBooks} = props
   const tabData = [
     {
       value: 0,
@@ -24,13 +39,11 @@ const BookInfo = ({ books, setBooks, id }: any) => {
     },
   ];
   const [value, setValue] = useState(0);
-  const handleClick = (val: any) => {
+  const handleClick = (val: number) => {
     setValue(0);
   };
-  let { bookId = 0 } = useParams();
-  if (id) {
-    bookId = id;
-  }
+  let { bookId = 0 }:any = useParams();
+
   //console.log(books,bookId,books[bookId!]);
   let currData = books[bookId];
   const handleClickFinished = async () => {
@@ -38,7 +51,7 @@ const BookInfo = ({ books, setBooks, id }: any) => {
     let index = bookId;
     currData.status = "Finished";
     currData.progress = 100;
-    const book = books.filter((curr: any) => {
+    const book = books.filter((curr: bookType) => {
       return curr.id != index;
     });
     book.splice(index, 0, currData);

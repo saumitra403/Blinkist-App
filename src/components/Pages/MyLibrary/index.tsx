@@ -1,9 +1,25 @@
 import { Box } from "@material-ui/core";
-import { useState } from "react";
+import React, { useState } from "react";
 import Tabs from "../../molecules/Tabs";
 import Card from "../../organisms/Card";
 import Typography from "../../atoms/Typography";
-const MyLibrary = ({ books, setBooks }: any) => {
+
+type bookType = {
+  id: number,
+  bookname: string,
+  src: string,
+  author: string,
+  status: string,
+  category: string,
+  progress: number
+}
+
+type MyLib = {
+  books: Array<bookType>,
+  setBooks: Function
+}
+const MyLibrary = (props: MyLib) => {
+  const {books , setBooks} = props;
   const tabData = [
     {
       value: 0,
@@ -20,13 +36,13 @@ const MyLibrary = ({ books, setBooks }: any) => {
     setValue(val);
   };
 
-  const handleClickLib = async (id: any) => {
+  const handleClickLib = async (id: number) => {
     //put request
-    let index = books.findIndex((currBook: any) => currBook.id === id);
+    let index = books.findIndex((currBook: bookType) => currBook.id === id);
     let currData = books[index];
     currData.status = "Reading";
     currData.progress = 0;
-    const book = books.filter((curr: any) => {
+    const book = books.filter((curr: bookType) => {
       return curr.id != index;
     });
     book.splice(index, 0, currData);
@@ -65,7 +81,7 @@ const MyLibrary = ({ books, setBooks }: any) => {
           }}
         >
           {value === 0
-            ? books.map((curr: any) => {
+            ? books.map((curr: bookType) => {
                 let currData = books[curr.id];
                 if (currData.status === "Reading") {
                   return (
@@ -81,7 +97,7 @@ const MyLibrary = ({ books, setBooks }: any) => {
                   );
                 }
               })
-            : books.map((curr: any) => {
+            : books.map((curr: bookType) => {
                 let currData = books[curr.id];
                 if (currData.status === "Finished") {
                   return (

@@ -6,7 +6,7 @@ let response, books: any;
 const router = (books: any, setBooks: any, id: any) => {
   return (
     <BrowserRouter>
-      <BookInfo books={books} setBooks={setBooks} id={id}></BookInfo>
+      <BookInfo books={books} setBooks={setBooks}></BookInfo>
     </BrowserRouter>
   );
 };

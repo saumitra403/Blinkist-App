@@ -4,14 +4,30 @@ import SearchBar from "../../molecules/SearchBar";
 import Card from "../../organisms/Card";
 import Typography from "../../atoms/Typography/index";
 
-const LandingPage = ({ books, setBooks }: any) => {
-  const handleClick = async (id: any) => {
+type bookType = {
+  id: number,
+  bookname: string,
+  src: string,
+  author: string,
+  status: string,
+  category: string,
+  progress: number
+}
+
+type Home = {
+  books: Array<bookType>,
+  setBooks: Function
+}
+
+const LandingPage = (props : Home) => {
+  const {books,setBooks} = props;
+  const handleClick = async (id: number) => {
     //put request
-    let index = books.findIndex((currBook: any) => currBook.id === id);
+    let index = books.findIndex((currBook: bookType) => currBook.id === id);
     let currData = books[index];
     currData.status = "Reading";
     currData.progress = 0;
-    const book = books.filter((curr: any) => {
+    const book = books.filter((curr: bookType) => {
       return curr.id!=index;
     })
     book.splice(index,0,currData);
@@ -52,7 +68,7 @@ const LandingPage = ({ books, setBooks }: any) => {
             width: "inherit",
           }}
         >
-          {books && books.map((curr: any) => {
+          {books && books.map((curr: bookType) => {
             let currData = books[curr.id];
             return (
               <Card

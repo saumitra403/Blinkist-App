@@ -207,8 +207,15 @@ const useStyle = makeStyles({
     borderRadius: "0px 0px 8px 8px",
   },
 });
-
-const Card = (props: any) => {
+type CardProps = {
+  imgsrc: string,
+  bookname: string,
+  author: string,
+  status: string,
+  id: string | number,
+  handleClick: Function
+}
+const Card = (props: CardProps) => {
   const classes = useStyle();
   const { imgsrc, bookname, author, status, id, handleClick } = props;
   let button;
