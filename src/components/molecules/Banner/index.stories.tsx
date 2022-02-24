@@ -7,5 +7,5 @@ export default {
 }
 
 export const Template: ComponentStory<typeof Banner>  = () => (
-    <Banner ></Banner>
+    <Banner></Banner>
 )

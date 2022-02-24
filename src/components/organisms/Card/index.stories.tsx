@@ -1,12 +1,13 @@
 import {ComponentStory, ComponentMeta} from '@storybook/react';
 import Card from '.';
+import { BrowserRouter as Router} from "react-router-dom";
 export default {
   title: "organisms/Card",
   component: Card
 }; 
 
 
-const Template: ComponentStory<typeof Card> = (args) => <Card {...args}/>;
+const Template: ComponentStory<typeof Card> = (args) => <Router><Card {...args}/></Router>;
 
 export const card = Template.bind({});
 

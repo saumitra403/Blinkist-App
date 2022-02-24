@@ -22,12 +22,12 @@ const Template = () => {
   const [books, setBooks] = useState<any>(null);
   console.log(typeof(setBooks))
   const classes = useStyle();
+  const processor = async () => {
+    let res = await fetch("https://jsonserver-saumitra.herokuapp.com/books");
+    let cards = await res.json();
+    setBooks(cards);
+  };
   useEffect(() => {
-    const processor = async () => {
-      let res = await fetch("https://jsonserver-saumitra.herokuapp.com/books");
-      let cards = await res.json();
-      setBooks(cards);
-    };
     processor();
   }, []);
 

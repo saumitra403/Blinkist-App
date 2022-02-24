@@ -7,4 +7,3 @@ export default {
 }   
 
 export const Button: ComponentStory<typeof AddButton> = () => <AddButton/>;
-
