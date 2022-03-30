@@ -18,18 +18,8 @@ import {
   PsychologyOutlined,
   TimerOutlined,
 } from "@mui/icons-material";
-import { makeStyles } from "@material-ui/core";
 
-const useStyle = makeStyles({
-  btn: {
-    '&:hover': {
-      color: "#0365F2",
-      boxShadow: 'none',
-    }
-  }
-})
 const Nav = () => {
-  const classes = useStyle();
   const data = [
     {
       leftIcon: <RocketLaunchOutlined />,
@@ -94,7 +84,7 @@ const Nav = () => {
   ];
   return (
     <Box
-      width="1440px"
+      width="100vw"
       height="398px"
       sx={{
         background: "#F1F6F4",
@@ -149,8 +139,11 @@ const Nav = () => {
                 width: "fit-content",
                 height: "24px",
                 marginBottom: "28px",
+                '&:hover': {
+                  color: "#0365F2",
+                  boxShadow: 'none',
+                }
               }}
-              className={classes.btn}
             >
               {curr.label}
             </Button>

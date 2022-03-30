@@ -25,5 +25,4 @@ it("should have green indicator color for currently reading tab by default", ()=
     render(<BrowserRouter><Tabs tabData={tabData} stateHandler={mockCallback }/></BrowserRouter>);
     const tabsElement = screen.getByTestId('tab-1');
     fireEvent.click(tabsElement);
-    
 })

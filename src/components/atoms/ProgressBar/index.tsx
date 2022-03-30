@@ -1,13 +1,4 @@
 import { LinearProgress } from "@mui/material";
-import { makeStyles } from "@material-ui/core";
-
-const useStyle = makeStyles({
-    root: {
-        "& .MuiLinearProgress-root": {
-            position: "absolute"
-        },
-    }
-});
 
 const ProgressBar = ({ value, ...args }: any) => {
   return (
@@ -20,7 +11,7 @@ const ProgressBar = ({ value, ...args }: any) => {
         opacity: "0.5",
         borderRadius: "0px 0px 10px 10px",
         backgroundColor: "#DFE8F6",
-        position: "absolute"
+        position: "absolute",
       }}
       data-testid='progress-bar'
     ></LinearProgress>

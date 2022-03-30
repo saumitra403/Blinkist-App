@@ -9,19 +9,9 @@ import MyLibrary from "../Pages/MyLibrary";
 import BookInfo from "../Pages/BookInfo";
 
 
-const useStyle = makeStyles({
-  pagewrap: {
-    minHeight: "100%",
-    marginBottom: "-370px",
-  },
-  sitefooter: {
-    height: "370px",
-  },
-});
 const Template = () => {
   const [books, setBooks] = useState<any>(null);
-  console.log(typeof(setBooks))
-  const classes = useStyle();
+  console.log(typeof setBooks);
   useEffect(() => {
     const processor = async () => {
       let res = await fetch("https://jsonserver-saumitra.herokuapp.com/books");
@@ -34,7 +24,10 @@ const Template = () => {
   return !books ? (
     <div data-testid="circular"></div>
   ) : (
-    <Box sx={{ position: "relative" }} className={classes.pagewrap} data-testid="box">
+    <Box
+      sx={{ position: "relative", minHeight: "100%", marginBottom: "-370px" }}
+      data-testid="box"
+    >
       <Router>
         <Header></Header>
         <Box
@@ -54,7 +47,9 @@ const Template = () => {
             ></Route>
             <Route
               path="/library"
-              element={<MyLibrary books={books} setBooks={setBooks}></MyLibrary>}
+              element={
+                <MyLibrary books={books} setBooks={setBooks}></MyLibrary>
+              }
             ></Route>
             <Route
               path="book-info/:bookId"
@@ -62,7 +57,7 @@ const Template = () => {
             ></Route>
           </Routes>
         </Box>
-        <Footer className={classes.sitefooter}></Footer>
+        <Box sx={{height: "370px"}}><Footer></Footer></Box>
       </Router>
     </Box>
   );

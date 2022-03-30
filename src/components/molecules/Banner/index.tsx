@@ -1,18 +1,11 @@
-import { makeStyles } from "@mui/styles";
-
-
-const useStyle = makeStyles({
-    banner: {
-        width: "912px",
-        height: "264px",
-        marginTop: "118px"
-    }
-})
-
-
 const Banner = () => {
-    const classes = useStyle();
-    return (<img src="Assets/banner 1.png" className={classes.banner} data-testid="banner"></img>)
-}
+  return (
+    <img
+      src="Assets/banner 1.png"
+      data-testid="banner"
+      style={{ width: "912px", height: "264px", marginTop: "118px" }}
+    ></img>
+  );
+};
 
 export default Banner;

@@ -80,35 +80,35 @@ const BookInfo = (props: BookInfoProps) => {
       <Box sx={{ height: "inherit", width: "inherit" }}>
         <Typography
           variant="body2"
-          sx={{ position: "absolute", top: "146px", left: "264px" }}
+          sx={{ position: "absolute", top: "146px", left: "200px" }}
         >
           Get The Key Ideas From
         </Typography>
         <Typography
           variant="h1"
-          sx={{ position: "absolute", top: "206px", left: "264px" }}
+          sx={{ position: "absolute", top: "206px", left: "200px" }}
         >
           {currData.bookname}
         </Typography>
         <Typography
           variant="subtitle2"
-          sx={{ position: "absolute", top: "275px", left: "264px" }}
+          sx={{ position: "absolute", top: "275px", left: "200px" }}
         >
           Turning Your Business into an Enduring Great Company
         </Typography>
         <Typography
-          sx={{ position: "absolute", top: "324px", left: "264px" }}
+          sx={{ position: "absolute", top: "324px", left: "200px" }}
         >{`by ${currData.author}`}</Typography>
         <Typography
           variant="caption"
-          sx={{ position: "absolute", top: "363px", left: "296px" }}
+          sx={{ position: "absolute", top: "363px", left: "200px" }}
         >
           15 minute-read
         </Typography>
         <Icon
           Icons={
             <AccessTimeIcon
-              sx={{ position: "absolute", top: "362px", left: "266px" }}
+              sx={{ position: "absolute", top: "362px", left: "290px" }}
             ></AccessTimeIcon>
           }
         ></Icon>
@@ -118,7 +118,7 @@ const BookInfo = (props: BookInfoProps) => {
             justifyContent: "space-evenly",
             position: "absolute",
             top: "464px",
-            left: "264px",
+            left: "200px",
           }}
         >
           <Button
@@ -162,7 +162,7 @@ const BookInfo = (props: BookInfoProps) => {
             Send To Kindle
           </Button>
         </Box>
-        <Box sx={{ position: "absolute", top: "568px", left: "264px" }}>
+        <Box sx={{ position: "absolute", top: "568px", left: "200px" }}>
           <Tabs tabData={tabData} stateHandler={handleClick}></Tabs>
           <Box>
             {value == 0 ? (
@@ -175,7 +175,7 @@ const BookInfo = (props: BookInfoProps) => {
             )}
           </Box>
         </Box>
-        <Box sx={{ position: "absolute", top: "206px", left: "898px" }}>
+        <Box sx={{ position: "absolute", top: "206px", left: "808px" }}>
           <Img src={currData.src} width="304px" height="304px"></Img>
         </Box>
       </Box>
